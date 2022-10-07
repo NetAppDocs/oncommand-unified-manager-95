@@ -1,0 +1,59 @@
+---
+permalink: health-checker/task-setting-up-and-monitoring-a-vserver-with-infinite-volume-without-storage-classes.html
+sidebar: sidebar
+keywords: 
+summary: 'You should use OnCommand Workflow Automation \(WFA\) and Unified Manager to set up and monitor storage virtual machines \(SVMs\) with Infinite Volume. You should create the SVM with Infinite Volume using WFA and then monitor the Infinite Volume using Unified Manager. Optionally, you can configure data protection for your Infinite Volume.'
+---
+= Setting up and monitoring an SVM with Infinite Volume without storage classes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should use OnCommand Workflow Automation (WFA) and Unified Manager to set up and monitor storage virtual machines (SVMs) with Infinite Volume. You should create the SVM with Infinite Volume using WFA and then monitor the Infinite Volume using Unified Manager. Optionally, you can configure data protection for your Infinite Volume.
+
+== Before you begin
+
+The following requirements must be met:
+
+* WFA must be installed and the data sources must be configured.
+* You must have the OnCommand Administrator or Storage Administrator role.
+* You must have created the required number of aggregates by customizing the appropriate predefined workflow in WFA.
+* You must have configured the Unified Manager server as a data source in WFA, and then you must have verified that the data is cached successfully.
+
+== About this task
+
+* You can monitor only data SVMs using Unified Manager.
+* While performing this task, you are required to switch between two applications: OnCommand Workflow Automation (WFA) and OnCommand Unified Manager.
+* The task provides high-level steps.
++
+For details about performing the WFA tasks, see the _OnCommand Workflow Automation_ documentation.
+
+== Steps
+
+. image:../media/wfa-icon.gif[Icon for WFA procedure] Create an SVM with Infinite Volume, and then create the Infinite Volume by using the appropriate workflow.
++
+You can enable storage efficiency technologies, such as deduplication and compression, while creating the Infinite Volume.
+
+. image:../media/um-icon.gif[Icon for Unified Manager procedure] Add the cluster containing the SVM with Infinite Volume to the Unified Manager database.
++
+You can add the cluster by providing the IP address or the FQDN of the cluster.
+
+. image:../media/um-icon.gif[Icon for Unified Manager procedure] Based on your organization's requirements, modify the thresholds for the Infinite Volume on the SVM.
++
+[TIP]
+====
+You should use the default Infinite Volume threshold settings.
+====
+
+. image:../media/um-icon.gif[Icon for Unified Manager procedure] Configure notification alerts and traps to address any availability and capacity issues related to the Infinite Volume.
+. image:../media/wfa-icon.gif[Icon for WFA procedure] Create a disaster recovery (DR) SVM with Infinite Volume, and then configure data protection (DP) by performing the following steps:
+ .. Create a data protection (DP) Infinite Volume by using the appropriate workflow.
+ .. Set up a DP mirror relationship between the source and destination by using the appropriate workflow.
+
+*Related information*
+
+xref:task-editing-the-infinite-volume-threshold-settings.adoc[Editing the Infinite Volume threshold settings]
+
+xref:task-adding-alerts.adoc[Adding alerts]
+
+xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

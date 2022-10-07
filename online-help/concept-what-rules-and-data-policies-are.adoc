@@ -1,0 +1,32 @@
+---
+permalink: online-help/concept-what-rules-and-data-policies-are.html
+sidebar: sidebar
+keywords: 
+summary: 'A rule determines the placement of files \(data\) in a storage virtual machine \(SVM\) with Infinite Volume. A collection of such rules is known as a data policy.'
+---
+= What rules and data policies are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A _rule_ determines the placement of files (data) in a storage virtual machine (SVM) with Infinite Volume. A collection of such rules is known as a _data policy_.
+
+* *Rule*
++
+Rules mainly consist of a set of predefined conditions and information that determine where to place files in the Infinite Volume. When a file is placed in the Infinite Volume, the attributes of that file are matched with the list of rules. If attributes match the rules, then that rule's placement information determines the storage class where the file is placed. A default rule in the data policy is used to determine the placement of files if the attributes do not match any of the rules in the rule list.
++
+For example, if you have a rule, "`Place all files of type .mp3 in the bronze storage class.`", all .mp3 files that are written to the Infinite Volume would be placed in the bronze storage class.
+
+* *Data policy*
++
+A data policy is a list of rules. Each SVM with Infinite Volume has its own data policy. Each file that is added to the Infinite Volume is compared to its data policy's rules to determine where to place that file. The data policy enables you to filter incoming files based on the file attributes and place these files in the appropriate storage classes.
+
+*Related information*
+
+xref:concept-what-the-default-rule-is.adoc[What the default rule is]
+
+xref:task-creating-rules.adoc[Creating rules]
+
+xref:concept-how-a-data-policy-filters-data-written-to-an-infinite-volume.adoc[How a data policy filters data written to an Infinite Volume]
+
+xref:task-viewing-rules.adoc[Viewing rules]

@@ -1,0 +1,126 @@
+---
+permalink: online-help/reference-logical-interface-events.html
+sidebar: sidebar
+keywords: 
+summary: 'LIF events provide information about the status of your LIFs, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+---
+= Logical interface (LIF) events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+LIF events provide information about the status of your LIFs, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+
+|===
+| Event name(Trap name)
+
+| Impact level| Source type| Severity
+a|
+LIF Status Down(ocumEvtLifStatusDown)
+
+a|
+Risk
+a|
+Interface
+a|
+Error
+a|
+LIF Failover Not Possible(ocumEvtLifFailoverNotPossible)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+a|
+LIF Not At Home Port(ocumEvtLifNotAtHomePort)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+|===
+
+== Impact area: configuration
+
+|===
+| Event name(Trap name)
+
+| Impact level| Source type| Severity
+a|
+LIF Route Not Configured(Not applicable)
+
+a|
+Event
+a|
+Interface
+a|
+Information
+|===
+
+== Impact area: performance
+
+|===
+| Event name(Trap name)
+
+| Impact level| Source type| Severity
+a|
+Network LIF MBps Critical Threshold Breached(ocumNetworkLifMbpsIncident)
+
+a|
+Incident
+a|
+Interface
+a|
+Critical
+a|
+Network LIF MBps Warning Threshold Breached(ocumNetworkLifMbpsWarning)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+a|
+FCP LIF MBps Critical Threshold Breached(ocumFcpLifMbpsIncident)
+
+a|
+Incident
+a|
+Interface
+a|
+Critical
+a|
+FCP LIF MBps Warning Threshold Breached(ocumFcpLifMbpsWarning)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+a|
+NVMf FCP LIF MBps Critical Threshold Breached(ocumNvmfFcLifMbpsIncident)
+
+a|
+Incident
+a|
+Interface
+a|
+Critical
+a|
+NVMf FCP LIF MBps Warning Threshold Breached(ocumNvmfFcLifMbpsWarning)
+
+a|
+Risk
+a|
+Interface
+a|
+Warning
+|===

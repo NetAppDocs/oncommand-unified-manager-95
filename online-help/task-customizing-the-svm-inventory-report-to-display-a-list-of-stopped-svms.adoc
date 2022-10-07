@@ -1,0 +1,23 @@
+---
+permalink: online-help/task-customizing-the-svm-inventory-report-to-display-a-list-of-stopped-svms.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the SVM Inventory report to display a list of stopped SVMs. The report filters the SVMs by their status.'
+---
+= Customizing the SVM Inventory report to display a list of stopped SVMs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the SVM Inventory report to display a list of stopped SVMs. The report filters the SVMs by their status.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To filter SVMs by status, click the *State* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* list, select *Equal To*.
+. Click *Select Values* and select *Stopped*.
+. Click *OK*.

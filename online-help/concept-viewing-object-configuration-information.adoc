@@ -1,0 +1,14 @@
+---
+permalink: online-help/concept-viewing-object-configuration-information.html
+sidebar: sidebar
+keywords: 
+summary: 'The object Information pages—located on the landing page of each object—display the values for the non-performance configuration attributes of each storage object. Some of the attributes are physical configuration settings, while other attributes may affect the performance of the object.'
+---
+= Viewing object configuration information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The object Information pages--located on the landing page of each object--display the values for the non-performance configuration attributes of each storage object. Some of the attributes are physical configuration settings, while other attributes may affect the performance of the object.
+
+For example, it is useful to know the amount of space that is available for an aggregate or for a node. Knowing the speed setting for a particular port can help when you are diagnosing a performance issue.

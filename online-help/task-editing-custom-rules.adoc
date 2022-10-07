@@ -1,0 +1,55 @@
+---
+permalink: online-help/task-editing-custom-rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit a rule to include new conditions or condition sets in the rule. For example, if you want to include new directory paths along with the owner names, you can do so from the Edit Rule dialog box.'
+---
+= Editing custom rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit a rule to include new conditions or condition sets in the rule. For example, if you want to include new directory paths along with the owner names, you can do so from the Edit Rule dialog box.
+
+== Before you begin
+
+You must have the OnCommand Administrator or Storage Administrator role.
+
+== About this task
+
+The Data Policy tab is visible only for an SVM with Infinite Volume.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select an appropriate SVM.
+. Click *Data Policy*.
++
+The list of rules in the data policy for the selected SVM with Infinite Volume is displayed.
+
+. Select the rule for which you want to include new conditions or condition sets.
+. Click *Edit*.
+. In the *Edit Rule* dialog box, add new conditions or condition sets:
++
+|===
+| If you want to add...| Click...
+a|
+A new condition
+a|
+The image:../media/customrulecreate.gif[] icon.
+a|
+A new condition set
+a|
+*Add Condition Set*.
+|===
+
+. Click *Update*.
+. Verify that your modifications are applied to the rule by expanding the rule in the *Data Policy* tab.
+. Preview any other changes made to the data policy.
+. Click *Activate* to activate the changes in the rule properties in the SVM.
+
+*Related information*
+
+xref:task-adding-users.adoc[Adding users]
+
+xref:concept-what-conditions-and-condition-sets-are.adoc[What conditions and condition sets are]

@@ -1,0 +1,40 @@
+---
+permalink: config/task-performing-the-initial-setup-of-the-unified-manager-web-ui.html
+sidebar: sidebar
+keywords: 
+summary: 'To use Unified Manager, you must first configure the initial setup options, including the NTP server, the maintenance user email address, and the SMTP server host name and options.'
+---
+= Performing the initial setup of the Unified Manager web UI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To use Unified Manager, you must first configure the initial setup options, including the NTP server, the maintenance user email address, and the SMTP server host name and options.
+
+== Before you begin
+
+You must have performed the following operations:
+
+* Launched the Unified Manager web UI using the URL provided after installation
+* Logged in using the maintenance user name and password (umadmin user for Linux installations) created during installation
+
+== About this task
+
+The OnCommand Unified Manager Initial Setup page appears only when you first access the web UI. The page below is from an installation on VMware.
+
+image::../media/first-experience-wizard.gif[]
+
+If you want to change any of these options later, you can use the Administration options, which are accessible by clicking the *image:../media/clusterpage-settings-icon.gif[]* from the Unified Manager toolbar.
+
+== Steps
+
+. In the *OnCommand Unified Manager Initial Setup* window, enter the maintenance user email address, the SMTP server host name and any additional SMTP options, and the NTP server (VMware installations only). Then click *Next*.
+. In the *AutoSupport* page click *Agree and Continue* to enable AutoSupport.
++
+If you need to designate a proxy to provide internet access in order to send AutoSupport content to support, or if you want to disable AutoSupport, use the Administration options.
+
+. On Red Hat and CentOS systems you can choose to change the umadmin user password from the default "`admin`" string to a personalized string.
+
+== Results
+
+The Initial Setup window closes and the Unified Manager web UI is displayed. The Configuration/Cluster Data Sources page appears so that you can add clusters to your system.

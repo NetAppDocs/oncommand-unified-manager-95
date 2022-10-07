@@ -1,0 +1,82 @@
+---
+permalink: health-checker/task-generating-and-uploading-a-support-bundle.html
+sidebar: sidebar
+keywords: 
+summary: 'You can generate a support bundle, containing full diagnostic information, so that you can then retrieve it and send it to technical support for troubleshooting help. Because some types of data can use a large amount of cluster resources or take a long time to complete, you can specify data types to include or exclude in the support bundle.'
+---
+= Generating a support bundle
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can generate a support bundle, containing full diagnostic information, so that you can then retrieve it and send it to technical support for troubleshooting help. Because some types of data can use a large amount of cluster resources or take a long time to complete, you can specify data types to include or exclude in the support bundle.
+
+== Before you begin
+
+You must have access to the maintenance console as the maintenance user.
+
+== About this task
+
+Unified Manager stores only the two most recently generated support bundles. Older support bundles are deleted from the system.
+
+[NOTE]
+====
+On Windows systems, the command `supportbundle.bat` is no longer supported to generate a support bundle.
+====
+
+== Steps
+
+. In the maintenance console *Main Menu*, select *Support/Diagnostics*.
+. Select *Generate Support Bundle*.
+. Select or deselect the following data types to include or exclude in the support bundle:
+ ** *database dump*
++
+A dump of the MySQL Server database.
+
+ ** *heap dump*
++
+A snapshot of the state of the main Unified Manager server processes. This option is disabled by default and should be selected only when requested by customer support.
+
+ ** *acquisition recordings*
++
+A recording of all communications between Unified Manager and the monitored clusters.
+
++
+[NOTE]
+====
+If you deselect all data types, the support bundle is still generated with other Unified Manager data.
+====
+. Type `g`, and then press Enter to generate the support bundle.
++
+Since the generation of a support bundle is a memory intensive operation, you are prompted to verify that you are sure you want to generate the support bundle at this time.
+
+. Type `y`, and then press Enter to generate the support bundle.
++
+If you do not want to generate the support bundle at this time, type `n`, and then press Enter.
+
+. If you included database dump files in the support bundle, you are prompted to specify the time period for which you want performance statistics included. Including performance statistics can take a lot of time and space, so you can also dump the database without including performance statistics:
+ .. Enter the starting date in the format YYYYMMDD.
++
+For example, enter `20170101` for January 1, 2017. Enter `n` if you do not want performance statistics to be included.
+
+ .. Enter the number of days of statistics to include, beginning from 12 a.m. on the specified starting date.
++
+You can enter a number from 1 through 10.
+
++
+If you are including performance statistics, the system displays the period of time for which performance statistics will be collected.
+. Select *Generate Support Bundle*.
++
+The generated support bundle resides in the `/support` directory.
+
+== After you finish
+
+After generating the support bundle, you can retrieve it using an SFTP client or by using UNIX or Linux CLI commands. On Windows installations you can use Remote Desktop (RDP) to retrieve the support bundle.
+
+The generated support bundle resides in the `/support` directory on VMware systems, in `/opt/netapp/data/support/` on Linux systems, and in `ProgramData\NetApp\OnCommandAppData\ocum\support` on Windows systems.
+
+*Related information*
+
+xref:concept-what-the-diagnostic-user-does.adoc[Diagnostic user capabilities]
+
+xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

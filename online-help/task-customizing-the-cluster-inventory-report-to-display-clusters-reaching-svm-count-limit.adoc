@@ -1,0 +1,30 @@
+---
+permalink: online-help/task-customizing-the-cluster-inventory-report-to-display-clusters-reaching-svm-count-limit.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Cluster Inventory report to display clusters, sorted by decreasing order of their SVM count.'
+---
+= Customizing the Cluster Inventory report to display clusters reaching SVM count limit
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Cluster Inventory report to display clusters, sorted by decreasing order of their SVM count.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by cluster or node, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click the image:../media/click-to-see-menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To sort clusters by SVM count,perform the following steps:
+ .. Click in the *SVM Count* column.
+ .. Click the image:../media/click-to-see-menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group option*.
+. Select *Filter* > *Top/Bottom N*.
+. In the *Top/Bottom N* dialog box, select *Top N* from the *Filter* field and enter a value in the text field.
+. Click *OK*.

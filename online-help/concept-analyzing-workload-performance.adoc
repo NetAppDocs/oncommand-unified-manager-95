@@ -1,0 +1,27 @@
+---
+permalink: online-help/concept-analyzing-workload-performance.html
+sidebar: sidebar
+keywords: 
+summary: 'Unified Manager enables you to monitor and analyze I/O performance of volume workloads on your clusters. You can determine whether a performance issue is on the cluster and whether storage is the issue.'
+---
+= Analyzing workload performance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager enables you to monitor and analyze I/O performance of volume workloads on your clusters. You can determine whether a performance issue is on the cluster and whether storage is the issue.
+
+[NOTE]
+====
+This chapter describes how to analyze workload performance using the Performance/Volume Details page and the Event details page.
+====
+
+*Related information*
+
+xref:concept-collecting-data-and-monitoring-workload-performance.adoc[Collecting data and monitoring workload performance]
+
+xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]
+
+xref:reference-performance-volume-details-page.adoc[Performance/Volume Details page]
+
+xref:concept-how-unified-manager-uses-workload-response-time-to-identify-performance-issues.adoc[How Unified Manager uses workload latency to identify performance issues]

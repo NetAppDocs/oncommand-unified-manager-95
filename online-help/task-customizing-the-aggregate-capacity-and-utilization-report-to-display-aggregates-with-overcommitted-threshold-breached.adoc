@@ -1,0 +1,39 @@
+---
+permalink: online-help/task-customizing-the-aggregate-capacity-and-utilization-report-to-display-aggregates-with-overcommitted-threshold-breached.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Aggregate Capacity and Utilization report to display the aggregates sorted by overcommitted capacity percentage, which enables you to view the storage space still available in the aggregates.'
+---
+= Customizing the Aggregate Capacity and Utilization report to display aggregates with overcommitted threshold breached
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Aggregate Capacity and Utilization report to display the aggregates sorted by overcommitted capacity percentage, which enables you to view the storage space still available in the aggregates.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by cluster or HA pair, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click the image:../media/click-to-see-menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To display the difference between the overcommitted used percentage and the overcommitted threshold, add a new column.
+ .. Select a column and click image:../media/click-to-see-menu.gif[].
+ .. Select *Column* > *New Computed Column*.
+ .. In the *New Computed Column* dialog box, enter a column label.
+ .. From the Select Category list, select *Math*.
+ .. From the *Select Function* list, select *DIFFERENCE*.
+ .. From the Column 1 list, select *Overcommitted Threshold (%)*.
+ .. From the Column 2 list, select *Overcommitted Capacity %*.
+ .. Click *OK*.
+. To filter the values greater than zero in the new column, click in the *New computed column* and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* list, select *Greater Than*.
+. In the *Value* field, type `0` and click *OK*.
+. To sort the values, click inside *New computed column* and click the image:../media/click-to-see-menu.gif[] icon.
+. Select *Filter* > *Top/Bottom N*.
+. In the *Top/Bottom N* dialog box, select *Top N* from the *Filter* field and enter a value in the text field.
+. Click *OK*.

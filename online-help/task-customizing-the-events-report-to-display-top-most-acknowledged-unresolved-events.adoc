@@ -1,0 +1,31 @@
+---
+permalink: online-help/task-customizing-the-events-report-to-display-top-most-acknowledged-unresolved-events.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Events report to display the most acknowledged events, filtered by the event state. You can sort them in decreasing order to display the number of outstanding days.'
+---
+= Customizing the Events report to display the top most acknowledged unresolved events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Events report to display the most acknowledged events, filtered by the event state. You can sort them in decreasing order to display the number of outstanding days.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To filter acknowledged events, click in the *State* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* drop-down list, select *Equal To*.
+. Click *Select Values* and select *Acknowledged*.
+. Click *OK*.
+. To further filter the report, click in the *Acknowledged By* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* drop-down list, select *Equal To*.
+. Click *Select Values* and select *Name*.
+. Click *OK*.
+. To sort the events that are outstanding for the most number of days, click in the *Days Outstanding* column and click image:../media/click-to-see-menu.gif[].
+. Select *Filter* > *Top/Bottom N*.
+. In the *Top/Bottom N* dialog box, select *Top N* from the *Filter* field and enter a value in the text field.
+. Click *OK*.

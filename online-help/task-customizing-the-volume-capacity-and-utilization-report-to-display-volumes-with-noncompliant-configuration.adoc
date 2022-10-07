@@ -1,0 +1,31 @@
+---
+permalink: online-help/task-customizing-the-volume-capacity-and-utilization-report-to-display-volumes-with-noncompliant-configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Capacity and Utilization report to display volumes that are not compliant with company policies. For example, if you must have deduplication enabled on all volumes, you can create a report listing all volumes where deduplication is disabled.'
+---
+= Customizing the Volume Capacity and Utilization report to display volumes with noncompliant configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Capacity and Utilization report to display volumes that are not compliant with company policies. For example, if you must have deduplication enabled on all volumes, you can create a report listing all volumes where deduplication is disabled.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by SVM, cluster, or volume, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click the image:../media/click-to-see-menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. Hide all columns except for the Cluster, Storage Virtual Machine, Volume, Deduplication, and Deduplication Space Savings (GB) columns:
+ .. Click in the column and click the image:../media/click-to-see-menu.gif[] icon.
+ .. From the menu, select *Column* > *Hide Column*.
+. To filter volumes that deduplication disabled, click in the *Deduplication* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* list, select *Equal To*.
+. Click *Select Values* and select *Disabled*.
+. Click *OK*.
+. To sort volumes based on deduplication space savings, click in the *Deduplication Space Savings (GB)* column and click the image:../media/sort-desc.gif[] icon.

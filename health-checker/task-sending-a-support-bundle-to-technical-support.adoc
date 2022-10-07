@@ -1,0 +1,24 @@
+---
+permalink: health-checker/task-sending-a-support-bundle-to-technical-support.html
+sidebar: sidebar
+keywords: 
+summary: 'This workflow shows you how to generate, retrieve, and send a support bundle to technical support using the Unified Manager maintenance console. You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides.'
+---
+= Sending a Unified Manager support bundle to technical support
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow shows you how to generate, retrieve, and send a support bundle to technical support using the Unified Manager maintenance console. You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides.
+
+== About this task
+
+For more information about the maintenance console and support bundles, see xref:task-using-the-maintenance-console.adoc[Using the maintenance console].
+
+Unified Manager stores two generated support bundles at one time.
+
+*Related information*
+
+xref:concept-what-the-maintenance-user-does.adoc[What the maintenance user does]
+
+xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

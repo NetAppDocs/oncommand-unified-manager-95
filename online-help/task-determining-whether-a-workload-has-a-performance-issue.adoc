@@ -1,0 +1,54 @@
+---
+permalink: online-help/task-determining-whether-a-workload-has-a-performance-issue.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use Unified Manager to determine whether a detected performance event was truly caused by a performance issue on the cluster. The event might have been caused a spike in activity, for example, that drove up its response time, but now the response time has returned to it usual levels.'
+---
+= Determining whether a workload has a performance issue
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to determine whether a detected performance event was truly caused by a performance issue on the cluster. The event might have been caused a spike in activity, for example, that drove up its response time, but now the response time has returned to it usual levels.
+
+== Before you begin
+
+* You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+* You must have identified the name of the volume, or associated LUN, you want to analyze.
+* Unified Manager must have collected and analyzed a minimum of five days of performance statistics from the cluster.
+
+== About this task
+
+If you are viewing the Event details page, you can click the name link for a volume to go directly to the Performance/Volume Details page.
+
+== Steps
+
+. In the *Search* bar, type at least the first three characters of the volume name.
++
+The name of the volume is displayed in the search results.
+
+. Click the name of the volume.
++
+The volume is displayed on the Performance/Volume Details page.
+
+. In the *Historic data* chart, click *5d* to display the last five days of historical data.
+. Review the *Latency* chart to answer the following questions:
+ ** Are there new performance events?
+ ** Are there historic performance events, indicating that the volume has had issues in the past?
+ ** Are there spikes in the response time, even if the spikes are within the expected range?
+ ** Have there been configuration changes on the cluster that might have impacted performance?
+If the response time for the volume does not display performance events, spikes in activity, or recent configuration changes that might have impacted the response time, you can rule out the performance issue being caused by the cluster.
+
+*Related information*
+
+xref:task-investigating-perceived-slow-response-time-for-a-workload.adoc[Investigating a perceived slow response time for a workload]
+
+xref:task-searching-for-storage-objects.adoc[Searching for storage objects]
+
+xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]
+
+xref:reference-performance-volume-details-page.adoc[Performance/Volume Details page]
+
+xref:concept-how-unified-manager-uses-workload-response-time-to-identify-performance-issues.adoc[How Unified Manager uses workload latency to identify performance issues]
+
+xref:concept-how-graphs-of-performance-data-work.adoc[How graphs of performance data work]

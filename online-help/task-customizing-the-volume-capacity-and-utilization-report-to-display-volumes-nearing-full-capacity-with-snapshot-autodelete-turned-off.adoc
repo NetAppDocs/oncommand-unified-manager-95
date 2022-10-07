@@ -1,0 +1,28 @@
+---
+permalink: online-help/task-customizing-the-volume-capacity-and-utilization-report-to-display-volumes-nearing-full-capacity-with-snapshot-autodelete-turned-off.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Capacity and Utilization report to display volumes sorted by increasing order of their volume capacity utilization. This enables you to display volumes reaching their full capacity.'
+---
+= Customizing the Volume Capacity and Utilization report to display volumes nearing full capacity with Snapshot Autodelete turned off
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Capacity and Utilization report to display volumes sorted by increasing order of their volume capacity utilization. This enables you to display volumes reaching their full capacity.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by SVM, cluster, or volume, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click the image:../media/click-to-see-menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To sort volumes that are nearing full capacity, click in the *Days To Full* column, and click the image:../media/sort-asc.gif[] icon.
+. To filter volumes that have Snapshot Autodelete turned off, click in the *Snapshot Autodelete* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* list, select *Equal To*.
+. Click *Select Values* and select *Disabled*.
+. Click *OK*.

@@ -1,0 +1,28 @@
+---
+permalink: online-help/concept-what-conditions-and-condition-sets-are.html
+sidebar: sidebar
+keywords: 
+summary: 'Conditions are a set of matching criteria based on rule properties—such as the file name, directory path, and owner—that define a rule. A collection of such conditions is known as a condition set. You can use conditions and condition sets only for custom rules to determine where to place content that is written into your Infinite Volume.'
+---
+= What conditions and condition sets are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+_Conditions_ are a set of matching criteria based on rule properties--such as the file name, directory path, and owner--that define a rule. A collection of such conditions is known as a _condition set_. You can use conditions and condition sets only for custom rules to determine where to place content that is written into your Infinite Volume.
+
+== Conditions
+
+For a custom rule, you can specify conditions based on rule properties such as the file name, directory path, or owner, or a combination of all the rule properties. The logic is similar to a Boolean AND operation. For example, by using conditions, you can create a custom rule to place files with `.mp3` extensions and files owned by John in the directory path starting with `/NS/`.
+
+== Condition sets
+
+The logic used for condition sets is similar to a Boolean OR operation. For example, by using conditions and condition sets, you can create a complex custom rule that matches either of the following conditions:
+
+* condition-1
++
+All files owned by Mary and are placed in `/NS/Eng/`
+
+* condition-2
++
+All files that have names ending with ``.pdf``and owned by Mary
