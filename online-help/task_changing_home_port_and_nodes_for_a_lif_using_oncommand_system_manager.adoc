@@ -1,0 +1,36 @@
+---
+permalink: online-help/task_changing_home_port_and_nodes_for_a_lif_using_oncommand_system_manager.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the preferred location of a LIF by modifying its home port and home node. This is a more lasting configuration than migrating a LIF, which is typically used to temporarily relocate a LIF to a different node during scheduled maintenance.'
+---
+= Changing home port and nodes for a LIF using OnCommand System Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the preferred location of a LIF by modifying its home port and home node. This is a more lasting configuration than migrating a LIF, which is typically used to temporarily relocate a LIF to a different node during scheduled maintenance.
+
+== About this task
+
+The following image shows the original LIF home port and node and the home port and node after the change. The original LIF1 home port was changed from e1a to e3a and LIF2 was changed from e4a to e2a.
+
+image::../media/diagram_cluster_lifs_move_jpg.gif[LIF home port and node change]
+
+== Steps
+
+. Open OnCommand System Manager.
+. From the *Home* tab, double-click the storage system.
+. In the navigation pane, expand the *SVMs* hierarchy.
+. In the navigation pane, select the SVMs and click *Configuration* > *Network Interfaces*.
+. Select the LIF and click *Edit*.
+. In the**Edit Interface** dialog box, enter the home port and network address of the target port.
++
+image::../media/systemmgr_lif_edit_jpg.gif[Edit Interface dialog box]
++
+[NOTE]
+====
+In ONTAP 8.2.1, the Home Port field is disabled.
+====
+
+. Click *Save and Close*.

@@ -1,0 +1,16 @@
+---
+permalink: online-help/concept_what_data_constituents_are.html
+sidebar: sidebar
+keywords: 
+summary: 'In an Infinite Volume, data is stored in multiple separate data constituents. Data constituents store only the data from a file, not the file’s name.'
+---
+= What data constituents are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In an Infinite Volume, data is stored in multiple separate data constituents. Data constituents store only the data from a file, not the file's name.
+
+Clients are not aware of data constituents. When a client requests a file from an Infinite Volume, the node retrieves the file's data from a data constituent and returns the file to the client.
+
+Each Infinite Volume typically has dozens of data constituents. For example, a 6 PB Infinite Volume that contains 1 billion files might have 60 data constituents located on aggregates from 6 nodes.

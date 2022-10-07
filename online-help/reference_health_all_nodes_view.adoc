@@ -1,0 +1,145 @@
+---
+permalink: online-help/reference_health_all_nodes_view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health/Nodes inventory page enables you to view detailed information about the nodes in a selected cluster.'
+---
+= Health/Nodes inventory page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health/Nodes inventory page enables you to view detailed information about the nodes in a selected cluster.
+
+* <<SECTION_C83208BFAC68480D937E01EF5A02F8A1,Command button>>
+* <<GUID-9F6EB7FC-3E5A-4147-B27E-C8493910ADF6,Nodes list>>
+* <<GUID-5FEC3C60-25BF-4C85-85EB-657255852BCF,Filters pane>>
+
+== Command button
+
+* *Export*
++
+Enables you to export the details of all the monitored nodes to a comma-separated values (`.csv`) file.
+
+== Nodes list
+
+The Nodes list displays the properties of all the discovered nodes in a cluster. You can use the column filters to customize the data that is displayed.
+
+* *Status*
++
+An icon that identifies the current status of the node. The status can be Critical (image:../media/sev_critical_um60.png[Icon for event severity – critical]), Error (image:../media/sev_error_um60.png[Icon for event severity – error]), Warning (image:../media/sev_warning_um60.png[Icon for event severity – warning]), or Normal (image:../media/sev_normal_um60.png[Icon for event severity – normal]).
++
+You can position your cursor over the icon to view more information about the event or events generated for the node.
+
+* *Node*
++
+The name of the node.
+
+* *State*
++
+The state of the node. The state can be Up or Down.
+
+* *HA State*
++
+The state of the HA pair. The state can be Error, Warning, Normal, or Not applicable.
+
+* *Down Time*
++
+The time that has elapsed or the timestamp since the node is offline. If the time elapsed exceeds a week, the timestamp when the node went offline is displayed.
+
+* *Cluster*
++
+The name of the cluster to which the node belongs.
+
+* *Model*
++
+The model of the node.
+
+* *OS version*
++
+The ONTAP software version that the node is running.
+
+* *All Flash Optimized*
++
+Whether the node is optimized to support only solid-state drives (SSDs).
+
+* *Serial Number*
++
+The serial number of the node.
+
+* *Firmware Version*
++
+The firmware version number of the node.
+
+* *Owner*
++
+The name of the node's owner.
+
+* *Location*
++
+The location of the node.
+
+* *Aggregate Used Capacity*
++
+The amount of space used for data in the node's aggregates.
+
+* *Aggregate Total Capacity*
++
+The total space available for data in the node's aggregates.
+
+* *Usable Spare Capacity*
++
+The amount of available space in the node that can be used to enhance the aggregate capacity.
+
+* *Usable Raw Capacity*
++
+The amount of space that is usable in the node.
+
+* *Total Raw Capacity*
++
+The capacity of every unformatted disk in the node before right-sizing and RAID configuration.
+
+* *SVM Count*
++
+The number of SVMs contained by the cluster.
+
+* *FC Port Count*
++
+The number of FC ports contained by the node.
+
+* *FCoE Port Count*
++
+The number of FCoE ports contained by the node.
+
+* *Ethernet Port Count*
++
+The number of ethernet ports contained by the node.
+
+* *Flash Card Size*
++
+The size of the flash cards installed on the node.
+
+* *Flash Card Count*
++
+The number of flash cards installed on the node.
+
+* *Disk Shelves Count*
++
+The number of disk shelves contained by the node.
+
+* *Disk Count*
++
+The number of disks in the node.
+
+== Filters pane
+
+The Filters pane enables you to set filters to customize the way information is displayed in the nodes list. You can select filters related to the Status, State, and HA State columns.
+
+[NOTE]
+====
+The filters that are specified in the Filters pane override the filters that are specified for the columns in the Nodes list.
+====
+
+*Related information*
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting data to CSV files for reporting]

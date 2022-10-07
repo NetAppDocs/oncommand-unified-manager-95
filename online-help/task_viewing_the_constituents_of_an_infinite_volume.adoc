@@ -1,0 +1,37 @@
+---
+permalink: online-help/task_viewing_the_constituents_of_an_infinite_volume.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Health/Volumes inventory page to view the list of constituents in your Infinite Volume. You can view details such as the constituent state, the SVM with Infinite Volume that contains the constituent, junction path of the constituent, aggregate that contains the constituent, as well as the available, used, and total data capacity of the constituent.'
+---
+= Viewing the constituents of an Infinite Volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Health/Volumes inventory page to view the list of constituents in your Infinite Volume. You can view details such as the constituent state, the SVM with Infinite Volume that contains the constituent, junction path of the constituent, aggregate that contains the constituent, as well as the available, used, and total data capacity of the constituent.
+
+== Before you begin
+
+The following requirements must be met:
+
+* You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+* The cluster containing the SVM with Infinite Volume must be added to the Unified Manager database.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. Click the name of a SVM with Infinite Volume.
+. In the *Health/Storage Virtual Machine* details page, click *Volumes* in the right *Related Devices* pane.
++
+The list of constituents is displayed in the Health/Volumes inventory page.
+
+*Related information*
+
+xref:task_adding_users.adoc[Adding users]
+
+xref:concept_what_a_namespace_constituent_is.adoc[What a namespace constituent is]
+
+xref:concept_what_data_constituents_are.adoc[What data constituents are]
+
+xref:concept_what_a_namespace_mirror_constituent_is.adoc[What a namespace mirror constituent is]

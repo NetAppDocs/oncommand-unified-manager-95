@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_report_customizations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize various Unified Manager reports based on storage and utilization capacity, events, cluster inventory, NFS exports, or SVM inventory. .'
+---
+= Report customizations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize various Unified Manager reports based on storage and utilization capacity, events, cluster inventory, NFS exports, or SVM inventory. .

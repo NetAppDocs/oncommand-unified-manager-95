@@ -1,0 +1,26 @@
+---
+permalink: online-help/task_customizing_the_volume_transfer_status_report_to_view_failed_or_successful_volume_transfers.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Transfer Status \(Historical\) report to view the details of failed or successful volume transfers.'
+---
+= Customizing the Volume Transfer Status (Historical) report to view failed or successful volume transfers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Transfer Status (Historical) report to view the details of failed or successful volume transfers.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. Remove grouping by cluster:
+ .. Select the column that you want to ungroup.
+ .. Click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To sort the volume transfers according to failure or success, click in the *Operational Result* column, and then click the image:../media/click_to_see_menu.gif[] icon.
+. Select *Filter*.
+. In the *Filter* dialog box, click *Select Values*, and then select either *Success* or *Failure*.

@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_volume_relationships_inventory_report_customizations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Relationships Inventory report to view the volume details that are filtered based on the source of failure. You can use filters to display volume relationships inventory details based on schedules, and to group volume inventory details based on issues.'
+---
+= Volume Relationships Inventory report customizations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Relationships Inventory report to view the volume details that are filtered based on the source of failure. You can use filters to display volume relationships inventory details based on schedules, and to group volume inventory details based on issues.

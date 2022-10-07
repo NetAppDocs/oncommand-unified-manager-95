@@ -1,0 +1,23 @@
+---
+permalink: online-help/task_customizing_the_events_report_to_display_top_most_discussed_events.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Events report to display events that are most discussed.'
+---
+= Customizing the Events report to display the top most discussed events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Events report to display events that are most discussed.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To sort the events that are discussed the most, click in the *Notes* column and click the image:../media/click_to_see_menu.gif[] icon.
+. Select *Filter* > *Top/Bottom N*.
+. In the *Top/Bottom N* dialog box, select *Top N* from the *Filter* field and enter a value in the text field.
+. Click *OK*.

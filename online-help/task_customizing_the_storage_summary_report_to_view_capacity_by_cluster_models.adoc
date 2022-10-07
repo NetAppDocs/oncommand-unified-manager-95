@@ -1,0 +1,33 @@
+---
+permalink: online-help/task_customizing_the_storage_summary_report_to_view_capacity_by_cluster_models.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Storage Summary report to analyze storage capacity and utilization of clusters, and to view aggregates included in the total raw capacity.'
+---
+= Customizing the Storage Summary report to view capacity by cluster models
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Storage Summary report to analyze storage capacity and utilization of clusters, and to view aggregates included in the total raw capacity.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by cluster, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To group the report by the model name, perform the following steps:
+ .. Click in the *Model* column and click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Add Group*.
+. To add aggregates to the total raw capacity, perform the following steps:
+ .. Click in the *Total Raw Capacity* column and click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Aggregation*.
+ .. In the *Aggregation* dialog box, clear the *table level* check box and select the *group level* check box.
+ .. Enter a label name in the *Enter Label* field, if required.
+. Click *OK*.
+. To add aggregates to the other columns in the report, repeat Steps 3 and 4.

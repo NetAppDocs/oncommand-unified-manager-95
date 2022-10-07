@@ -1,0 +1,34 @@
+---
+permalink: health-checker/task_creating_a_new_mysql_data_set_using_birt.html
+sidebar: sidebar
+keywords: 
+summary: 'After creating the data source, you must create a MySQL data set to create the output results for your report. You can also edit the output types after creating the data set.'
+---
+= Creating a new MySQL data set using BIRT
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After creating the data source, you must create a MySQL data set to create the output results for your report. You can also edit the output types after creating the data set.
+
+== Before you begin
+
+You must have created a JDBC data source using BIRT.
+
+You must have downloaded and installed MySQL Connector/J.
+
+You must have created a database user with the Report Schema role in Unified Manager.
+
+== Steps
+
+. From *Eclipse*, select a workspace.
+. Select *Data Explorer* > *Data Sets* > *New Data Set*.
+. In the *New Data Set* dialog box, select the data source previously created, the data set type, and the data set name, and click *Next*.
+. Define an SQL query text using the available items, or manually enter the query, and click *Finish*.
+. Click *Preview Results* to confirm the SQL query, and then click *OK*.
+. In the *Edit Data Set* dialog box, define the output columns as necessary and click *OK*.
+. Drag items into the newly created report.
+
+== After you finish
+
+You should now import the newly created report into Unified Manager.

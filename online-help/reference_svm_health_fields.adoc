@@ -1,0 +1,62 @@
+---
+permalink: online-help/reference_svm_health_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'SVM Inventory report enables you to analyze SVM volume configuration limits and overall health to understand risks to future storage availability.'
+---
+= SVM Inventory report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SVM Inventory report enables you to analyze SVM volume configuration limits and overall health to understand risks to future storage availability.
+
+== SVM Inventory report tabular view
+
+* *Cluster*
++
+Displays the name of the cluster containing the SVM.
+
+* *Storage Virtual Machine*
++
+Displays the name of the SVM.
+
+* *State*
++
+Displays the current administrative state of the SVM. The state can be Running, Stopped, Starting, Stopping, Not mapped, Initializing, or Deleting.
+
+* *Volume count*
++
+Displays the number of volumes contained by the SVM.
+
+* *Maximum Allowed Volumes*
++
+Displays the maximum allowed volumes that can be configured on the SVM.
+
+* *Root Volume*
++
+Displays the name of the root volume of the SVM.
+
+* *Allowed protocols*
++
+Displays the type of protocols that can be configured on the SVM.
+
+* *DNS Domain*
++
+Displays the DNS domain name.
+
+* *NIS Domain*
++
+Displays the Network Information Service (NIS) domain name. This column is blank when the Network Information Service (NIS) server is disabled or is not configured.
+
+* *LDAP Enabled*
++
+Displays if the LDAP protocol is enabled or not.
+
+* *Name Service Switch*
++
+Displays the information type gathered from hosts. Possible values are file, LDAP, or NIS.
+
+*Related information*
+
+xref:reference_health_svm_details_page.adoc[Health/Storage Virtual Machine details page]

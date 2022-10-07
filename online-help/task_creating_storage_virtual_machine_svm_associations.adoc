@@ -1,0 +1,53 @@
+---
+permalink: online-help/task_creating_storage_virtual_machine_svm_associations.html
+sidebar: sidebar
+keywords: 
+summary: 'The Create Storage Virtual Machine Associations wizard enables partner protection applications to associate a source storage virtual machine \(SVM\) with a destination SVM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select.'
+---
+= Creating SVM associations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Create Storage Virtual Machine Associations wizard enables partner protection applications to associate a source storage virtual machine (SVM) with a destination SVM for use with SnapMirror and SnapVault relationships. Partner applications use these associations at the time of initial provisioning of destination volumes to determine which resources to select.
+
+== Before you begin
+
+* The SVM you are associating must already exist.
+* You must have the OnCommand Administrator or Storage Administrator role.
+
+== About this task
+
+For any source SVM and relationship type, you can choose only one destination SVM on each destination cluster.
+
+Changing associations using the delete and create functions affects only future provisioning operations. It does not move existing destination volumes.
+
+== Steps
+
+. In the left navigation pane, click *Protection* > *SVM Associations*.
+. In the *Protection/Storage Virtual Machine Associations* page, click *Create*.
++
+The Create Storage Virtual Machine Associations wizard is launched.
+
+. Select one of the following sources:
+ ** *Any*
++
+Choose this option when you want to create an association between any primary SVM source to one or more destination SVM. This means that all existing SVMs that currently require protection, as well as any SVMs that are created in the future, are associated with the specified destination SVM. For example, you might want applications from several different sources at different locations backed up to one or more destination SVM in one location.
+
+ ** *Single*
++
+Choose this option when you want to select a specific source SVM associated with one or more destination SVMs. For example, if you are providing storage services to many clients whose data must be separate from one another, choose this option to associate a specific SVM source to a specific SVM destination that is assigned only to that client.
+
+ ** *None (External)*
++
+Choose this option when you want to create an association between a source SVM and an external flexible volume of a destination SVM.
+. Select one or both of the protection relationship types you want to create:
+ ** *SnapMirror*
+ ** *SnapVault*
+. Click *Next*.
+. Select one or more SVM protection destination.
+. Click *Finish*.
+
+*Related information*
+
+xref:task_adding_users.adoc[Adding users]

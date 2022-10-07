@@ -1,0 +1,67 @@
+---
+permalink: online-help/reference_scheduled_reports_page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Reports page enables you to view detailed information about the reports that you generate. You can search for a specific report, save a report, and delete a report. You can also schedule, share, and import a report.'
+---
+= Reports page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Reports page enables you to view detailed information about the reports that you generate. You can search for a specific report, save a report, and delete a report. You can also schedule, share, and import a report.
+
+The Reports page displays categorized groups of reports about which you can obtain specific report details. By default, the report groups expand to display the report types, a report overview, and links that enable you to customize reports. Only one report can be viewed at a time. You can click the *Run Report* button to view a report for a specific group of reports.
+
+[NOTE]
+====
+The implementation of scheduling and generating reports from the Reports page will be deprecated in a future release. You can extract health and performance data from Unified Manager using these additional methods:
+
+* Extracting data directly from the grid pages in the GUI
+* Using Open Database for access to all the available objects
+* Executing Unified Manager REST APIs to return the information you are interested in reviewing
+
+====
+
+The following is a list of report groups and report types that are displayed in the Reports page:
+
+* Capacity Utilization Reports
+ ** Storage Summary
+ ** Aggregate Capacity and Utilization
+ ** Volume Capacity and Utilization
+ ** Qtree Capacity and Utilization
+* Operational Reports - Events
+* Inventory Reports
+ ** Cluster Inventory
+ ** NFS Exports
+ ** SVM Inventory
+* Imported Reports
+* Data Protection Reports
+ ** Volume Data Protection Configuration
+ ** Volume Relationships Inventory
+ ** Volume Transfer Status (Historical)
+ ** Volume Transfer Rate (Historical)
+
+*Related information*
+
+xref:reference_cluster_capacity_fields.adoc[Storage Summary report]
+
+xref:reference_aggregate_capacity_fields.adoc[Aggregate Capacity and Utilization report]
+
+xref:reference_volume_capacity_fields.adoc[Volume Capacity and Utilization report]
+
+xref:reference_qtree_capacity_fields.adoc[Qtree Capacity and Utilization report]
+
+xref:reference_events_report.adoc[Events report]
+
+xref:reference_cluster_health_fields.adoc[Cluster Inventory report]
+
+xref:reference_nfs_shares_health_fields.adoc[NFS Exports report]
+
+xref:reference_svm_health_fields.adoc[SVM Inventory report]
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting data to CSV files for reporting]
+
+xref:concept_unified_manager_databases_accessible_for_reporting.adoc[Unified Manager databases accessible for custom reporting]
+
+xref:concept_using_unified_manager_rest_apis_ocum.adoc[Using Unified Manager REST APIs]

@@ -1,0 +1,45 @@
+---
+permalink: online-help/reference_save_customized_report_as_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Save Customized Report As dialog box to save a report after customizing it.'
+---
+= Save Customized Report As dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Save Customized Report As dialog box to save a report after customizing it.
+
+* link:reference_share_report_dialog_box_um_6_2.md#GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB[reference_share_report_dialog_box_um_6_2.md#GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB]
+* link:reference_share_report_dialog_box_um_6_2.md#SECTION_9A2E9BA0D79549B2806F5C0F452323CB[reference_share_report_dialog_box_um_6_2.md#SECTION_9A2E9BA0D79549B2806F5C0F452323CB]
+
+== Properties
+
+You can customize and save a report by specifying properties such as the name and description.
+
+* *Report Name*
++
+Displays the name of the report. The original report name is displayed by default. You can modify the report name as per the customization. Report name cannot exceed 255 characters.
+
+* *Description*
++
+Specifies the description of the customization made on the report. Description cannot exceed 150 characters.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Save*
++
+Saves the customized report .
+
+* *Cancel*
++
+Cancels the recent changes and closes the Save Customized Report As dialog box.
+
+*Related information*
+
+xref:concept_what_reports_do.adoc[What reports do]
+
+xref:task_customizing_a_report.adoc[Customizing a report]

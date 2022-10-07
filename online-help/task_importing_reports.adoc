@@ -1,0 +1,32 @@
+---
+permalink: online-help/task_importing_reports.html
+sidebar: sidebar
+keywords: 
+summary: 'If you have created a report outside of Unified Manager, you can import and save the report file to use with Unified Manager.'
+---
+= Importing reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you have created a report outside of Unified Manager, you can import and save the report file to use with Unified Manager.
+
+== Before you begin
+
+You must have the OnCommand Administrator role.
+
+You must ensure that the report you plan to import is supported by Unified Manager.
+
+== Steps
+
+. In the left navigation pane, click *Reports*, and then click *Import Report*.
+. In the *Import Report* dialog box, click *Browse* and select the file you want to import, and then enter a name and brief description of the report.
+. Click *Import*.
++
+If you cannot import the report, you can check the log file to find the error causing the issue.
+
+*Related information*
+
+xref:concept_what_report_importing_is.adoc[What report importing is]
+
+xref:reference_import_report_dialog_box.adoc[Import Report dialog box]

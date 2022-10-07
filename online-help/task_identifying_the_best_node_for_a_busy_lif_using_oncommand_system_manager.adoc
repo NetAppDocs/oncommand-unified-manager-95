@@ -1,0 +1,21 @@
+---
+permalink: online-help/task_identifying_the_best_node_for_a_busy_lif_using_oncommand_system_manager.html
+sidebar: sidebar
+keywords: 
+summary: 'You can display information about all the ports in a cluster. You can view information such as the network port role \(cluster, data, or node-management\), link status, maximum transmission unit \(MTU\), speed setting and operational status, and the port’s interface group, if applicable.'
+---
+= Identifying the best node for a busy LIF using OnCommand System Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can display information about all the ports in a cluster. You can view information such as the network port role (cluster, data, or node-management), link status, maximum transmission unit (MTU), speed setting and operational status, and the port's interface group, if applicable.
+
+== Steps
+
+. Open OnCommand System Manager.
+. From the *Home* tab, double-click the storage system.
+. In the navigation pane, expand the *Nodes* hierarchy.
+. To find the active connections on a node, in the navigation pane, select the icon for a node.
+. Click the name link of a node and then click *Configuration* > *Ports/Adapters*.
+. Note the highest client count by node.

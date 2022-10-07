@@ -1,0 +1,27 @@
+---
+permalink: online-help/task_customizing_the_aggregate_capacity_and_utilization_report_to_view_aggregates_reaching_full_capacity.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Aggregate Capacity and Utilization report to display aggregates sorted by increasing order of aggregate capacity utilization. This enables you to view the aggregates reaching full capacity.'
+---
+= Customizing the Aggregate Capacity and Utilization report to view aggregates reaching full capacity
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Aggregate Capacity and Utilization report to display aggregates sorted by increasing order of aggregate capacity utilization. This enables you to view the aggregates reaching full capacity.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove grouping by cluster and by HA pair, perform the following steps:
+ .. Click in the columns that need to be ungrouped.
+ .. Click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group option*.
+. To sort the aggregates reaching full capacity, click in the *Days To Full* column, and click the image:../media/click_to_see_menu.gif[] icon.
+. Select *Filter* > *Top/Bottom N*.
+. In the *Top/Bottom N* dialog box, select *Bottom N* from the *Filter* field and enter a value in the text field.
+. Click *OK*.

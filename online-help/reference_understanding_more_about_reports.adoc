@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_understanding_more_about_reports.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the option to run, delete, export, and import reports. You can also create custom reports and save the customized report. You can perform additional operations such as filtering, sorting, grouping, and formatting.'
+---
+= Understanding more about reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the option to run, delete, export, and import reports. You can also create custom reports and save the customized report. You can perform additional operations such as filtering, sorting, grouping, and formatting.

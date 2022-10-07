@@ -1,0 +1,44 @@
+---
+permalink: online-help/task_viewing_the_svm_list_and_details.html
+sidebar: sidebar
+keywords: 
+summary: 'From the Health/Storage Virtual Machines inventory page, you can monitor your inventory of storage virtual machines \(SVMs\). You can use the Health/Storage Virtual Machine details page to view detailed information about SVMs that are monitored.'
+---
+= Viewing the SVM list and details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Health/Storage Virtual Machines inventory page, you can monitor your inventory of storage virtual machines (SVMs). You can use the Health/Storage Virtual Machine details page to view detailed information about SVMs that are monitored.
+
+== Before you begin
+
+You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+
+== About this task
+
+You can view SVM details, such as the capacity, efficiency, and configuration of an SVM. You can also view information about the related devices and related alerts for that SVM.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. Choose one of the following ways to view the SVM details:
+ ** To view minimal details, position the cursor over the SVM name.
+ ** To view the complete details, click the SVM name.
++
+You can also view the complete details by clicking *View Details* in the minimal details dialog box.
+. View the objects related to the SVM by clicking *View Related* in the minimal details dialog box.
+
+*Related information*
+
+xref:task_adding_users.adoc[Adding users]
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting data to CSV files for reporting]
+
+xref:task_adding_alerts.adoc[Adding alerts]
+
+xref:task_viewing_the_details_of_svms_with_infinite_volume.adoc[Viewing the details of SVMs with Infinite Volume]
+
+xref:reference_health_all_svms_view.adoc[Health/Storage Virtual Machines inventory page]
+
+xref:reference_health_svm_details_page.adoc[Health/Storage Virtual Machine details page]

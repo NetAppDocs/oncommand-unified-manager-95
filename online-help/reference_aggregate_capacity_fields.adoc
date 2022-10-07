@@ -1,0 +1,163 @@
+---
+permalink: online-help/reference_aggregate_capacity_fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The Aggregate Capacity and Utilization report enables you to view information about the capacity and utilization of aggregates in a cluster. This information enables you to understand possible capacity risks and also to view the configured, used, and unused capacity of aggregates.'
+---
+= Aggregate Capacity and Utilization report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Aggregate Capacity and Utilization report enables you to view information about the capacity and utilization of aggregates in a cluster. This information enables you to understand possible capacity risks and also to view the configured, used, and unused capacity of aggregates.
+
+== Aggregate Capacity and Utilization report tabular view
+
+* *Cluster*
++
+Displays the cluster name.
+
+* *HA Pair*
++
+Displays the HA pair value obtained by forming two nodes.
+
+* *Aggregate*
++
+Displays the aggregate name.
+
+* *Total Data Capacity (GB)*
++
+Displays the total data capacity (used plus available).
+
+* *Used Data Capacity (GB)*
++
+Displays the used data capacity.
+
+* *Used Data %*
++
+Displays the used data capacity as a percentage.
+
+* *Available Data Capacity (GB)*
++
+Displays the available data capacity.
+
+* *Available Data %*
++
+Displays the available data capacity as a percentage.
+
+* *Daily Growth Rate %*
++
+Displays the growth rate that occurs every 24 hours in the volume.
+
+* *Days To Full*
++
+Displays the estimated number of days remaining before the aggregate reaches full capacity.
+
+* *Space Full Threshold*
++
+Displays the percentage at which an aggregate is full.
+
+* *Space Nearly Full Threshold*
++
+Displays the percentage at which an aggregate is nearly full.
+
+* *Growth Rate Threshold*
++
+Specifies the aggregate's growth rate is considered to be normal before the system generates an Aggregate Growth Rate Abnormal event.
+
+* *Growth Rate Sensitivity Threshold*
++
+Specifies the factor that is applied to the standard deviation of a volume's growth rate. If the growth rate exceeds the factored standard deviation, a Volume Growth Rate Abnormal event is generated.
+
+* *Days Until Full Threshold*
++
+Specifies the number of days remaining before the aggregate reaches full capacity.
+
+* *Snapshot Reserve Total Capacity (GB)*
++
+Displays the total snapshot reserve capacity of the aggregate.
+
+* *Snapshot Reserve Used Capacity (GB)*
++
+Displays the amount of space used by snapshot copies from snapshot reserve.
+
+* *Snapshot Reserve Used %*
++
+Displays the amount of space used by Snapshot copies from snapshot reserve as a percentage.
+
+* *Snapshot Reserve Available Capacity (GB)*
++
+Displays the amount of space available for Snapshot copies.
+
+* *Snapshot Reserve Available %*
++
+Displays the amount of space available for Snapshot copies as a percentage.
+
+* *Snapshot Copies Reserve Full Threshold*
++
+Specifies the percentage at which an aggregate has consumed all its space reserved for Snapshot copies.
+
+* *Overcommitted Capacity %*
++
+Displays the aggregate overcommitment as a percentage.
+
+* *Overcommitted Threshold %*
++
+Displays the percentage at which an aggregate is overcommitted.
+
+* *Nearly Overcommitted Threshold %*
++
+Displays the percentage at which an aggregate is nearly overcommitted.
+
+* *Type*
++
+Displays the aggregate type:
+
+ ** HDD
+ ** Hybrid
++
+Combines HDDs and SSDs, but Flash Pool has not been enabled.
+
+ ** Hybrid (Flash Pool)
++
+Combines HDDs and SSDs, and Flash Pool has been enabled.
+
+ ** SSD
+ ** SSD (FabricPool)
++
+Combines SSDs and a cloud tier
+
+ ** VMDisk (SDS)
++
+Virtual disks within a virtual machine
+
+ ** VMDisk (FabricPool)
++
+Combines virtual disks and a cloud tier
+
+ ** LUN (FlexArray)
+For standard disks and SSD disks, this column is blank when the monitored storage system is running an ONTAP version earlier than 8.3.
+
+* *RAID Type*
++
+Displays the RAID configuration type.
+
+* *Aggregate State*
++
+Displays the current state of the aggregate.
+
+* *SnapLock Type*
++
+Indicates whether the aggregate is a SnapLock or non-SnapLock aggregate.
+
+* *Cloud Tier Space Used (GB)*
++
+Displays the amount of data capacity that is currently being used in the cloud tier.
+
+* *Cloud Tier*
++
+Displays the name of the cloud tier when it was created by ONTAP.
+
+*Related information*
+
+xref:reference_health_all_aggregates_view.adoc[Health/Aggregates inventory page]

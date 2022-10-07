@@ -1,0 +1,27 @@
+---
+permalink: online-help/task_customizing_the_aggregate_capacity_and_utilization_report_to_display_aggregates_with_noncompliant_configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Aggregate Capacity and Utilization report to display the aggregates filtered by the full threshold. This enables you to view the aggregates that might not comply with company policies.'
+---
+= Customizing the Aggregate Capacity and Utilization report to display aggregates with noncompliant configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Aggregate Capacity and Utilization report to display the aggregates filtered by the full threshold. This enables you to view the aggregates that might not comply with company policies.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by cluster or HA pair, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To filter aggregates threshold not exceeding 85%, click in the *Space Full Threshold* column and open the *Filter* dialog box by clicking the image:../media/click_to_filter.gif[] icon.
+. From the *Condition* list, select *Greater Than*.
+. Click *Select Values* and select *85*.
+. Click *OK*.

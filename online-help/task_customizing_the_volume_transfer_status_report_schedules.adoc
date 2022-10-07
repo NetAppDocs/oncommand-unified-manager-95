@@ -1,0 +1,25 @@
+---
+permalink: online-help/task_customizing_the_volume_transfer_status_report_schedules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the schedules for the Volume Transfer Status \(Historical\) report to view the volume details based on different schedules. You can view, modify, or delete existing report schedules, and add new schedules for your reports.'
+---
+= Customizing the Volume Transfer Status (Historical) report schedules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the schedules for the Volume Transfer Status (Historical) report to view the volume details based on different schedules. You can view, modify, or delete existing report schedules, and add new schedules for your reports.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. On the *Volume Transfer Status (Historical)* report page, click *Manage Report Schedules*.
+. In the *Manage Report Schedules* dialog box, enter specific details such as recipient schedule name, email address, report format, frequency, and the reports.
+. Select *Inventory* as the Report Category.
+. Click *Save and Close*.
++
+The Volume Transfer Status (Historical) report is automatically sent by email to one or more recipients as per the schedule.

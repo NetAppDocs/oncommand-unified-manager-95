@@ -1,0 +1,69 @@
+---
+permalink: online-help/task_exporting_storage_data_as_reports.html
+sidebar: sidebar
+keywords: 
+summary: 'You can export data to a comma-separated values \(.csv\) file, and use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Events inventory page to create a report, and then take appropriate action.'
+---
+= Exporting data to CSV files for reporting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can export data to a comma-separated values (`.csv`) file, and use the exported data to build reports. For example, if there are 10 critical events that have not been resolved, you can export the data from the Events inventory page to create a report, and then take appropriate action.
+
+== Before you begin
+
+You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+
+== About this task
+
+You can export data to a `.csv` file from the health and performance inventory pages and from the event inventory page.
+
+The export functionality is not supported for the constituents of an Infinite Volume--you cannot export details of the constituents to a `.csv` file.
+
+== Steps
+
+. Perform one of the following actions:
++
+|===
+| If you want to export...| Do this...
+a|
+Event details
+a|
+Click *Events*.
+a|
+Storage object inventory details
+a|
+Click *Health* or *Performance* from the left-navigation menu, and then select a storage object.
+a|
+Storage capacity and protection history details
+a|
+Click *Health* > *Aggregates* or *Health* > *Volumes*, then select a single aggregate or volume.
+a|
+Qtree or NFS Exports information for an SVM
+a|
+Click *Health* > *SVMs*, select a single SVM, and then select the *Qtrees* or *NFS Exports* tab.
+a|
+Storage object top 10 performance details
+a|
+Click *Performance* > *Clusters*, then select a cluster and choose the *Top Performers* tab. Then select a storage object and performance counter.
+|===
+
+. Click the *Export* button.
+. Click *Export to CSV* to confirm the export request.
++
+From the Top Performers tab, and from the SVMs details page, you can choose to download a report of the statistics for the single cluster you are viewing or for all clusters in the data center.
++
+The file is downloaded.
+
+. Open the `.csv` file in the appropriate application.
+
+*Related information*
+
+xref:reference_health_all_volumes_view.adoc[Health/Volumes inventory page]
+
+xref:reference_health_all_aggregates_view.adoc[Health/Aggregates inventory page]
+
+xref:reference_health_all_svms_view.adoc[Health/Storage Virtual Machines inventory page]
+
+xref:reference_health_all_clusters_view.adoc[Health/Clusters inventory page]

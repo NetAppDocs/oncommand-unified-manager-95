@@ -1,0 +1,39 @@
+---
+permalink: install/task_installing_unified_manager_in_mscs.html
+sidebar: sidebar
+keywords: 
+summary: 'For configuring high availability, you must install Unified Manager on both the Microsoft Cluster Server \(MSCS\) cluster nodes.'
+---
+= Installing Unified Manager on MSCS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For configuring high availability, you must install Unified Manager on both the Microsoft Cluster Server (MSCS) cluster nodes.
+
+== Steps
+
+. Log in as the domain user on both the nodes of the cluster.
+. Set up high availability by choosing one of the following options:
++
+|===
+| If you want to...| Then do this...
+a|
+Configure high availability on an existing Unified Manager installation
+a|
+Add another server to be paired with the existing server:
+
+ .. Upgrade the existing Unified Manager server to the latest software version.
+ .. Create a backup of the existing Unified Manager installation, and store the backup to a mounted LUN.
+ .. Install Unified Manager on the second node.
++
+link:task_installing_unified_manager_on_windows.md#[Installing Unified Manager on a Windows system]
+
+ .. Restore the backup of the existing Unified Manager installation onto the second node.
+
+a|
+Configure high availability on a new Unified Manager installation
+a|
+Install Unified Manager on both the nodes.     link:task_installing_unified_manager_on_windows.md#[Installing Unified Manager on a Windows system]
++
+|===

@@ -1,0 +1,77 @@
+---
+permalink: online-help/reference_iops_performance_counter_charts.html
+sidebar: sidebar
+keywords: 
+summary: 'The Performance Explorer IOPS counter charts display the number of input/output operations processed per second by the selected storage object.'
+---
+= IOPS performance counter charts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance Explorer IOPS counter charts display the number of input/output operations processed per second by the selected storage object.
+
+The popup window that is displayed when your cursor is in the chart area shows the specific counter values at specific times.
+
+When displayed in Zoom view, the volume and LUN IOPS charts also display Quality of Service (QoS) maximum and minimum throughput threshold settings, if configured in ONTAP. The IOPS/TB charts display QoS peak and expected throughput threshold settings, if configured.
+
+When viewing a volume or LUN that is sharing the IOPS of a shared QoS policy, a line for "`Total Workload IOPS`" is displayed to show the IOPS that are being used by all other workloads sharing this policy.
+
+The bottom of the chart page displays information for the minimum, maximum, average, and 95th percentile IOPS for the selected time range.
+
+There are four types of IOPS charts available:
+
+== IOPS - Total counter chart
+
+Displays the number of input/output operations processed per second.
+
+== IOPS - Breakdown counter chart
+
+Displays the same IOPS data separated into read, write, and other IOPS.
+
+This chart option applies when the selected object is an SVM, node, aggregate, volume, or LUN.
+
+== IOPS - Protocols counter chart
+
+Displays the same IOPS data, but for SVMs the performance data is separated into individual components for CIFS, NFS, FCP, NVMe, and iSCSI protocol traffic.
+
+== IOPS/TB - Total counter chart
+
+Displays the number of input/output operations processed per second based on the total logical space that is being consumed by the volume, in terabytes. Also called I/O density, this counter measures how much performance can be delivered by a given amount of storage capacity.
+
+This chart option is available only when the selected object is a volume. It displays performance data only when the logical capacity used by the volume is greater than or equal to 1 TB. Gaps will be displayed in the chart when the used capacity falls below 1 TB during the selected timeframe.
+
+[NOTE]
+====
+In some situations the IOPS/TB chart might show large spikes in data while the IOPS chart does not show the same behavior. This is a known limitation where some performance data is captured less frequently than other performance data. This chart will typically return to normal operation in 5 or 10 minutes when the collection cycles are synchronized.
+====
+
+== *Zoom View* button
+
+Displays a magnified view of the counter chart data.
+
+* Events
++
+The occurrence of critical, error, warning, and informational events are indicated on the time lines above the charts.
+
+* Thresholds
++
+The dashed, horizontal line indicates the utilization warning threshold value set in Unified Manager.
++
+The solid red line indicates the utilization critical threshold value set in Unified Manager.
+
+* Counters
++
+The counters in the left pane show which counter values are being displayed. Deselecting or selecting the image:../media/eye_icon.gif[] that is associated with a counter hides and shows that counter information from the chart and can help when comparing object IOPS.
+
+*Related information*
+
+xref:task_specifying_the_time_range_in_zoom_view.adoc[Specifying the time range in Zoom View]
+
+xref:task_selecting_performance_thresholds_in_zoom_view.adoc[Selecting performance thresholds in Counter Charts Zoom View]
+
+xref:task_viewing_workload_qos_minimum_and_maximum_settings.adoc[Viewing workload QoS minimum and maximum settings]
+
+xref:task_viewing_svm_iops_traffic_by_protocol.adoc[Viewing SVM IOPS traffic by protocol]
+
+xref:concept_understanding_counter_charts.adoc[Understanding counter charts]

@@ -1,0 +1,32 @@
+---
+permalink: online-help/task_customizing_the_storage_summary_report_to_analyze_cluster_capacity_based_on_the_ontap_version.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Storage Summary report to group clusters by ONTAP version, and to view aggregates relating to your total raw capacity.'
+---
+= Customizing the Storage Summary report to analyze cluster capacity based on the ONTAP version
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Storage Summary report to group clusters by ONTAP version, and to view aggregates relating to your total raw capacity.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove grouping by cluster, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click image:../media/click_to_see_menu.gif[] (menu icon).
+ .. Select *Group* > *Delete Inner Group option*.
+. To group the report by the ONTAP version, perform the following steps:
+ .. Click in the *OS version* column and select the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Add Group*.
+. To add aggregates to the total raw capacity, perform the following steps:
+ .. Click in the *Total Raw Capacity* column and click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Aggregation*.
+ .. In the *Aggregation* dialog box, clear the *table level* check box and select the *group level* check box.
+ .. Enter a label name in the *Enter Label* field, if required.
+. Click *OK*.

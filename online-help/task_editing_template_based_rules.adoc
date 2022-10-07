@@ -1,0 +1,55 @@
+---
+permalink: online-help/task_editing_template_based_rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit a rule that was created using the rule templates from the Edit Rule dialog box. You can add, modify, or delete rule properties such as directory paths, file types, and owners. You can also modify the rule name and the storage class associated with the rule.'
+---
+= Editing template-based rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit a rule that was created using the rule templates from the Edit Rule dialog box. You can add, modify, or delete rule properties such as directory paths, file types, and owners. You can also modify the rule name and the storage class associated with the rule.
+
+== Before you begin
+
+You must have the OnCommand Administrator or Storage Administrator role.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select an appropriate SVM.
+. Click *Data Policy*.
++
+The list of rules in the data policy for the selected SVM with Infinite Volume is displayed.
+
+. Select the rule for which you want to include new conditions or condition sets.
+. Click *Edit*.
+. In the *Edit Rule* dialog box, edit the rule as required:
++
+|===
+| If you want to...| Do this...
+a|
+Add a new rule property
+a|
+Click *Add*.
+a|
+Delete a rule property
+a|
+Click *Delete* by selecting the appropriate rule property.
+a|
+Modify a rule property
+a|
+Double-click the appropriate rule property, and then modify as required.
+|===
+
+. Click *Update*.
+. Verify that your modifications are applied to the rule by expanding the rule in the *Data Policy* tab.
+. Preview any other changes made to the data policy.
+. Click *Activate* to activate the changes to the rule properties in the SVM.
+
+*Related information*
+
+xref:concept_what_a_rule_template_is.adoc[What a rule template is]
+
+xref:task_adding_users.adoc[Adding users]

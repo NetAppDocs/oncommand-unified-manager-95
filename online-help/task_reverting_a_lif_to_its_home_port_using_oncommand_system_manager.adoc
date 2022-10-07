@@ -1,0 +1,30 @@
+---
+permalink: online-help/task_reverting_a_lif_to_its_home_port_using_oncommand_system_manager.html
+sidebar: sidebar
+keywords: 
+summary: 'You can revert a LIF from its current port to its home port after it fails over or is migrated to a different port either manually or automatically. You can do this using OnCommand System Manager.'
+---
+= Reverting a LIF to its home port using OnCommand System Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can revert a LIF from its current port to its home port after it fails over or is migrated to a different port either manually or automatically. You can do this using OnCommand System Manager.
+
+== About this task
+
+When creating a LIF, the administrator specifies a home port and home node to use as the preferred location of the LIF. If the home node is unavailable or the home port experiences a physical link outage, the LIF is automatically migrated to a new location. The new location is reported, in OnCommand System Manager for example, as the current port for the LIF. Unless the automatic revert option is enabled, the LIF will remain at this new location until it is reverted.
+
+== Steps
+
+. Open OnCommand System Manager.
+. From the *Home* tab, double-click the storage system.
+. In the navigation pane, expand the *Storage Virtual Machines* hierarchy.
+. In the navigation pane, select the SVM and click *Configuration* > *Network Interfaces*.
+. Look for data LIFs that display a house icon with a red cross mark, in the *Current Port* column, as in the following image.
++
+image::../media/systemmgr_lifs_networkinterfaces_jpg.gif[Network Interfaces view]
+
+. Select the LIF and click *Send to Home*.
++
+This option is enabled only when the selected interface is hosted on a non-home port and when the home port is available.

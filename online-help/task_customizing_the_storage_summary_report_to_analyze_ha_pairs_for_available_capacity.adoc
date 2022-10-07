@@ -1,0 +1,27 @@
+---
+permalink: online-help/task_customizing_the_storage_summary_report_to_analyze_ha_pairs_for_available_capacity.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Storage Summary report to display available HA pairs that have capacity, so that you can provision new volumes and LUNs. The report displays HA pairs sorted in order of decreasing aggregate unused capacity.'
+---
+= Customizing the Storage Summary report to analyze HA pairs for available capacity to provision new volumes and LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Storage Summary report to display available HA pairs that have capacity, so that you can provision new volumes and LUNs. The report displays HA pairs sorted in order of decreasing aggregate unused capacity.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove grouping by cluster, perform the following steps:
+ .. Click in the column that needs to be ungrouped.
+ .. Click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To sort HA pairs with available capacity, click in the *Aggregate Unused Capacity (TB)* column, and click the image:../media/click_to_see_menu.gif[] icon.
+. Select *Filter* > *Top/Bottom N*.
+. In the *Top/Bottom N* dialog box, select *Top N* from the *Filter* field and enter a value in the text field.
+. Click *OK*.

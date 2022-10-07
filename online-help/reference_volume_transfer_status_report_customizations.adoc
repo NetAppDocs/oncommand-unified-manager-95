@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_volume_transfer_status_report_customizations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Transfer Status \(Historical\) report to view and analyze information about volume transfers at specific time intervals. You can use filters to view volume transfer details between two dates.'
+---
+= Volume Transfer Status (Historical) report customizations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Transfer Status (Historical) report to view and analyze information about volume transfers at specific time intervals. You can use filters to view volume transfer details between two dates.

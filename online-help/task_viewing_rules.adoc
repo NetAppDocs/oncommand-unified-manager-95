@@ -1,0 +1,39 @@
+---
+permalink: online-help/task_viewing_rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the list of rules you created from the Data Policy tab before modifying the data policy for your SVM with Infinite Volume.'
+---
+= Viewing rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the list of rules you created from the Data Policy tab before modifying the data policy for your SVM with Infinite Volume.
+
+== Before you begin
+
+* You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+* The cluster containing the SVM with Infinite Volume with storage classes must be added to the Unified Manager database.
+
+== About this task
+
+The Data Policy tab is visible only for an SVM with Infinite Volume.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select the appropriate SVM.
+. Click *Data Policy*.
+
+== Results
+
+The list of rules in the data policy for the selected SVM is displayed. You can use Filter by Storage Class to view rules about a specific storage class.
+
+*Related information*
+
+xref:task_adding_users.adoc[Adding users]
+
+xref:concept_what_rules_and_data_policies_are.adoc[What rules and data policies are]
+
+xref:task_creating_rules.adoc[Creating rules]

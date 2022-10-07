@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_nfs_export_report_customizations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize NFS export reports to analyze information about NFS export policies and rules for volumes on your storage systems. For example, you can customize reports to display volumes with inaccessible junction paths and volumes with the default export policy.'
+---
+= NFS Export report customizations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize NFS export reports to analyze information about NFS export policies and rules for volumes on your storage systems. For example, you can customize reports to display volumes with inaccessible junction paths and volumes with the default export policy.

@@ -1,0 +1,71 @@
+---
+permalink: online-help/reference_volume_transfer_status_historical_report.html
+sidebar: sidebar
+keywords: 
+summary: 'The Volume Transfer Status \(Historical\) report enables you to analyze the volume transfer trends over a period of time. You can configure the report to view the volume transfer status for a specific time interval. The report also displays whether the volume transfer was a success or a failure.'
+---
+= Volume Transfer Status (Historical) report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Volume Transfer Status (Historical) report enables you to analyze the volume transfer trends over a period of time. You can configure the report to view the volume transfer status for a specific time interval. The report also displays whether the volume transfer was a success or a failure.
+
+The Volume Transfer Status (Historical) report is displayed in two formats:
+
+* Volume Transfer Status line chart
+* Volume Transfer Status (Historical) report tabular view
+
+== Volume Transfer Status line chart
+
+The line chart displays the volume transfer details by plotting transfer count against date. You can also view whether a particular volume transfer has succeeded or failed.
+
+== Volume Transfer Status tabular view
+
+* *Source Cluster Name*
++
+Displays the source cluster name.
+
+* *Source SVM*
++
+Displays the storage virtual machine (SVM) name.
+
+* *Source Volume Name*
++
+Displays the source volume name.
+
+* *Destination Cluster Name*
++
+Displays the destination cluster name.
+
+* *Destination SVM*
++
+Displays the destination SVM name.
+
+* *Destination Volume Name*
++
+Displays the destination volume name.
+
+* *Operation Result*
++
+Displays whether volume transfer was successful.
+
+* *Start time*
++
+Displays the volume transfer start time.
+
+* *End time*
++
+Displays the volume transfer end time.
+
+* *Transfer duration (hh:mm:ss)*
++
+Displays the time taken (in hours) to complete the volume transfer.
+
+* *Transfer size (MB)*
++
+Displays the size (in MB) of the transferred volume.
+
+* *Operation Type*
++
+Displays the type of volume transfer.

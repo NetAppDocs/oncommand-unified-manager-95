@@ -1,0 +1,24 @@
+---
+permalink: online-help/concept_maximum_number_of_files_an_infinite_volume_can_store.html
+sidebar: sidebar
+keywords: 
+summary: 'In most cases, an Infinite Volume can hold up to 2 billion files. If an Infinite Volume is relatively small, its maximum number of files might be less than 2 billion.'
+---
+= Maximum number of files an Infinite Volume can store
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In most cases, an Infinite Volume can hold up to 2 billion files. If an Infinite Volume is relatively small, its maximum number of files might be less than 2 billion.
+
+The maximum number of files that an Infinite Volume can hold is determined by the size of its namespace constituent. If the namespace constituent is 10 TB, the Infinite Volume can hold 2 billion files. If the namespace constituent is less than 10 TB, the Infinite Volume can hold proportionally fewer files.
+
+The size of the namespace constituent is roughly proportional to the size of the Infinite Volume, depending on several factors, such as the namespace constituent's 10 TB maximum size, the available space in the aggregate that holds the namespace constituent, and the SnapDiff setting.
+
+For a two-node Infinite Volume or a multi-node Infinite Volume without SnapDiff enabled, setting the Infinite Volume to a size of 80 TB or greater typically creates a namespace constituent of 10 TB.
+
+The file count not only includes regular files, but also other file system structures, such as directories and symbolic links.
+
+*Related information*
+
+xref:concept_what_an_infinite_volume_is.adoc[What an Infinite Volume is]

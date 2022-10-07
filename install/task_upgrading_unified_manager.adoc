@@ -1,0 +1,97 @@
+---
+permalink: install/task_upgrading_unified_manager.html
+sidebar: sidebar
+keywords: 
+summary: 'You can upgrade from Unified Manager version 7.3 or 9.4 to Unified Manager 9.5 by downloading and running the installation file on the Red Hat platform.'
+---
+= Upgrading Unified Manager on Red Hat Enterprise Linux or CentOS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade from Unified Manager version 7.3 or 9.4 to Unified Manager 9.5 by downloading and running the installation file on the Red Hat platform.
+
+== Before you begin
+
+* The system on which you are upgrading Unified Manager must meet the system and software requirements.
++
+xref:concept_virtual_infrastructure_or_hardware_system_requirements.adoc[Hardware system requirements]
++
+xref:reference_red_hat_and_centos_software_and_installation_requirements.adoc[Red Hat and CentOS software and installation requirements]
+
+* Starting with Unified Manager 9.4, Red Hat Enterprise Linux 6.x is no longer supported. If you are using RHEL 6, you must upgrade your instance of RHEL to version 7.x prior to upgrading to Unified Manager 9.5.
+* Starting with Unified Manager 9.5, Oracle Java is no longer supported. The correct version of OpenJDK must be installed prior to upgrading to Unified Manager 9.5.
+* You must have a subscription to the Red Hat Enterprise Linux Subscription Manager.
+* To avoid data loss, you must have created a backup of the Unified Manager database in case there is an issue during the upgrade. It is also recommended that you move the backup file from the `/opt/netapp/data` directory to an external location.
+* You should have completed any running operations, because Unified Manager is unavailable during the upgrade process.
+
+== About this task
+
+[NOTE]
+====
+These steps contain information for systems that are configured for high availability using Veritas Operation Manager. If your system is not configured for high availability, ignore these additional steps.
+====
+
+== Steps
+
+. Log in to the target Red Hat Enterprise Linux or CentOS server.
+. Download the Unified Manager bundle to the server.
++
+xref:task_downloading_unified_manager.adoc[Downloading Unified Manager for Red Hat or CentOS]
+
+. Navigate to the target directory and expand the Unified Manager bundle: `unzip OnCommandUnifiedManager-rhel7-9.5.zip`
++
+The required RPM modules for Unified Manager are unzipped to the target directory.
+
+. Confirm the presence of the listed modules: `ls *.rpm`
++
+The following RPM modules are listed:
+
+ ** `ocie-au-<version>.x86_64.rpm`
+ ** `ocie-server-<version>.x86_64.rpm`
+ ** `ocie-serverbase-<version>.x86_64.rpm`
+ ** `netapp-application-server-<version>.x86_64.rpm`
+ ** `netapp-platform-base-<version>.x86_64.rpm`
+ ** `netapp-ocum-<version>.x86_64.rpm`
+
+. For systems that are not connected to the Internet or that are not using the RHEL repositories, perform the following steps to determine whether you are missing any required packages and download those packages:
+ .. View the list of available and unavailable packages: `yum install *.rpm --assumeno`
++
+The items in the "`Installing:`" section are the packages that are available in the current directory, and the items in the "`Installing for dependencies:`" section are the packages that are missing on your system.
+
+ .. Download the missing packages on another system that has Internet access: `yum install package_name --downloadonly --downloaddir=.`
++
+[NOTE]
+====
+Because the plug-in "`yum-plugin-downloadonly`" is not always enabled on Red Hat Enterprise Linux systems, you might need to enable the functionality to download a package without installing it: `yum install yum-plugin-downloadonly`
+====
+
+ .. Copy the missing packages from the Internet-connected system to your installation system.
+. If Unified Manager is configured for high availability, then using Veritas Operation Manager, stop all Unified Manager services on the first node.
+. Upgrade Unified Manager using the following script: `upgrade.sh`
++
+This script automatically executes the RPM modules, upgrading the necessary supporting software and the Unified Manager modules that run on them. Additionally, the upgrade script checks whether there are any system configuration settings or any installed software that will conflict with the upgrade of Unified Manager. If the script identifies any issues, you must fix the issues prior to upgrading Unified Manager.
++
+[NOTE]
+====
+Do not attempt to upgrade by using alternative commands (such as `+rpm -Uvh ...+`). A successful upgrade requires that all Unified Manager files and related files are upgraded in a specific order to a specific directory structure that are executed and configured automatically by the script.
+====
+
+. For high availability installations, stop all Unified Manager services on the second node with Veritas Operation Manager.
+. For high availability installations, switch the service group to the second node in the high-availability setup and upgrade Unified Manager on the second node.
+. After the upgrade is complete, scroll back through the messages until you see the message displaying an IP address or URL for the Unified Manager web UI, the maintenance user name (umadmin), and the default password.
++
+The message is similar to the following:
++
+----
+OnCommand Unified Manager upgraded successfully.
+Use a web browser and one of the following URLs to access the OnCommand Unified Manager GUI:
+
+https://default_ip_address/    (if using IPv4)
+https://[default_ip_address]/  (if using IPv6)
+https://fully_qualified_domain_name/
+----
+
+== After you finish
+
+Enter the specified IP address or URL into a supported web browser to start the Unified Manager web UI, and then log in by using the same maintenance user name (umadmin) and password that you set earlier.

@@ -1,0 +1,118 @@
+---
+permalink: online-help/reference_snapmirror_relationship_events.html
+sidebar: sidebar
+keywords: 
+summary: 'SnapMirror relationship events provide you with information about the status of your SnapMirror relationships so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+---
+= SnapMirror relationship events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SnapMirror relationship events provide you with information about the status of your SnapMirror relationships so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: protection
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
+|===
+| Event name(Trap name)
+
+| Impact level| Source type| Severity
+a|
+Mirror Replication Unhealthy(ocumEvtSnapmirrorRelationshipUnhealthy)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Mirror Replication Broken-off(ocumEvtSnapmirrorRelationshipStateBrokenoff)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Initialize Failed(ocumEvtSnapmirrorRelationshipInitializeFailed)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Update Failed(ocumEvtSnapmirrorRelationshipUpdateFailed)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Lag Error(ocumEvtSnapMirrorRelationshipLagError)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication Lag Warning(ocumEvtSnapMirrorRelationshipLagWarning)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Mirror Replication Resync Failed(ocumEvtSnapmirrorRelationshipResyncFailed)
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+a|
+Mirror Replication DeletedocumEvtSnapmirrorRelationshipDeleted
+
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Synchronous Replication Out Of Sync *
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Warning
+a|
+Synchronous Replication Restored *
+a|
+Event
+a|
+SnapMirror relationship
+a|
+Information
+a|
+Synchronous Replication Auto Resync Failed *
+a|
+Risk
+a|
+SnapMirror relationship
+a|
+Error
+|===

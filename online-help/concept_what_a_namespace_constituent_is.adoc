@@ -1,0 +1,14 @@
+---
+permalink: online-help/concept_what_a_namespace_constituent_is.html
+sidebar: sidebar
+keywords: 
+summary: 'Each Infinite Volume has a single namespace constituent that maps directory information and file names to the file’s physical data location within the Infinite Volume.'
+---
+= What a namespace constituent is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Each Infinite Volume has a single namespace constituent that maps directory information and file names to the file's physical data location within the Infinite Volume.
+
+Clients are not aware of the namespace constituent and do not interact directly with it. The namespace constituent is an internal component of the Infinite Volume.

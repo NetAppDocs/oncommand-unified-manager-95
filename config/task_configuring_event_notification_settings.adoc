@@ -1,0 +1,35 @@
+---
+permalink: config/task_configuring_event_notification_settings.html
+sidebar: sidebar
+keywords: 
+summary: 'You can configure Unified Manager to send alert notifications when an event is generated or when an event is assigned to a user. You can configure the SMTP server that is used to send the alert, and you can set various notification mechanisms—for example, alert notifications can be sent as emails or SNMP traps.'
+---
+= Configuring event notification settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure Unified Manager to send alert notifications when an event is generated or when an event is assigned to a user. You can configure the SMTP server that is used to send the alert, and you can set various notification mechanisms--for example, alert notifications can be sent as emails or SNMP traps.
+
+== Before you begin
+
+You must have the following information:
+
+* Email address from which the alert notification is sent
++
+The email address appears in the "`From`" field in sent alert notifications. If the email cannot be delivered for any reason, this email address is also used as the recipient for undeliverable mail.
+
+* SMTP server host name, and the user name and password to access the server
+* SNMP version, trap destination host IP address, outbound trap port, and the community to configure the SNMP trap
+
+You must have the OnCommand Administrator or Storage Administrator role.
+
+== Steps
+
+. In the toolbar, click *image:../media/clusterpage_settings_icon.gif[]*, and then click *Notifications* in the left Setup menu.
+. In the *Setup/Notifications* page, configure the appropriate settings and click *Save*.
++
+*Notes:*
+
+ ** If the From Address is pre-filled with the address "`OnCommand@localhost.com`", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
+ ** If the host name of the SMTP server cannot be resolved, you can specify the IP address (IPv4 or IPv6) of the SMTP server instead of the host name.

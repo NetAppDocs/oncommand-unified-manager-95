@@ -1,0 +1,343 @@
+---
+permalink: online-help/reference_health_all_volumes_view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health/Volumes inventory page displays information about the volumes in the storage systems that are monitored and enables you to modify the volume threshold settings.'
+---
+= Health/Volumes inventory page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health/Volumes inventory page displays information about the volumes in the storage systems that are monitored and enables you to modify the volume threshold settings.
+
+* <<GUID-C4C756A8-FD7B-4092-B3F1-57A7C07C8178,Command buttons>>
+* <<GUID-7BFC6918-ED6B-4EB7-A901-6E1CDF9D8C84,Volumes Overview>>
+* <<GUID-5ED0BA51-8332-4FA7-B80A-F39D9AC3EFC1,Filters pane>>
+
+== Command buttons
+
+* *Edit Thresholds*
++
+Displays the Edit Thresholds dialog box, which enables you to edit the health threshold settings for one or more volumes.
+
+* *Protect*
++
+Displays the following submenus:
+
+ ** SnapMirror
++
+Enables you to create a SnapMirror relationship for the selected volumes.
+
+ ** SnapVault
++
+Enables you to create a SnapVault relationship for the selected volumes.
+
+* *Restore*
++
+Displays the Restore dialog box, which enables you to restore directories or files from one volume at a time.
++
+This button is disabled if more than one volume is selected, or if a FlexGroup volume is selected, or if a volume configured for SnapMirror Synchronous is selected.
+
+* *Annotate*
++
+Enables you to annotate the selected volume.
+
+* *Export*
++
+Enables you to export the details of all the monitored volumes to a comma-separated values (`.csv`) file. When viewing Infinite Volumes, the Infinite Volume constituents will be exported.
+
+== Volumes Overview table
+
+The volumes table displays the properties of all the discovered volumes. You can use the column filters to customize the data that is displayed:
+
+* *Status*
++
+The current status of a volume. The status can be Critical (image:../media/sev_critical_um60.png[Icon for event severity – critical]), Error (image:../media/sev_error_um60.png[Icon for event severity – error]), Warning (image:../media/sev_warning_um60.png[Icon for event severity – warning]), or Normal (image:../media/sev_normal_um60.png[Icon for event severity – normal]).
++
+You can move the pointer over the status to view more information about the event or events generated for the volume.
++
+If the status of the volume is determined by a single event, you can view information such as the event name, time and date when the event was triggered, the name of the administrator to whom the event is assigned, and the cause of the event. You can click the *View Details* link to view more information about the event.
++
+If the status of the volume is determined by multiple events of the same severity, the top three events are displayed with information such as the event name, time and date when the events are triggered, and the name of the administrator to whom the event is assigned. You can view more details about each of these events by clicking the event name. You can also click the *View All Events* link to view the list of generated events.
+
+* *Volume*
++
+The name of the volume.
++
+You can move the pointer over a volume to view information such as the qtree quota overcommitted space, status of the last volume move operation, and space allocated in the volume. You can also view the details of related objects such as the SVM to which the volume belongs, the aggregate to which the volume belongs, and all the volumes that belong to this aggregate.
++
+If an SVM with Infinite Volume is monitored, you can view details about the three types of constituents (data, namespace, and namespace mirror) in the SVM with Infinite Volume. The constituent details include the following information:
+
+ ** Constituent name
+ ** State of the constituent
+ ** Name of the SVM with Infinite Volume to which the constituent belongs
+ ** Junction path of the constituent
+ ** Name of the aggregate that contains the constituent
+ ** Available, used, and total data capacity of the constituent
+
+* *State*
++
+The current state of the volume:
+
+ ** Offline
++
+Read or write access to the volume is not allowed.
+
+ ** Online
++
+Read and write access to the volume is allowed.
+
+ ** Restricted
++
+Limited operations, such as parity reconstruction, are allowed, but data access is not allowed.
+
+ ** Mixed
++
+The constituents of a FlexGroup volume are not all in the same state.
+
+* *Junction Path*
++
+The path to which the volume is mounted.
+
+* *Storage Virtual Machine*
++
+The SVM that contains the volume.
+
+* *Aggregates*
++
+The name of the aggregate on which the volume resides, or the number of aggregates on which the FlexGroup volume resides.
++
+You can click the name to display details in the Aggregate details page. For FlexGroup volumes, you can click the number to display the aggregates that are used in the FlexGroup in the Aggregates page.
+
+* *Tiering Policy*
++
+The tiering policy set on the volume. The policy takes affect only when the volume is deployed on a FabricPool aggregate:
+
+ ** None. The data for this volume always remains on the performance tier.
+ ** Snapshot-Only. Only Snapshot data is moved automatically to the cloud tier. All other data remains on the performance tier.
+ ** Backup. On data protection volumes, all transferred user data starts in the cloud tier, but later client reads can cause hot data to move to the performance tier.
+ ** Auto. Data on this volume is moved between the performance tier and the cloud tier automatically when ONTAP determines that the data is "`hot`" or "`cold`".
+
+* *SnapLock Type*
++
+The SnapLock Type of the aggregate that contains the volume. The available options are Compliance, Enterprise, Non-SnapLock.
+
+* *In Transition*
++
+Whether the volume has completed transition or not.
+
+* *Protection Role*
++
+The protection role of a volume:
+
+ ** Unprotected
++
+A read/write volume with no outgoing or incoming SnapMirror or SnapVault relationships
+
+ ** Protected
++
+A read/write volume with an outgoing SnapMirror or SnapVault relationship
+
+ ** Destination
++
+A data protection (DP) volume or read/write volume with an incoming SnapMirror or SnapVault relationship
+
+ ** Not Applicable
++
+A volume for which protection roles do not apply, such as a load sharing volume, data constituent, or temporary volume
+
++
+You can move your pointer over the protection role for a volume to display a graphical representation of the protection topology for the selected volume. This may include the source volume, the total number of outgoing synchronous and asynchronous SnapMirror relationships, and the total number of outgoing SnapVault relationships. Blue highlighting around the volume indicates the selected volume.
++
+Clicking *View Protection Details* displays the Protection tab of the Health/Volume details page.
+
+* *Thin Provisioned*
++
+Whether space guarantee is set for the selected volume. Valid values are Yes and No.
+
+* *Available Data Capacity*
++
+The amount of physical space currently available for data in the volume.
+
+* *Available Data %*
++
+The percentage of physical space currently available for data in the volume.
+
+* *Used Data Capacity*
++
+The amount of physical space used by data in the volume.
+
+* *Used Data %*
++
+The percentage of physical space used by data in the volume based on the total available data capacity.
+
+* *Logical Space Used %*
++
+The percentage of logical space used by data in the volume based on the total available data capacity.
+
+* *Logical Space Reporting*
++
+Whether the volume has logical space reporting configured. The value can be Enabled, Disabled, or Not applicable.
++
+Logical space indicates the real size of the data that is being stored on the volume without applying the savings from using ONTAP storage efficiency technologies.
+
+* *Total Data Capacity*
++
+The total physical space available for data in the volume.
+
+* *Storage Class*
++
+The storage class name. This column is displayed for Infinite Volume only.
+
+* *Constituent Role*
++
+The role name of the constituent. The roles can be Namespace, Data, or Namespace Mirror. This column is displayed for Infinite Volumes only.
+
+* *Move Status*
++
+The current status of the volume move operation. The status can be In Progress, Paused, Failed, or Completed.
++
+You can move the pointer over the status to view more information about the volume move operation, such as the source, destination, operation start time, operation end time, current phase of the volume move operation that is in progress, status (in percentage), and estimated end time.
+
+* *Caching Policy*
++
+The caching policy that is associated with the selected volume. The policy provides information about how the Flash Pool caching occurs for the volume.
++
+|===
+| Cache policy| Description
+a|
+Auto
+a|
+Read caches all the metadata blocks and randomly read user data blocks, and write caches all the randomly overwritten user data blocks.
+a|
+None
+a|
+Does not cache any user data or metadata blocks.
+a|
+All
+a|
+Read caches all the user data blocks that are read and written. The policy does not perform any write caching.
+a|
+All-Random Write
+a|
+This policy is a combination of the All and No Read-Random Write policies and performs the following actions:
+
+ ** Read caches all the user data blocks that are read and written.
+ ** Write caches all the randomly overwritten user data blocks.
+
+a|
+All Read
+a|
+Read caches all the metadata, randomly read, and sequentially read user data blocks.
+a|
+All Read-Random Write
+a|
+This policy is a combination of the All Read and No Read-Random Write policies and performs the following actions:
+
+ ** Read caches all the metadata, randomly read, and sequentially read user data blocks.
+ ** Write caches all the randomly overwritten user data blocks.
+
+a|
+All Read Random Write
+a|
+Read caches all the metadata, randomly read, sequentially read, and randomly written user data blocks.
+a|
+All Read Random Write-Random Write
+a|
+This policy is a combination of the All Read Random Write and No Read-Random Write policies and does the following:
+
+ ** Read caches all the metadata, randomly read, and sequentially read, and randomly written user data blocks.
+ ** Write caches all the randomly overwritten user data blocks.
+
+a|
+Meta
+a|
+Read caches only metadata blocks.
+a|
+Meta-Random Write
+a|
+This policy is a combination of the Meta and No Read-Random Write and does the following:     Read caches only
+a|
+No Read-Random Write
+a|
+Write caches all the randomly overwritten user data blocks. The policy does not perform any read caching.
+a|
+Random Read
+a|
+Read caches all the metadata blocks and randomly read user data blocks.
+a|
+Random Read-Write
+a|
+Read caches all the metadata, randomly read, and randomly written user data blocks.
+a|
+Random Read-Write-Random Write
+a|
+This policy is a combination of the Random Read Write and No Read-Random Write policies and does the following:
+
+ ** Read caches all the metadata, randomly read, and randomly overwritten user data blocks.
+ ** Write caches all the randomly overwritten user data blocks.
+
++
+|===
+
+* *Cache Retention Priority*
++
+The cache retention priority for the volume. A cache retention priority defines how long the blocks of a volume will be in cache state in a Flash Pool once they become cold.
+
+ ** Low
++
+Cache the cold volume blocks for the lowest time
+
+ ** Normal
++
+Cache the cold volume blocks for the default time
+
+ ** High
++
+Cache the cold volume blocks for the highest time
+
+* *Compression*
++
+Whether compression is enabled on the volume. The column displays either Enabled or Disabled.
+
+* *Deduplication*
++
+Whether deduplication is enabled on the volume. The column displays either Enabled or Disabled.
+
+* *Style*
++
+The style of volume; FlexVol or FlexGroup.
+
+* *Type*
++
+The volume type. The volume type can be Read-write or Data-protection, Load-sharing, or Data-cache.
+
+* *Cluster*
++
+The cluster that contains the destination volume. You can view more details about the cluster by clicking the cluster name.
+
+* *Cluster Nodes*
++
+The name of the node to which the volume belongs, or the number of nodes on which the FlexGroup volume resides. You can view more details about the cluster node by clicking the node name.
++
+You can click the node name to display details in the Node details page. For FlexGroup volumes, you can click the number to display the nodes that are used in the FlexGroup in the Nodes page.
+
+* *Local Snapshot Policy*
++
+The local Snapshot copy policies for the volumes listed. The default policy name is Default.
+
+== Filters pane
+
+The Filters pane enables you to set filters to customize the way information is displayed in the volumes list. You can select filters related to the Volume Status, State, and Annotation columns.
+
+[NOTE]
+====
+The filters specified in the Filters pane override the filters specified for the columns in the volumes list.
+====
+
+*Related information*
+
+xref:task_editing_individual_volume_health_threshold_settings.adoc[Editing individual volume health threshold settings]
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting data to CSV files for reporting]

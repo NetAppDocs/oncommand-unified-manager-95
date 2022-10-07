@@ -1,0 +1,36 @@
+---
+permalink: online-help/reference_window_layout_customization.html
+sidebar: sidebar
+keywords: 
+summary: 'OnCommand Unified Manager enables you to customize the layout of information on the storage object pages. By customizing the windows, you can control which data is viewable and how the data is displayed.'
+---
+= Window layout customization
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Unified Manager enables you to customize the layout of information on the storage object pages. By customizing the windows, you can control which data is viewable and how the data is displayed.
+
+* *Sorting*
++
+You can click the column header to change the sort order of the column entries. When you click the column header, the sort arrows (image:../media/sort_asc_um60.gif[Icon for column sorting – ascending] and image:../media/sort_desc_um60.gif[Icon for column sorting – descending]) appear for that column.
+
+* *Filtering*
++
+You can apply filters to customize the display of information on the storage object pages so that only those entries that match the conditions that are provided are displayed. You can apply filters either from the Filters pane or on the columns.
++
+The Filters pane enables you to filter some of the columns based on the options that are selected. For example, on the Health/Volumes inventory page, you can use the Filters pane to filter only the Status and State columns. To display all of the volumes that are offline, you can select the appropriate filter option under State.
++
+Alternatively, you can set filters on columns by using the filter icon (image:../media/filtericon_um60.png[Icon for column filter]). You can then use the wildcard character filter (?) or wildcard string filter (*) to narrow your search. For example, on the Health/Volumes inventory page, you can search for a volume, vol234, by using the string filter in the Volume column. You can type `*vol`, and all of the volumes with names containing "`vol`" are listed. You can type `vol?` to view the list of all of the volumes with the name containing "`vol`" followed by one more character--for example, vol1 or vol2. You can type `vol` to view the list of all of the volumes with names that start with "`vol`".
++
+Capacity-related columns in any list always display capacity data in appropriate units rounded off to two decimal points. This also applies when filtering capacity columns. For example, if you use the filter in the Total Data Capacity column in the Health/Aggregates inventory page to filter data greater than 20.45 GB, the actual capacity of 20.454 GB is displayed as 20.45 GB. Similarly, if you filter data less than 20.45 GB, the actual capacity of 20.449 GB is displayed as 20.45 GB.
++
+If you use the filter in the Available Data % column in the Health/Aggregates inventory page to filter data greater than 20.45%, the actual capacity of 20.454% is displayed as 20.45%. Similarly, if you filter data less than 20.45%, the actual capacity of 20.449% is displayed as 20.45%. For columns that display capacity data in percentage, you can view values up to four decimal points by moving your mouse pointer over the value that is displayed in the column.
+
+* *Hiding or redisplaying the columns*
++
+You can click the column display icon (image:../media/advanced_options.gif[]) to select which columns you want to display.
+
+* *Exporting data*
++
+You can click the export icon (image:../media/export_icon.gif[Icon for exporting comma-separated data for use in reports.]) to export data to a comma-separated values (`.csv`) file and use the exported data to build reports.

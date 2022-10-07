@@ -1,0 +1,38 @@
+---
+permalink: online-help/task_customizing_the_svm_inventory_report_to_display_a_list_of_svms_reaching_maximum_volume_limit.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the SVM Inventory report to display a list of SVMs that are reaching the maximum volume limit by sorting the volumes in increasing order.'
+---
+= Customizing the SVM Inventory report to display a list of SVMs reaching maximum volume limit
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the SVM Inventory report to display a list of SVMs that are reaching the maximum volume limit by sorting the volumes in increasing order.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by cluster, perform the following steps:
+ .. Click inside the column that needs to be ungrouped.
+ .. Click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To filter SVMs that do not have unlimited allowed volumes, click the *Maximum Allowed Volumes* column and open the *Filter* dialog box by clicking the image:../media/click_to_filter.gif[] icon.
+. In the *Data type* field, select *String* and click *OK*.
+. From the *Condition* drop-down list, select *Not Equal To*.
+. Click *Select Values* and select *Unlimited*.
+. To add a new computed column, perform the following steps:
+ .. Select a column, click the image:../media/click_to_see_menu.gif[] icon, and select *Column* > *New Computed Column*.
+ .. In the *New Computed Column* dialog box, type `Available Volume` in the *Column Label* field.
+ .. From the Select Category list, select *Math*.
+ .. From the *Select Function* drop-down list, select *Advanced*.
+ .. In the *Enter Expression* field, type `[maximumVolumes]-[volumeCount]`.
+ .. Click *OK*.
+. To sort SVMs in ascending order, click in the *Available Volume* column, and click the image:../media/click_to_see_menu.gif[] icon.
+. Select *Filter* > *Top/Bottom N*.
+. In the *Top/Bottom N* dialog box, select *Bottom N* from the *Filter* field and enter a value in the text field.
+. Click *OK*.

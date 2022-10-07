@@ -1,0 +1,26 @@
+---
+permalink: online-help/task_customizing_the_volume_transfer_status_report_to_view_volumes_grouped_by_time_of_occurrence.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Transfer Status \(Historical\) report to display the list of volumes grouped by time of occurrence between two dates.'
+---
+= Customizing the Volume Transfer Status (Historical) report to view volumes grouped by time of occurrence
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Transfer Status (Historical) report to display the list of volumes grouped by time of occurrence between two dates.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. Remove grouping by cluster:
+ .. In the column that has to be ungrouped, click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. In the *Start time* column, open the *Filter* dialog box by clicking the image:../media/click_to_filter.gif[] icon.
+. From the *Condition* drop-down list, select *Between*.
+. Click *Select Values*, and choose the *Date From* and *Date To* values.
+. Click *OK*.

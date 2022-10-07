@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_resolving_a_flashcard_offline_condition.html
+sidebar: sidebar
+keywords: 
+summary: 'This workflow provides an example of how you might resolve a flash card offline condition. In this scenario, you are an administrator or operator monitoring the dashboard to check for problems with availability. You see a flash card offline condition and you want to determine the possible cause of and resolution to the problem.'
+---
+= Resolving a flash card offline condition
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow provides an example of how you might resolve a flash card offline condition. In this scenario, you are an administrator or operator monitoring the dashboard to check for problems with availability. You see a flash card offline condition and you want to determine the possible cause of and resolution to the problem.
+
+== Before you begin
+
+You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+
+== About this task
+
+The event information and links displayed in the Availability area of the Unified ManagerDashboards/Overview page monitor the overall availability of data storage resources on the monitored clusters enable you to diagnose specific events that might affect that availability.
+
+In this scenario, the Dashboards/Overview page displays the event Flash Cards Offline in its Availability Incidents section. If a flash card is offline, availability of stored data is impeded because the performance of the cluster node on which it is installed is impaired. You can perform the following steps to localize and identify the potential problem:
+
+== Steps
+
+. From the *Availability* panel in the *Unresolved Incidents and Risks* section, click the hypertext link displayed for Flash Cards Offline.
++
+The Event details page for the availability incident is displayed.
+
+. On the *Event* details page, you can review the information displayed in the Cause field and perform one or more of the following tasks:
+ ** Assign the event to an administrator. xref:task_assigning_events_to_specific_users.adoc[Assigning events]
+ ** Click the source of the event, in this case the cluster node on which the offline flash card is located, to get more information about that node. xref:task_performing_corrective_action_for_a_flashcard_offline.adoc[Performing corrective action for a flash card offline]
+ ** Acknowledge the event. xref:task_acknowledging_and_resolving_events.adoc[Acknowledging and resolving events]

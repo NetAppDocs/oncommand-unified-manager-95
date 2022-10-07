@@ -1,0 +1,52 @@
+---
+permalink: online-help/reference_cluster_favorite_card.html
+sidebar: sidebar
+keywords: 
+summary: 'The Cluster favorite card enables you to view the capacity, configuration, and performance details of the individual clusters that you marked as favorites.'
+---
+= Cluster favorite card
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Cluster favorite card enables you to view the capacity, configuration, and performance details of the individual clusters that you marked as favorites.
+
+== Cluster attributes
+
+The Cluster favorite card displays the following attributes of individual clusters:
+
+* *Cluster health status*
++
+An icon that indicates the health of the cluster. The possible values are Normal, Warning, Error, and Critical.
+
+* *Cluster name*
++
+Name of the cluster.
+
+* *Capacity*
++
+Total free space on the cluster.
+
+* *Configuration*
++
+Configuration details of the cluster.
+
+ ** *IP Address*
++
+IP address, or host name, of the cluster management logical interface (LIF) that was used to add the cluster.
+
+ ** *Number of nodes*
++
+Number of nodes in the cluster.
+
+* *Performance*
++
+Performance details of the cluster.
+
+ ** *IOPS*
++
+Average number of I/O operations per second over the last 72 hours.
+
+ ** *Throughput*
++
+Average throughput over the last 72 hours, in MBps .

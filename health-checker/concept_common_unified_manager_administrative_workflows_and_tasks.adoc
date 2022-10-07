@@ -1,0 +1,57 @@
+---
+permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html
+sidebar: sidebar
+keywords: 
+summary: 'Some common administrative workflows and tasks associated with Unified Manager include selecting the storage clusters that are to be monitored; diagnosing conditions that adversely affect data availability, capacity, and protection; creating protection relationships; restoring lost data; configuring and managing Infinite Volumes; and bundling and sending diagnostic data to technical support \(when necessary\).'
+---
+= Common Unified Manager health workflows and tasks
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some common administrative workflows and tasks associated with Unified Manager include selecting the storage clusters that are to be monitored; diagnosing conditions that adversely affect data availability, capacity, and protection; creating protection relationships; restoring lost data; configuring and managing Infinite Volumes; and bundling and sending diagnostic data to technical support (when necessary).
+
+Unified Manager enables storage administrators to view a dashboard, assess the overall capacity, availability, and protection health of the managed storage clusters, and then quickly identify, locate, diagnose, and assign for resolution any specific issues that might arise.
+
+The most important issues related to a cluster, storage virtual machine (SVM), volume, FlexGroup volume, or protection relationship that affect the storage capacity, data availability, or protection reliability of your managed storage objects are displayed in the system health graphs and events on the Dashboards/Overview page. When critical issues are identified, the this page provides links to support appropriate troubleshooting workflows.
+
+Unified Manager can also be included in workflows that include related manageability tools--such as OnCommand Workflow Automation (WFA)--to support the direct configuration of storage resources.
+
+Common workflows related to the following administrative tasks are described in this document:
+
+* Diagnosing and managing availability issues
++
+If hardware failure or storage resource configuration issues cause the display of data availability events in the Dashboards/Overview page, storage administrators can follow the embedded links to view connectivity information about the affected storage resource, view troubleshooting advice, and assign issue resolution to other administrators.
+
+* Configuring and monitoring performance incidents
++
+The OnCommand Administrator can monitor and manage the performance of the storage system resources that are being monitored. See the _Unified Manager Workflow Guide for Managing Cluster Performance_ for more information.
+
+* Diagnosing and managing volume capacity issues
++
+If volume storage capacity issues are displayed in the Dashboards/Overview page, storage administrators can follow the embedded links to view the current and historical trends related to the storage capacity of the affected volume, view troubleshooting advice, and assign issue resolution to other administrators.
+
+* Configuring, monitoring, and diagnosing protection relationship issues
++
+After creating and configuring protection relationships, storage administrators can view the potential issues related to protection relationships in the Dashboards/Overview page, and they can follow the embedded links to view the current state of the protection relationships, the current and historical protection job success information about the affected relationships, and troubleshooting advice, and to assign issue resolution to other administrators. Storage administrators can also configure and manage SnapMirror and SnapVault relationships.
+
+* Creating backup files and restoring data from backup files.
+* Associating storage objects with annotations
++
+By associating storage objects with annotations, storage administrators can filter and view the events that are related to the storage objects, which enables storage administrators to prioritize and resolve the issues that are associated with the events.
+
+* Sending a support bundle to technical support
++
+Storage administrators can retrieve and send a support bundle to technical support by using the maintenance console. Support bundles must be sent to technical support when the issue requires more detailed diagnosis and troubleshooting than what an AutoSupport message provides.
+
+* Creating new reports for import
++
+Storage administrators can create new `.rptdesign` files by using the Eclipse plug-in for Business Intelligence and Reporting Tools (BIRT). These reports can be imported to the Unified Manager UI and viewed in the Reports page.
++
+The reports that are displayed on the Reports page provide the current status of the storage objects. You can make important decisions--such as decisions about storage procurement--based on the current usage. These reports provide a detailed view of storage objects such as volumes, disk shelves, and aggregates.
++
+The Reports page in the Unified Manager UI enables you to view detailed information about the reports that you generate. You can search for a specific report, save a report, and delete a report from the Reports page. You can also schedule, share, and import a report from this page.
+
+* Creating, configuring, monitoring, and protecting Infinite Volumes
++
+After using the Workflow Automation tool to create, configure, and define storage classes for an Infinite Volume, storage administrators can use Unified Manager to monitor, set notification thresholds, and define the data policy for that volume and its storage classes. Optionally, storage administrators can use WFA and Unified Manager to set up data protection for the Infinite Volume.

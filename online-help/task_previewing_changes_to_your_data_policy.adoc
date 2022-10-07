@@ -1,0 +1,39 @@
+---
+permalink: online-help/task_previewing_changes_to_your_data_policy.html
+sidebar: sidebar
+keywords: 
+summary: 'You should preview any changes that you have made to your rules in a data policy before you submit the changes in the data policy to the SVM with Infinite Volume for activation.'
+---
+= Previewing changes to your data policy
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should preview any changes that you have made to your rules in a data policy before you submit the changes in the data policy to the SVM with Infinite Volume for activation.
+
+== Before you begin
+
+You must have the OnCommand Administrator or Storage Administrator role.
+
+== About this task
+
+The Data Policy tab is visible only for an SVM with Infinite Volume.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select the appropriate SVM.
+. Click *Data Policy*.
++
+The list of rules in the data policy for the selected SVM with Infinite Volume is displayed.
+
+. Modify the data policy as required.
++
+Data policy modifications can include creating new rules, editing existing rules, deleting existing rules, or reordering the rules.
+
+. Click *Activate*.
+. In the *Summary of Changes to Data Policy Configuration* window, preview the changes to your data policy, and then click *Activate* to activate the changes in the data policy in the SVM with Infinite Volume.
+
+*Related information*
+
+xref:task_adding_users.adoc[Adding users]

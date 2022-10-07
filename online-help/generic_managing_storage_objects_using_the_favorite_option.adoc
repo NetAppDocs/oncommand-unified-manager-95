@@ -1,0 +1,30 @@
+---
+permalink: online-help/generic_managing_storage_objects_using_the_favorite_option.html
+sidebar: sidebar
+keywords: 
+summary: 'The Favorites option enables you to view and manage selected storage objects in Unified Manager by marking them as favorites. You can quickly view the status of your favorite storage objects and fix issues before they become critical.'
+---
+= Managing storage objects using the Favorites option
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Favorites option enables you to view and manage selected storage objects in Unified Manager by marking them as favorites. You can quickly view the status of your favorite storage objects and fix issues before they become critical.
+
+== Tasks you can perform from the Favorites dashboard
+
+* View the list of storage objects marked as favorite.
+* Add storage objects to the Favorites list.
+* Remove storage objects from the Favorites list.
+
+== Viewing the Favorites list
+
+You can view the capacity, performance, and protection details of selected storage objects from the Favorites list. The details of a maximum of 20 storage objects are displayed in the Favorites list.
+
+== Adding storage objects to the Favorites list
+
+You can add storage objects to the Favorites list, and then monitor these objects for health, capacity, and performance. You can only mark clusters, volumes, and aggregates as favorite.
+
+== Removing storage objects from the Favorites list
+
+You can remove storage objects from the Favorites list when you no longer require them to be marked as favorite.

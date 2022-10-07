@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference_cluster_inventory_report_customizations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize inventory reports to monitor for insufficient resources on clusters components. For example, you can customize reports to monitor information such as clusters that are nearing the SVM count limit, nodes that are running older versions of ONTAP, and nodes that are reaching the maximum disk limit.'
+---
+= Cluster Inventory Report customizations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize inventory reports to monitor for insufficient resources on clusters components. For example, you can customize reports to monitor information such as clusters that are nearing the SVM count limit, nodes that are running older versions of ONTAP, and nodes that are reaching the maximum disk limit.

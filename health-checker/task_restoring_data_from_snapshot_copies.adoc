@@ -1,0 +1,22 @@
+---
+permalink: health-checker/task_restoring_data_from_snapshot_copies.html
+sidebar: sidebar
+keywords: 
+summary: 'When you lose data due to a disaster or because directories or files have been accidentally deleted, you can use Unified Manager to locate and restore the data from a Snapshot copy.'
+---
+= Restoring data from Snapshot copies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you lose data due to a disaster or because directories or files have been accidentally deleted, you can use Unified Manager to locate and restore the data from a Snapshot copy.
+
+== About this task
+
+You can restore data from two locations in the Unified Manager web UI.
+
+== Steps
+
+. Restore data using one of the following tasks:
+ ** xref:task_restoring_data_using_the_health_volume_details_page.adoc[Restore data from the Health/Volume details page].
+ ** xref:task_restoring_data_using_the_health_volumes_page.adoc[Restore data from the Health/Volumes page].

@@ -1,0 +1,112 @@
+---
+permalink: health-checker/reference_event_details_page.html
+sidebar: sidebar
+keywords: 
+summary: 'From the Event details page, you can view the details of a selected event, such as the event severity, impact level, impact area, and event source. You can also view additional information about possible remediations to resolve the issue.'
+---
+= Event details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Event details page, you can view the details of a selected event, such as the event severity, impact level, impact area, and event source. You can also view additional information about possible remediations to resolve the issue.
+
+* *Event Name*
++
+The name of the event and the time the event was last seen.
++
+For non-performance events, while the event is in the New or Acknowledged state the last seen information is not known and is therefore hidden.
+
+* *Event Description*
++
+A brief description of the event.
++
+In some cases a reason for the event being triggered is provided in the event description.
+
+* *Component in Contention*
++
+For dynamic performance events, this section displays icons that represent the logical and physical components of the cluster. If a component is in contention, its icon is circled and highlighted red.
++
+The following components may be displayed:
+
+ ** *Network*
++
+Represents the wait time of I/O requests by the iSCSI protocols or the Fibre Channel (FC) protocols on the cluster. The wait time is time spent waiting for iSCSI Ready to Transfer (R2T) or FCP Transfer Ready (XFER_RDY) transactions to finish before the cluster can respond to an I/O request. If the network component is in contention, it means high wait time at the block protocol layer is impacting the latency of one or more workloads.
+
+ ** *Network Processing*
++
+Represents the software component in the cluster involved with I/O processing between the protocol layer and the cluster. The node handling network processing might have changed since the event was detected. If the network processing component is in contention, it means high utilization at the network processing node is impacting the latency of one or more workloads.
+
+ ** *QoS Policy*
++
+Represents the storage Quality of Service (QoS) policy group of which the workload is a member. If the policy group component is in contention, it means all workloads in the policy group are being throttled by the set throughput limit, which is impacting the latency of one or more of those workloads.
+
+ ** *Cluster Interconnect*
++
+Represents the cables and adapters with which clustered nodes are physically connected. If the cluster interconnect component is in contention, it means high wait time for I/O requests at the cluster interconnect is impacting the latency of one or more workloads.
+
+ ** *Data Processing*
++
+Represents the software component in the cluster involved with I/O processing between the cluster and the storage aggregate that contains the workload. The node handling data processing might have changed since the event was detected. If the data processing component is in contention, it means high utilization at the data processing node is impacting the latency of one or more workloads.
+
+ ** *MetroCluster Resources*
++
+Represents the MetroCluster resources, including NVRAM and interswitch links (ISLs), used to mirror data between clusters in a MetroCluster configuration. If the MetroCluster component is in contention, it means high write throughput from workloads on the local cluster or a link health issue is impacting the latency of one or more workloads on the local cluster. If the cluster is not in a MetroCluster configuration, this icon is not displayed.
+
+ ** *Aggregate or SSD Aggregate Ops*
++
+Represents the storage aggregate on which the workloads are running. If the aggregate component is in contention, it means high utilization on the aggregate is impacting the latency of one or more workloads. An aggregate consists of all HDDs, or a mix of HDDs and SSDs (a Flash Pool aggregate). An "`SSD Aggregate`" consists of all SSDs (an all-flash aggregate), or a mix of SSDs and a cloud tier (a FabricPool aggregate).
+
+ ** *Cloud Latency*
++
+Represents the software component in the cluster involved with I/O processing between the cluster and the cloud tier on which user data is stored. If the cloud latency component is in contention, it means that a large amount of reads from volumes that are hosted on the cloud tier are impacting the latency of one or more workloads.
+
+ ** *Sync SnapMirror*
++
+Represents the software component in the cluster involved with replicating user data from the primary volume to the secondary volume in a SnapMirror Synchronous relationship. If the sync SnapMirror component is in contention, it means that the activity from SnapMirror Synchronous operations are impacting the latency of one or more workloads.
+
+The Event Information, System Diagnosis, and Suggested Actions sections are described in other topics.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Notes icon*
++
+Enables you to add or update a note about the event, and review all notes left by other users.
+
+*Actions menu*
+
+* *Assign to Me*
++
+Assigns the event to you.
+
+* *Assign to Others*
++
+Opens the Assign Owner dialog box, which enables you to assign or reassign the event to other users.
++
+When you assign an event to a user, the user's name and the time when the event was assigned are added in the events list for the selected events.
++
+You can also unassign events by leaving the ownership field blank.
+
+* *Acknowledge*
++
+Acknowledges the selected events so that you do not continue to receive repeat alert notifications.
++
+When you acknowledge an event, your user name and the time that you acknowledged the event are added in the events list (Acknowledged By) for the selected events. When you acknowledge an event, you take responsibility for managing that event.
+
+* *Mark As Resolved*
++
+Enables you to change the event state to Resolved.
++
+When you resolve an event, your user name and the time that you resolved the event are added in the events list (Resolved By) for the selected events. After you have taken corrective action for the event, you must mark the event as resolved.
+
+* *Add Alert*
++
+Displays the Add Alert dialog box, which enables you to add an alert for the selected event.
+
+*Related information*
+
+xref:task_performing_diagnotstic_actions_for_volume_offline_conditions.adoc[Performing diagnostic actions for volume offline conditions]
+
+xref:task_performing_suggested_remedial_actions_for_a_full_volume.adoc[Performing suggested remedial actions for a full volume]

@@ -1,0 +1,44 @@
+---
+permalink: online-help/concept_understanding_the_health_overview_dashboard.html
+sidebar: sidebar
+keywords: 
+summary: 'The Unified Manager Health overview dashboard provides cumulative at-a-glance information about the health of your storage and virtualized environment. The Dashboards/Overview page provides health information about your storage objects separated into four health categories; availability, capacity, performance, and protection of the storage objects.'
+---
+= Understanding the Health overview dashboard
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Unified Manager Health overview dashboard provides cumulative at-a-glance information about the health of your storage and virtualized environment. The Dashboards/Overview page provides health information about your storage objects separated into four health categories; availability, capacity, performance, and protection of the storage objects.
+
+The following image illustrates the panes that are displayed on Dashboards/Overview page:
+
+image::../media/dashboard_um72.gif[]
+
+== Health Overview area
+
+Displays, as a graph, information about the health of your storage objects such as clusters, aggregates, and storage virtual machines (SVMs), and the health of your protection relationships. The Dashboards/Overview page displays events generated for the following categories:
+
+Clicking on the number above any of the yellow or red bar charts displays the Events inventory page including only those events. Clicking on the number below any of the charts displays the object inventory page including only those objects.
+
+* *Availability*
++
+Displays information about the availability of clusters, SVMs, and aggregates that are monitored by Unified Manager. Based on the availability-related events that are generated, the storage objects are categorized as Healthy, At Risk, or Have Incidents.
+
+* *Capacity*
++
+Displays information about the capacity of SVMs and aggregates that are monitored by Unified Manager. Based on the capacity-related events that are generated, the storage objects are categorized as Healthy, At Risk, or Have Incidents.
+
+* *Performance*
++
+Displays information about the performance of clusters, SVMs, and volumes that are monitored by Unified Manager. Based on the performance-related incidents that are generated, the storage objects are categorized as Healthy, At Risk, or Have Incidents.
+
+* *Protection*
++
+Displays information about the protection relationships that are monitored by Unified Manager. Based on the protection-related events that are generated, the protection relationships are categorized as Healthy, Warning, or Error.
+
+*Related information*
+
+xref:reference_description_of_dashboard_windows.adoc[Description of dashboard windows]
+
+xref:concept_understanding_the_performance_panels_on_the_dashboard.adoc[Understanding the Performance dashboard]

@@ -1,0 +1,106 @@
+---
+permalink: online-help/concept_what_performance_events_are.html
+sidebar: sidebar
+keywords: 
+summary: 'Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.'
+---
+= What performance events are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Performance events are incidents related to workload performance on a cluster. They help you identify workloads with slow response times. Together with health events that occurred at the same time, you can determine the issues that might have caused, or contributed to, the slow response times.
+
+When Unified Manager detects multiple occurrences of the same event condition for the same cluster component, it treats all occurrences as a single event, not as separate events.
+
+*Related information*
+
+xref:concept_what_alerts_are.adoc[What alerts are]
+
+xref:concept_what_health_events_are.adoc[What health events are]
+
+xref:concept_event_state_definitions.adoc[Event state definitions]
+
+xref:reference_description_of_event_severity_types.adoc[Description of event severity types]
+
+xref:reference_description_of_event_impact_levels.adoc[Description of event impact levels]
+
+xref:reference_description_of_event_impact_areas.adoc[Description of event impact areas]
+
+xref:reference_list_of_events_and_severity_types.adoc[List of events and severity types]
+
+xref:reference_aggregate_events.adoc[Aggregate events]
+
+xref:reference_cluster_events.adoc[Cluster events]
+
+xref:reference_disk_events.adoc[Disks events]
+
+xref:reference_enclosures_events.adoc[Enclosures events]
+
+xref:reference_fans_events.adoc[Fans events]
+
+xref:reference_flash_card_events.adoc[Flash card events]
+
+xref:reference_inodes_events.adoc[Inodes events]
+
+xref:reference_logical_interface_events.adoc[Logical interface (LIF) events]
+
+xref:reference_lun_events.adoc[LUN events]
+
+xref:reference_management_station_events.adoc[Management station events]
+
+xref:reference_metrocluster_bridge_events.adoc[MetroCluster Bridge events]
+
+xref:reference_metrocluster_connectivity_events.adoc[MetroCluster Connectivity events]
+
+xref:reference_metrocluster_switch_events.adoc[MetroCluster switch events]
+
+xref:reference_nvme_namespace_events.adoc[NVMe Namespace events]
+
+xref:reference_node_events.adoc[Node events]
+
+xref:reference_nvram_battery_events.adoc[NVRAM battery events]
+
+xref:reference_port_events.adoc[Port events]
+
+xref:reference_power_supplies_events.adoc[Power supplies events]
+
+xref:reference_protection_events.adoc[Protection events]
+
+xref:reference_qtree_events.adoc[Qtree events]
+
+xref:reference_service_processor_events.adoc[Service processor events]
+
+xref:reference_snapmirror_relationship_events.adoc[SnapMirror relationship events]
+
+xref:reference_snapshot_events.adoc[Snapshot events]
+
+xref:reference_snapvault_relationship_events.adoc[SnapVault relationship events]
+
+xref:reference_storage_failover_settings_events.adoc[Storage failover settings events]
+
+xref:reference_storage_services_events.adoc[Storage services events]
+
+xref:reference_storage_shelf_events.adoc[Storage shelf events]
+
+xref:reference_storage_vm_events.adoc[SVM events]
+
+xref:reference_svm_storage_class_events.adoc[SVM storage class events]
+
+xref:reference_user_and_group_quota_events.adoc[User and group quota events]
+
+xref:reference_volume_events.adoc[Volume events]
+
+xref:reference_volume_move_status_events.adoc[Volume move status events]
+
+xref:concept_what_the_expected_range_of_performance_is.adoc[What the expected range of performance is]
+
+xref:reference_performance_event_analysis_and_notification.adoc[Performance event analysis and notification]
+
+xref:concept_cluster_configuration_changes_detected_by_unified_manager.adoc[Configuration changes detected by Unified Manager]
+
+xref:concept_roles_of_workloads_involved_in_a_performance_incident.adoc[Roles of workloads involved in a performance event]
+
+xref:concept_types_of_workloads_monitored_by_unified_manager.adoc[Types of workloads monitored by Unified Manager]
+
+xref:task_displaying_information_about_a_performance_event.adoc[Displaying information about performance events]

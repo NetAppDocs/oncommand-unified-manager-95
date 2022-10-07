@@ -1,0 +1,42 @@
+---
+permalink: online-help/task_scheduling_reports.html
+sidebar: sidebar
+keywords: 
+summary: 'You can schedule your reports from the Report details page and email the scheduled reports to one or more recipients in a particular format at a specified frequency. For example, you can schedule a report to be sent as email, in the PDF format, every Monday.'
+---
+= Scheduling reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can schedule your reports from the Report details page and email the scheduled reports to one or more recipients in a particular format at a specified frequency. For example, you can schedule a report to be sent as email, in the PDF format, every Monday.
+
+== Steps
+
+. In the left navigation pane, click *Reports*, and then click *Run Report* for the report that you want.
++
+The Report details page is displayed.
+
+. Click *Actions* > *Schedule Report*.
+. In the *Schedule Report* dialog box, select one of the preferred schedules for your report:
++
+|===
+| If you want to...| Then...
+a|
+Select a schedule from the existing list of schedules
+a|
+Click *Use Existing Schedule* and select the schedule.
+a|
+Create a new schedule
+a|
+Click *Create New Schedule*, and then enter the schedule name, specify the email address, select the report format and frequency, and enter a time or day you want the report to run.     You can specify one or more email addresses, separated by commas. The _PDF_ option is selected as the default report format. The _Hourly_ option is selected as the default frequency.
++
+|===
+
+. Click *Schedule*.
+
+*Related information*
+
+xref:concept_what_report_scheduling_is.adoc[What report scheduling is]
+
+xref:reference_schedule_report_dialog_box_um_6_2.adoc[Schedule Report dialog box]

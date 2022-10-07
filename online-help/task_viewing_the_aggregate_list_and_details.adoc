@@ -1,0 +1,47 @@
+---
+permalink: online-help/task_viewing_the_aggregate_list_and_details.html
+sidebar: sidebar
+keywords: 
+summary: 'From the Health/Aggregates inventory page, you can monitor your inventory of aggregates. The Health/Aggregates Capacity and Utilization page enables you to view information about the capacity and utilization of aggregates in all clusters.'
+---
+= Viewing the aggregate list and details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Health/Aggregates inventory page, you can monitor your inventory of aggregates. The Health/Aggregates Capacity and Utilization page enables you to view information about the capacity and utilization of aggregates in all clusters.
+
+== Before you begin
+
+You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+
+== About this task
+
+You can view details such as aggregate capacity and configuration, and disk information from the Health/Aggregate details page. You can use these details before you configure the threshold settings if required.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *Aggregates*.
+. Choose one of the following ways to view the aggregate details:
+ ** To view information about the capacity and utilization of all aggregates in all clusters, in the View menu, select *Aggregate Capacity and Utilization*.
+ ** To view minimal details, position the cursor over the aggregate name.
+ ** To view the complete details, click the aggregate name.
++
+You can also view the complete details by clicking *View Details* in the minimal details dialog box.
+. View the objects related to the aggregate by clicking *View Related* from the minimal details dialog box.
+
+*Related information*
+
+xref:reference_capacity_all_aggregates_view.adoc[Health/Aggregates Capacity and Utilization page]
+
+xref:task_adding_users.adoc[Adding users]
+
+xref:task_exporting_storage_data_as_reports.adoc[Exporting data to CSV files for reporting]
+
+xref:task_adding_alerts.adoc[Adding alerts]
+
+xref:reference_health_all_aggregates_view.adoc[Health/Aggregates inventory page]
+
+xref:reference_health_aggregate_details_page.adoc[Health/Aggregate details page]
+
+xref:task_editing_individual_aggregate_health_threshold_settings.adoc[Editing individual aggregate health threshold settings]

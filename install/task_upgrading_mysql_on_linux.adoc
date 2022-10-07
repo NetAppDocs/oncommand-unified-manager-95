@@ -1,0 +1,39 @@
+---
+permalink: install/task_upgrading_mysql_on_linux.html
+sidebar: sidebar
+keywords: 
+summary: 'You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities.'
+---
+= Upgrading MySQL on Linux
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade to a newer version of MySQL on the Linux server on which Unified Manager is installed to obtain fixes for security vulnerabilities.
+
+== Before you begin
+
+You must have root privileges for the Linux system on which Unified Manager is installed.
+
+== About this task
+
+You can only upgrade to minor updates of MySQL 5.7, for example, 5.7.1 to 5.7.2 . You cannot upgrade to major versions of MySQL, for example, version 5.8.
+
+== Steps
+
+. Log in as a root user on the Unified Manager host machine.
+. Download the latest MySQL Community Server `.rpm` bundle on the target system.
+. Untar the bundle to a directory on the target system.
+. You will get multiple `.rpm` packages in the directory after untarring the bundle, but Unified Manager only needs the following rpm packages:
+ ** mysql-community-client-5.7.x
+ ** mysql-community-libs-5.7.x
+ ** mysql-community-server-5.7.x
+ ** mysql-community-common-5.7.x
+ ** mysql-community-libs-compat-5.7.x
+Delete all other `.rpm` packages. Installing all packages in an rpm bundle will not cause any problems.
+. Stop the Unified Manager service and the associated MySQL software in the order shown: `service ocieau stop``service ocie stop``service mysqld stop`
+. Invoke the upgrade of MySQL by using the following command: `yum install *.rpm`
++
+`*.rpm` refers to the `.rpm` packages in the directory where you downloaded the newer version of MySQL.
+
+. Start Unified Manager in the order shown: `service mysqld start``service ocie start``service ocieau start`

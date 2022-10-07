@@ -1,0 +1,18 @@
+---
+permalink: install/concept_setting_up_unified_manager_for_high_availability_rhel.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a high-availability setup by using the Veritas Cluster Server \(VCS\). The high-availability setup provides failover capability and helps in disaster recovery.'
+---
+= Setting up Unified Manager for high availability
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a high-availability setup by using the Veritas Cluster Server (VCS). The high-availability setup provides failover capability and helps in disaster recovery.
+
+In a high-availability setup, only one node remains active at a time. When one node fails, VCS service recognizes this event and immediately transfers control to the other node. The second node in the setup becomes active and starts providing services. The failover process is automatic.
+
+A VCS cluster configured with the Unified Manager server consists of two nodes, with each node running the same version of the Unified Manager. All of the Unified Manager server data must be configured for access from a shared data disk.
+
+After you install Unified Manager in VCS, you must configure Unified Manager to work in the VCS environment. You can use configuration scripts to set up Unified Manager to work in VCS environments.

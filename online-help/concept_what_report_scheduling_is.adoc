@@ -1,0 +1,14 @@
+---
+permalink: online-help/concept_what_report_scheduling_is.html
+sidebar: sidebar
+keywords: 
+summary: 'You can schedule a report to be generated at a specific date and time by using the Schedule option. The report is automatically sent by email to one or more recipients as per the schedule.'
+---
+= What report scheduling is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can schedule a report to be generated at a specific date and time by using the *Schedule* option. The report is automatically sent by email to one or more recipients as per the schedule.
+
+By scheduling a report, you can minimize the effort of generating and sending the reports manually. You can ensure that the current status of the storage is monitored at specified intervals by the administrators who are not otherwise notified by Unified Manager.

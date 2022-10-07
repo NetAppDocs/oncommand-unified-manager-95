@@ -1,0 +1,53 @@
+---
+permalink: online-help/reference_edit_rule_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Edit Rule dialog box to edit the properties of a rule, such as the file types, directory paths, or owners. You can also select an appropriate storage class for the rule. For example, when a certain file path is no longer valid, you can delete the file path from the corresponding rule.'
+---
+= Edit Rule dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Edit Rule dialog box to edit the properties of a rule, such as the file types, directory paths, or owners. You can also select an appropriate storage class for the rule. For example, when a certain file path is no longer valid, you can delete the file path from the corresponding rule.
+
+* <<GUID-2CBD0278-3E65-4ED1-AF55-AFC657159846,Rule Name>>
+* <<SECTION_FDD670D33B574939AA3EAC2CA54CCFD4,Matching Criteria>>
+* <<SECTION_B70156CB019A4AD786F1F371961330CD,Content Placement area>>
+* <<SECTION_AF9720DC4EA34FD4A762B3F3617205D5,Command buttons>>
+
+== Rule Name
+
+Displays the name of the rule.
+
+== Matching Criteria
+
+Displays a list of conditions related to the selected rule template. The condition list changes based on the rule template selected.
+
+* *Add*
++
+Enables you to add a new rule property, a new file type, a file path, or a new owner. For example, if you had specified the rule template, "`Place all files with the specified owner names in a suitable storage class`", the Add button enables you to add the owner's name.
+
+* *Delete*
++
+Enables you to delete a selected rule property.
+
+== Content Placement area
+
+Displays the list of storage classes. You can select an appropriate storage class for the selected rule.
+
+== Command buttons
+
+* *Update*
++
+Updates the changes made to the rule and closes the Edit Rule dialog box.
+
+* *Cancel*
++
+Cancels the recent changes made to the rule and closes the Edit Rule dialog box.
+
+*Related information*
+
+xref:task_editing_template_based_rules.adoc[Editing template-based rules]
+
+xref:task_editing_custom_rules.adoc[Editing custom rules]

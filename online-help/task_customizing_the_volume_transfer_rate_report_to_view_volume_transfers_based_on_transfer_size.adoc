@@ -1,0 +1,24 @@
+---
+permalink: online-help/task_customizing_the_volume_transfer_rate_report_to_view_volume_transfers_based_on_transfer_size.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Transfer Rate \(Historical\) report to view the volume transfer details according to the total transfer size of the volume.'
+---
+= Customizing the Volume Transfer Rate (Historical) report to view volume transfers based on transfer size
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Transfer Rate (Historical) report to view the volume transfer details according to the total transfer size of the volume.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. Remove grouping by cluster:
+ .. Select the column that you want to ungroup.
+ .. Click the image:../media/click_to_see_menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To sort the volume transfers according to volume transfer size, click the *Total Transfer Size (GB)* column.
