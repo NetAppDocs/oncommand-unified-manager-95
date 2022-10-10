@@ -5,6 +5,19 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+  versions:
+    - name: OnCommand Unified Manager
+      url: /oncommand-unified-manager-95
+      version-number: "9.5"
+    - name: Active IQ Unified Manager
+      url: /active-iq-unified-manager-99
+      version-number: "9.9"
+    - name: Active IQ Unified Manager
+      url: /active-iq-unified-manager-98
+      version-number: "9.8"
+    - name: Active IQ Unified Manager
+      url: /active-iq-unified-manager-97
+      version-number: "9.7"
 sidebar:
   entries:
     - title: Home
@@ -21,5 +34,8 @@ homepage:
     - title: Get started
       links:
         - title: Perform configuration and administrative tasks
-          summary: This is the description of the link target
           url: config/index.html
+    - title: More resources
+      links:
+        - title: Documentation for the latest version of Active IQ Unified Manager
+          url: https://docs.netapp.com/us-en/active-iq-unified-manager/

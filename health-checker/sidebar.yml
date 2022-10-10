@@ -42,11 +42,6 @@ entries:
           - title: Determining if a volume is offline because of broken disks in
               an aggregate
             url: "/health-checker/task-determining-if-a-volume-is-offline-because-of-broken-disks-in-an-aggregate.html"
-    - title: Resolving a flash card offline condition
-      url: "/health-checker/task-resolving-a-flashcard-offline-condition.html"
-      entries:
-      - title: Performing corrective action for a flash card offline
-        url: "/health-checker/task-performing-corrective-action-for-a-flashcard-offline.html"
     - title: Resolving capacity issues
       url: "/health-checker/task-resolving-capacity-issues.html"
       entries:
@@ -100,12 +95,6 @@ entries:
           url: "/health-checker/task-identifying-the-problem-and-performing-corrective-actions-for-a-failed-protection-job.html"
       - title: Resolving lag issues
         url: "/health-checker/task-resolving-lag-issues.html"
-    - title: Resolving a protection job failure
-      url: "/health-checker/task-resolving-a-protection-job-failure.html"
-      entries:
-      - title: Identifying the problem and performing corrective actions for a failed
-          protection job
-        url: "/health-checker/task-identifying-the-problem-and-performing-corrective-actions-for-a-failed-protection-job.html"
     - title: Restoring data from Snapshot copies
       url: "/health-checker/task-restoring-data-from-snapshot-copies.html"
       entries:
@@ -381,11 +370,6 @@ entries:
   - title: Monitoring and troubleshooting data availability
     url: "/health-checker/concept-monitoring-and-troubleshooting-data-availability.html"
     entries:
-    - title: Resolving a flash card offline condition
-      url: "/health-checker/task-resolving-a-flashcard-offline-condition.html"
-      entries:
-      - title: Performing corrective action for a flash card offline
-        url: "/health-checker/task-performing-corrective-action-for-a-flashcard-offline.html"
     - title: Scanning for and resolving storage failover interconnect link down
         conditions
       url: "/health-checker/task-resolving-a-storage-failover-interconnect-link-down-condition.html"
@@ -407,11 +391,6 @@ entries:
         - title: Determining if a volume is offline because of broken disks in an
             aggregate
           url: "/health-checker/task-determining-if-a-volume-is-offline-because-of-broken-disks-in-an-aggregate.html"
-  - title: Resolving a flash card offline condition
-    url: "/health-checker/task-resolving-a-flashcard-offline-condition.html"
-    entries:
-    - title: Performing corrective action for a flash card offline
-      url: "/health-checker/task-performing-corrective-action-for-a-flashcard-offline.html"
   - title: Resolving capacity issues
     url: "/health-checker/task-resolving-capacity-issues.html"
     entries:
@@ -457,20 +436,8 @@ entries:
       - title: Resynchronizing protection relationships from the Health/Volume details
           page
         url: "/health-checker/task-resynchronizing-protection-relationships-from-the-health-volume-details-page.html"
-    - title: Resolving a protection job failure
-      url: "/health-checker/task-resolving-a-protection-job-failure.html"
-      entries:
-      - title: Identifying the problem and performing corrective actions for a failed
-          protection job
-        url: "/health-checker/task-identifying-the-problem-and-performing-corrective-actions-for-a-failed-protection-job.html"
     - title: Resolving lag issues
       url: "/health-checker/task-resolving-lag-issues.html"
-  - title: Resolving a protection job failure
-    url: "/health-checker/task-resolving-a-protection-job-failure.html"
-    entries:
-    - title: Identifying the problem and performing corrective actions for a failed
-        protection job
-      url: "/health-checker/task-identifying-the-problem-and-performing-corrective-actions-for-a-failed-protection-job.html"
   - title: Restoring data from Snapshot copies
     url: "/health-checker/task-restoring-data-from-snapshot-copies.html"
     entries:

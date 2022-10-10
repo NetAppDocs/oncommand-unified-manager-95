@@ -1108,17 +1108,14 @@ entries:
       entries:
       - title: Volume behavior during switchover and switchback
         url: "/online-help/concept-volume-behavior-during-switchover-and-switchback.html"
-    - title: What performance events are
-      url: "/online-help/concept-what-performance-events-are.html"
-      entries:
-      - title: Performance event analysis and notification
-        url: "/online-help/reference-performance-event-analysis-and-notification.html"
-      - title: How Unified Manager determines the performance impact for an event
-        url: "/online-help/concept-how-unified-manager-determines-the-performance-impact-for-an-incident.html"
-      - title: Cluster components and why they can be in contention
-        url: "/online-help/concept-cluster-components-and-why-they-can-be-in-contention.html"
-      - title: Roles of workloads involved in a performance event
-        url: "/online-help/concept-roles-of-workloads-involved-in-a-performance-incident.html"
+    - title: Performance event analysis and notification
+      url: "/online-help/reference-performance-event-analysis-and-notification.html"
+    - title: How Unified Manager determines the performance impact for an event
+      url: "/online-help/concept-how-unified-manager-determines-the-performance-impact-for-an-incident.html"
+    - title: Cluster components and why they can be in contention
+      url: "/online-help/concept-cluster-components-and-why-they-can-be-in-contention.html"
+    - title: Roles of workloads involved in a performance event
+      url: "/online-help/concept-roles-of-workloads-involved-in-a-performance-incident.html"
   - title: Analyzing workload performance
     url: "/online-help/concept-analyzing-workload-performance.html"
     entries:
