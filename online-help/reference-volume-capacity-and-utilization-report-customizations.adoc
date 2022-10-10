@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference-volume-capacity-and-utilization-report-customizations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create reports to monitor a variety of capacity and utilization information about volumes. For example, you can create reports to display volumes used, total capacity, daily growth rate, and Snapshot copy capacity, which can help you to determine if a volume is running out of space or whether it is being overutilized or underutilized.'
+---
+= Volume Capacity and Utilization report customizations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create reports to monitor a variety of capacity and utilization information about volumes. For example, you can create reports to display volumes used, total capacity, daily growth rate, and Snapshot copy capacity, which can help you to determine if a volume is running out of space or whether it is being overutilized or underutilized.

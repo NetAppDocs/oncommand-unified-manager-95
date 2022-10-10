@@ -1,0 +1,62 @@
+---
+permalink: health-checker/task-performing-corrective-action-for-a-flashcard-offline.html
+sidebar: sidebar
+keywords: 
+summary: 'After reviewing the description in the Cause field of the Flash Card Offline Event details page, you can search for additional information helpful to resolving the condition.'
+---
+= Performing corrective action for a flash card offline
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After reviewing the description in the Cause field of the Flash Card Offline Event details page, you can search for additional information helpful to resolving the condition.
+
+== Before you begin
+
+You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+
+== About this task
+
+In this example scenario, the event summary provided on the Event details page contains the following information about the offline flash card condition:
+
+----
+Severity: Critical
+State: New
+Impact Level: Incident
+Impact Area: Availability
+Source: alpha-node
+Source Type: Node
+Acknowledged By:
+Resolved By:
+Assigned To:
+Cause: Flash cards at slot numbers 3 are offline.
+Alert Settings:
+----
+
+The event information indicates that the flash card installed in slot 3 in the cluster node named "`alpha-node`" is offline.
+
+The information localizes the flash card offline condition to a specific slot on a specific cluster node but does not suggest a reason that the flash card is offline.
+
+== Steps
+
+. To obtain further details that might help you diagnose the flash card offline condition, you can click the name of the source of the event.
++
+In this example, the source of the event is the "`alpha-node`" cluster node. Clicking that node name displays the HA Details on the Nodes tab of the Health/Cluster details page for the affected cluster. The displayed HA Details displays information about the HA pair to which that node belongs.
++
+In this example, the relevant information is in the Events summary table on the HA Details. The table specifies the flash card offline event, the time the event was generated, and, again, the cluster node from which this event originated.
+
+. Using the ONTAP CLI or OnCommand System Manager, access the Event Manager System (EMS) logs for the affected cluster.
++
+In this example, you use the event name, the event time, and the event source to find the EMS report on this event. The EMS report on the event contains a detailed description of the event and often advice to remedy the condition indicated by the event.
+
+== After you finish
+
+After you diagnose the problem, contact the appropriate administrator or operator to complete the manual steps necessary to get the flash card back online.
+
+*Related information*
+
+xref:reference-event-details-page.adoc[Event details page]
+
+xref:reference-health-cluster-details-page.adoc[Health/Cluster details page]
+
+xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

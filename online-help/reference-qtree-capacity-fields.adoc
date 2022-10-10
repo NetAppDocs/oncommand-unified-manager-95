@@ -1,0 +1,66 @@
+---
+permalink: online-help/reference-qtree-capacity-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The Qtree Capacity and Utilization report enables you to analyze capacity and utilization of the system’s qtrees to understand possible risks that might occur due to reduced cluster capacity.'
+---
+= Qtree Capacity and Utilization report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Qtree Capacity and Utilization report enables you to analyze capacity and utilization of the system's qtrees to understand possible risks that might occur due to reduced cluster capacity.
+
+== Qtree Capacity and Utilization report tabular view
+
+* *Cluster*
++
+Displays the name of the cluster containing the qtree.
+
+* *Storage Virtual Machine*
++
+Displays the storage virtual machine (SVM) name containing the qtree.
+
+* *Volume*
++
+Displays the name of the volume containing the qtree.
+
+* *Qtree*
++
+Displays the name of the qtree.
+
+* *Quota type*
++
+Specifies if the quota is for a user, user group or a qtree.
+
+* *User or Group*
++
+Displays the name of the user or user group. There will be multiple rows for each user and user group. When the quota type is qtree, then _Not Applicable_ is displayed. If the quota is not set, then the column is empty.
+
+* *Disk Used %*
++
+Displays the percentage of the disk space used. If a disk hard limit is set, this value is based on the disk hard limit. If the quota is set without a disk hard limit, the value is based on the volume data space. If the quota is not set or if the quotas are off on the volume to which the qtree belongs, then _Not applicable_ is displayed.
+
+* *Disk Hard Limit*
++
+Displays the maximum disk space allocated for the qtree. Unified Manager generates a critical event when this limit is reached and no further disk writes are allowed. The value is displayed as _Unlimited_ if the quota is set without a disk hard limit, If the quota is not set, or if the quotas are off on the volume to which the qtree belongs.
+
+* *Disk Soft Limit*
++
+Displays the disk space allocated for the qtree before a warning event is generated. The value is displayed as _Unlimited_ if the quota is set without a disk soft limit, if the quota is not set, or if the quotas are off on the volume to which the qtree belongs.
+
+* *Files Used %*
++
+Displays the percentage of files used in the qtree. If the file hard limit is set, this value is based on the file hard limit. The value is displayed as _Not applicable_ if the quota is not set, or if the quota is set without a file hard limit, or if the quotas are off on the volume to which qtree belongs.
+
+* *File Hard Limit*
++
+Displays the hard limit for the number of files permitted on the qtrees. The value is displayed as _Unlimited_ if the quota is set without a file hard limit, if the quota is not set, or if the quotas are off on the volume to which the qtree belongs.
+
+* *File Soft Limit*
++
+Displays the soft limit for the number of files permitted on the qtrees. The value is displayed as _Unlimited_ if the quota is set without a file soft limit, if the quota is not set, or if the quotas are off on the volume to which the qtree belongs.
+
+*Related information*
+
+xref:concept-managing-quotas.adoc[Managing quotas]

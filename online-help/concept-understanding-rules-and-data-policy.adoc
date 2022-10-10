@@ -1,0 +1,12 @@
+---
+permalink: online-help/concept-understanding-rules-and-data-policy.html
+sidebar: sidebar
+keywords: 
+summary: 'Understanding the concepts about rules and data policy help you to manage your Infinite Volumes efficiently.'
+---
+= Understanding rules and data policy
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Understanding the concepts about rules and data policy help you to manage your Infinite Volumes efficiently.

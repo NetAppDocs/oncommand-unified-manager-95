@@ -1,0 +1,71 @@
+---
+permalink: online-help/task-identifying-trends-of-i-o-response-time-on-cluster-components.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use Unified Manager to view the performance trends for all monitored cluster components for a volume workload. You can see, over time, which components have the highest usage, whether the highest usage is from read or write requests, and how the usage has impacted the workload response time.'
+---
+= Identifying trends of I/O response time on cluster components
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Unified Manager to view the performance trends for all monitored cluster components for a volume workload. You can see, over time, which components have the highest usage, whether the highest usage is from read or write requests, and how the usage has impacted the workload response time.
+
+== Before you begin
+
+* You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+* You must have identified the name of the volume or associated LUN you want to analyze.
+* To display 30 days of performance statistics, Unified Manager must have collected and analyzed a minimum of 30 days of performance statistics from the cluster.
+
+== About this task
+
+Identifying performance trends for the cluster components helps the administrator decide whether the cluster is being overused or underused.
+
+If you are viewing the Event details page, you can click the name for a volume to go directly to the Performance/Volume Details page.
+
+== Steps
+
+. In the *Search* bar, type the name of the volume.
++
+The name of the volume is displayed in the search results.
+
+. Click the name of the volume.
++
+The volume is displayed on the Performance/Volume Details page.
+
+. On the Historic data chart, click *30d* to display the last 30 days of historical data.
+. Click *Break down data by*.
+. Under *Latency*, select ***Cluster Components*** and ***Reads/writes latency***.
+. Click *Submit*.
++
+Both charts are displayed below the Latency chart.
+
+. Review the *Cluster Components* chart.
++
+The chart breaks down the total response time by cluster component. The response time at the aggregate is the highest.
+
+. Compare the *Cluster Components* chart to the *Latency* chart.
++
+The Latency chart shows spikes in the total response time that are aligned with the spikes in response time for the aggregate. There are a few at the end of the 30-day time frame, where the performance threshold was crossed.
+
+. Review the *Reads/writes latency* chart.
++
+The chart shows a higher response time for write requests than read requests, indicating that the client applications are waiting longer than usual to have their write requests fulfilled.
+
+. Compare the *Reads/writes latency* chart to the *Latency* chart.
++
+The spikes in total response time that align with the aggregate in the Cluster Components chart also align with the writes in the Reads/writes latency chart. The administrator must decide whether the client applications using the workload must be addressed or whether the aggregate is being overused.
+
+*Related information*
+
+xref:concept-how-unified-manager-uses-workload-response-time-to-identify-performance-issues.adoc[How Unified Manager uses workload latency to identify performance issues]
+
+xref:reference-performance-statistics-displayed-in-the-data-breakdown-charts.adoc[Performance statistics displayed in the data breakdown charts]
+
+xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
+
+xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
+
+xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
+
+xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]

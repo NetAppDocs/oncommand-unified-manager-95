@@ -1,0 +1,21 @@
+---
+permalink: online-help/task-creating-rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add new rules to your data policy to determine the placement of data that is written to the Infinite Volume. You can create rules either by using rule templates that are defined in Unified Manager or create custom rules.'
+---
+= Creating rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add new rules to your data policy to determine the placement of data that is written to the Infinite Volume. You can create rules either by using rule templates that are defined in Unified Manager or create custom rules.
+
+== Before you begin
+
+* You must have the OnCommand Administrator or Storage Administrator role.
+* The cluster containing the SVM with Infinite Volume with storage classes must be added to the Unified Manager database.
+
+*Related information*
+
+xref:task-adding-users.adoc[Adding users]

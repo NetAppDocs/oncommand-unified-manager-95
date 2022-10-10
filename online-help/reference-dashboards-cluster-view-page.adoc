@@ -1,0 +1,51 @@
+---
+permalink: online-help/reference-dashboards-cluster-view-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Dashboards/Cluster View page displays overview information about the clusters you are managing.'
+---
+= Dashboards/Cluster View page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Dashboards/Cluster View page displays overview information about the clusters you are managing.
+
+Clicking *Manage Clusters* takes you to the Configuration/Cluster Data Sources page.
+
+Clicking on a cluster displays overview information on the monitoring status, capacity status, and performance status of the cluster.
+
+The Cluster View dashboard consists of two major sections: Managed Clusters (on the left) and Cluster Details (on the right).
+
+== Managed Clusters section
+
+Lists all the clusters the Unified Manager is monitoring. The following details are provided for each cluster in the list:
+
+* Cluster status icon: The status can be Critical (image:../media/sev-critical-um60.png[Icon for event severity – critical]), Error (image:../media/sev-error-um60.png[Icon for event severity – error]), Warning (image:../media/sev-warning-um60.png[Icon for event severity – warning]), or Normal (image:../media/sev-normal-um60.png[Icon for event severity – normal]).
+* IP address or host name: Provides the host name of the cluster, and the IP address or FQDN.
+* Cluster Health: Provides information about the health of the cluster as monitored by Unified Manager.
++
+The health status can have one of the following values: OK, OK with suppressed, Degraded, and Components not reachable.
+
+== Cluster Details section
+
+Provides information about the monitoring status, capacity, and performance of the selected cluster.
+
+* Monitoring Status: Displays the ongoing health and performance monitoring status.
++
+The monitoring status can have the following values: Discovering, Poll completed, Poll failed, or Not available. The monitoring status displays an error message when the corresponding monitoring job (health or performance) fails.
+
+* Capacity: Displays the total, used, and free storage capacity of the selected cluster.
+* Performance: Displays the average operating speed of the cluster in number of IOPS (input/output operations per second), and the average throughput of the selected cluster in MBps (megabytes per second).
+
+The Details section also provides navigation links to the individual cluster details pages of the OnCommand Unified Manager applications:
+
+* The Health link navigates to the Health/Cluster details page of the selected cluster.
+* The Performance link navigates to the Performance/Cluster details page of the selected cluster.
+* The System Manager link navigates to the login page for OnCommand System Manager so that you can manage cluster settings.
+
+*Related information*
+
+xref:reference-dashboard-page.adoc[Dashboards/Overview page]
+
+xref:reference-dashboards-performance-page.adoc[Dashboards/Performance page]

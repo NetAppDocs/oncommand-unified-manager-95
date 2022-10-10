@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference-description-of-dashboard-windows.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the dashboard pages to get a quick glance of the objects that are being monitored.'
+---
+= Description of dashboard windows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the dashboard pages to get a quick glance of the objects that are being monitored.

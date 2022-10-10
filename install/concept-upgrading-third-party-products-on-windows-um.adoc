@@ -1,0 +1,14 @@
+---
+permalink: install/concept-upgrading-third-party-products-on-windows-um.html
+sidebar: sidebar
+keywords: Unified Manager
+summary: 'You can upgrade third-party products, such as JRE and MySQL, on Unified Manager when installed on Windows systems.'
+---
+= Upgrading third-party products on Windows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade third-party products, such as JRE and MySQL, on Unified Manager when installed on Windows systems.
+
+The companies that develop these third-party products report security vulnerabilities on a regular basis. You can upgrade to newer versions of this software at your own schedule.

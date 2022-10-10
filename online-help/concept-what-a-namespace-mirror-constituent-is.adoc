@@ -1,0 +1,12 @@
+---
+permalink: online-help/concept-what-a-namespace-mirror-constituent-is.html
+sidebar: sidebar
+keywords: 
+summary: 'A namespace mirror constituent is an intracluster data protection mirror copy of the namespace constituent in an Infinite Volume. The namespace mirror constituent performs two roles: It provides data protection of the namespace constituent, and it supports SnapDiff for incremental tape backup of Infinite Volumes.'
+---
+= What a namespace mirror constituent is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A namespace mirror constituent is an intracluster data protection mirror copy of the namespace constituent in an Infinite Volume. The namespace mirror constituent performs two roles: It provides data protection of the namespace constituent, and it supports SnapDiff for incremental tape backup of Infinite Volumes.

@@ -1,0 +1,23 @@
+---
+permalink: online-help/task-customizing-the-events-report-to-display-events-on-mission-critical-objects.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Events report to display events filtered by mission-critical data priority.'
+---
+= Customizing the Events report to display events on mission-critical objects
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Events report to display events filtered by mission-critical data priority.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To filter events with mission-critical data priority, click in the *Data Priority* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* list, select *Equal To*.
+. Click *Select Values* and select *Mission-Critical*.
+. Click *OK*.

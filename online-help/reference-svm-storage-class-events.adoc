@@ -1,0 +1,75 @@
+---
+permalink: online-help/reference-svm-storage-class-events.html
+sidebar: sidebar
+keywords: 
+summary: 'SVM storage class events provide you with information about the status of your storage classes so that you can monitor for potential problems. SVM storage classes exist only in SVMs with Infinite Volume. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+---
+= SVM storage class events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SVM storage class events provide you with information about the status of your storage classes so that you can monitor for potential problems. SVM storage classes exist only in SVMs with Infinite Volume. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+The following SVM storage class events apply only to SVMs with Infinite Volume.
+
+== Impact area: availability
+
+|===
+| Event name(Trap name)
+
+| Impact level| Source type| Severity
+a|
+SVM Storage Class Not Available(ocumEvtVserverStorageClassNotAvailable)
+
+a|
+Incident
+a|
+Storage class
+a|
+Critical
+a|
+SVM Storage Class Partially Available(ocumEvtVserverStorageClassPartiallyAvailable)
+
+a|
+Risk
+a|
+Storage class
+a|
+Error
+|===
+
+== Impact area: capacity
+
+|===
+| Event name(Trap name)
+
+| Impact level| Source type| Severity
+a|
+SVM Storage Class Space Nearly Full(ocumEvtVserverStorageClassNearlyFull)
+
+a|
+Risk
+a|
+Storage class
+a|
+Warning
+a|
+SVM Storage Class Space Full(ocumEvtVserverStorageClassFull)
+
+a|
+Risk
+a|
+Storage class
+a|
+Error
+a|
+SVM Storage Class Snapshot Usage Limit Exceeded(ocumEvtVserverStorageClassSnapshotUsageExceeded)
+
+a|
+Risk
+a|
+Storage class
+a|
+Warning
+|===

@@ -1,0 +1,27 @@
+---
+permalink: install/task-restarting-unified-manager.html
+sidebar: sidebar
+keywords: 
+summary: 'You might have to restart Unified Manager after making configuration changes.'
+---
+= Restarting Unified Manager in Red Hat Enterprise Linux or CentOS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might have to restart Unified Manager after making configuration changes.
+
+== Before you begin
+
+You must have root user access to the Red Hat Enterprise Linux or CentOS server on which Unified Manager is installed.
+
+== Steps
+
+. Log in as root user to the server on which you want to restart the Unified Manager service.
+. Stop the Unified Manager service and the associated MySQL software in the order shown: `service ocieau stop``service ocie stop``service mysqld stop`
++
+When installed in a high-availability setup, stop the Unified Manager service by using either VCS Operations Manager or VCS commands.
+
+. Start Unified Manager in the order shown: `service mysqld start``service ocie start``service ocieau start`
++
+When installed in a high-availability setup, start Unified Manager service by using either VCS Operations Manager or VCS commands.

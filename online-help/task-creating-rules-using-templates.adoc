@@ -1,0 +1,51 @@
+---
+permalink: online-help/task-creating-rules-using-templates.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add new rules by using rule templates defined by Unified Manager to determine the placement of data that is written to the SVM with Infinite Volume. You can create rules based on file types, directory paths, or owners.'
+---
+= Creating rules using templates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add new rules by using rule templates defined by Unified Manager to determine the placement of data that is written to the SVM with Infinite Volume. You can create rules based on file types, directory paths, or owners.
+
+== Before you begin
+
+* You must have the OnCommand Administrator or Storage Administrator role.
+* The cluster containing the SVM with Infinite Volume with storage classes must be added to the Unified Manager database.
+
+== About this task
+
+The Data Policy tab is visible only for an SVM with Infinite Volume.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select the appropriate SVM.
+. Click the *Data Policy* tab.
++
+The list of rules in the data policy for the selected SVM with Infinite Volume is displayed.
+
+. Click *Create*.
+. In the *Create Rule* dialog box, choose an appropriate rule template from the drop-down list.
++
+The template is based on three categories: file type, owner, or directory path.
+
+. Based on the template selected, add the necessary conditions in the *Matching Criteria* area.
+. Select an appropriate storage class from the *Place the matching content in Storage Class* drop-down list.
+. Click *Create*.
++
+The new rule you created is displayed in the Data Policy tab.
+
+. Preview any other changes made to the data policy.
+. Click *Activate* to activate the changes in the rule properties in the SVM.
+
+*Related information*
+
+xref:task-adding-users.adoc[Adding users]
+
+xref:concept-what-a-rule-template-is.adoc[What a rule template is]
+
+xref:concept-what-conditions-and-condition-sets-are.adoc[What conditions and condition sets are]

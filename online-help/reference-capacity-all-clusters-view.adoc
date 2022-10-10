@@ -1,0 +1,90 @@
+---
+permalink: online-help/reference-capacity-all-clusters-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health/Clusters Storage Summary page enables you to view summarized information about storage capacity and utilization in all clusters. This information helps you to understand possible capacity risks and to take appropriate action to rebalance workloads.'
+---
+= Health/Clusters Storage Summary page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health/Clusters Storage Summary page enables you to view summarized information about storage capacity and utilization in all clusters. This information helps you to understand possible capacity risks and to take appropriate action to rebalance workloads.
+
+Use the *Export* button to export the details of all the monitored clusters to a comma-separated values (`.csv`) file.
+
+* *Cluster*
++
+The cluster name.
+
+* *HA Pair*
++
+The HA pair value obtained by forming two nodes.
+
+* *Model/Family*
++
+The model or family name of the cluster.
+
+* *OS Version*
++
+The version of ONTAP installed on the system.
+
+* *Total Raw Capacity*
++
+Displays the total physical capacity of all disks in the array.
+
+* *Unconfigured Raw Capacity*
++
+The unconfigured capacity of disks whose container type is other than aggregate, broken, spare, or shared. This capacity is always higher than the physical capacity of the disk in ONTAP. For example, consider a 2 TB disk. The physical capacity of the disk is 1.6 TB in ONTAP whereas the unconfigured raw capacity in Unified Manager is 1.8 TB.
+
+* *Aggregate Total Capacity*
++
+The total size of the available aggregates for the user. This includes the Snapshot copy reserve.
+
+* *Aggregate Used Capacity*
++
+The capacity already in use on aggregates. This includes the capacity consumed by volumes, LUNs, and other storage efficiency technology overheads.
+
+* *Aggregate Unused Capacity*
++
+The capacity that might be available for storing additional data on the aggregate. This includes the Snapshot copy reserve.
+
+* *Allocated LUN Capacity*
++
+The capacity of LUNs that are mapped.
+
+* *Unallocated LUN Capacity*
++
+The capacity of all LUNs not mapped to the Host.
+
+* *Volume Total Capacity*
++
+The total capacity of the volumes (used plus unused).
+
+* *Volume Used Capacity*
++
+The used capacity of the volumes.
+
+* *Volume Unused Capacity*
++
+The unused capacity of the volumes.
+
+* *Volume Protection Capacity*
++
+The capacity of volumes that have SnapMirror and SnapVault enabled.
+
+* *Cluster Licensed Cloud Tier Total*
++
+The total capacity that has been licensed in the cloud tier. This field is displayed for storage providers that require a FabricPool license, for example, Amazon S3, Microsoft Azure Cloud, IBM Cloud Object Storage, or Alibaba Cloud Object Storage.
+
+* *Cluster Licensed Cloud Tier Used*
++
+The space used by data in the cloud tier for storage providers that require a FabricPool license.
+
+* *Cluster StorageGRID Capacity Used*
++
+The space used by data in the cloud tier for storage providers that do not require a FabricPool license, for example, StorageGRID.
+
+*Related information*
+
+xref:task-viewing-the-cluster-list-and-details.adoc[Viewing the cluster list and details]

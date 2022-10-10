@@ -1,0 +1,66 @@
+---
+permalink: online-help/task-creating-a-snapmirror-protection-relationship-from-the-health-volumes-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Using the Health/Volumes inventory page enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same SVM.'
+---
+= Creating a SnapMirror protection relationship from the Health/Volumes inventory page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Using the Health/Volumes inventory page enables you to create several SnapMirror protection relationships at one time by selecting more than one volume on the same SVM.
+
+== Before you begin
+
+* You must have the OnCommand Administrator or Storage Administrator role.
+* You must have set up Workflow Automation.
+
+== About this task
+
+The *Protect* menu does not display in the following instances:
+
+* If RBAC settings do not allow this action: for example, if you have only operator privileges
+* When the volume ID is unknown: for example, when you have a intercluster relationship and the destination cluster has not yet been discovered
+
+== Steps
+
+. In the *Health/Volumes* inventory page, right-click a volume that you want to protect.
++
+Alternatively, to create multiple protection relationships on the same SVM, select one or more volumes in the Health/Volumes inventory page, and click *Protect* > *SnapMirror* on the toolbar.
++
+The Configure Protection dialog box is displayed.
+
+. Click *SnapMirror* to view the *SnapMirror* tab and to configure the destination information.
+. Click *Advanced* to set the space guarantee, as needed, and then click *Apply*.
+. Complete the *Destination Information* area and the *Relationship Settings* area in the *SnapMirror* tab.
+. Click *Apply*.
++
+You are returned to the Health/Volumes inventory page.
+
+. Click the protection configuration job link at the top of the *Health/Volumes* inventory page.
++
+If you are creating only one protection relationship, the Protection/Job details page is displayed; however, if you are creating more than one protection relationship, a list of all the jobs associated with the protection operation is displayed.
+
+. Do one of the following:
+ ** If you have only one job, click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
+ ** If you have more than one job:
+  ... Click a job in the jobs list.
+  ... Click *Refresh* to update the tasks list and task details associated with the protection configuration job and to determine when the job is complete.
+  ... Use the *Back* button to return to the filtered list and view another job.
+
+== Results
+
+Depending on the destination SVM you specified during configuration or on the options you enabled in your Advanced settings, the resulting SnapMirror relationship might be one of several possible variations:
+
+* If you specified a destination SVM that runs under the same or a newer version of ONTAP compared to that of the source volume, a block-replication-based SnapMirror relationship is the default result.
+* If you specified a destination SVM that runs under the same or a newer version of ONTAP (8.3 or later) compared to that of the source volume, but you enabled version-flexible replication in the Advanced settings, a SnapMirror relationship with version-flexible replication is the result.
+* If you specified a destination SVM that runs under an earlier version of ONTAP 8.3 or a later version than that of the source volume, and the earlier version supports version-flexible replication, a SnapMirror relationship with version-flexible replication is the automatic result.
+
+*Related information*
+
+xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]
+
+xref:reference-advanced-destination-settings-dialog-box.adoc[Advanced Destination Settings dialog box]
+
+xref:concept-executing-protection-workflows-using-wfa.adoc[Executing protection workflows using OnCommand Workflow Automation]

@@ -1,0 +1,41 @@
+---
+permalink: online-help/task-importing-a-data-policy-configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'You can import a data policy configuration from a file, modify the data policy, and then activate the changes in the SVM with Infinite Volume. For example, in the event of a disaster, you can import an already defined data policy to the secondary and modify the policy as required.'
+---
+= Importing a data policy configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can import a data policy configuration from a file, modify the data policy, and then activate the changes in the SVM with Infinite Volume. For example, in the event of a disaster, you can import an already defined data policy to the secondary and modify the policy as required.
+
+== Before you begin
+
+You must have the OnCommand Administrator or Storage Administrator role.
+
+== About this task
+
+When you import a data policy configuration, your existing rules are overwritten.
+
+The Data Policy tab is displayed only for SVMs with Infinite Volume.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select the appropriate SVM.
+. Click *Data Policy*.
++
+The list of rules in the data policy for the selected SVM with Infinite Volume is displayed.
+
+. Click *Import*.
+. In the *Import Data Policy* dialog box, specify the data policy that you want to import by providing the absolute path of the data policy file.
+. Click *Import*.
+. Click *Activate* to activate the imported rules in the SVM.
+
+*Related information*
+
+xref:task-exporting-a-data-policy-configuration.adoc[Exporting a data policy configuration]
+
+xref:task-adding-users.adoc[Adding users]

@@ -1,0 +1,24 @@
+---
+permalink: online-help/task-customizing-the-volume-transfer-rate-report-to-view-volume-transfers-grouped-by-day.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Volume Transfer Rate \(Historical\) report to view the volume transfer details that are sorted by day.'
+---
+= Customizing the Volume Transfer Rate (Historical) report to view volume transfers grouped by day
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Volume Transfer Rate (Historical) report to view the volume transfer details that are sorted by day.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. Remove grouping by cluster:
+ .. Select the column that you want to ungroup.
+ .. Click the image:../media/click-to-see-menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To view the volume transfers for a specific day, click the *Day* column.

@@ -1,0 +1,43 @@
+---
+permalink: online-help/concept-how-a-data-policy-filters-data-written-to-an-infinite-volume.html
+sidebar: sidebar
+keywords: 
+summary: 'A data policy automatically filters data written to the Infinite Volume into different storage classes. All files are written to the single file system in the Infinite Volume’s namespace, and rules in the data policy determine which storage class stores the data for the files.'
+---
+= How a data policy filters data written to an Infinite Volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A data policy automatically filters data written to the Infinite Volume into different storage classes. All files are written to the single file system in the Infinite Volume's namespace, and rules in the data policy determine which storage class stores the data for the files.
+
+A default data policy is automatically created for a storage virtual machine (SVM) with Infinite Volume when you create the Infinite Volume. The data policy is active and contains a default rule. The default rule stores incoming data for files as follows for Infinite Volumes with and without storage classes:
+
+|===
+| For an Infinite Volume...| The default data policy does this...
+a|
+Without storage classes
+a|
+Places all incoming data for files in the Infinite Volume
+a|
+With one storage class
+a|
+Places all incoming data for files into the storage class
+a|
+With one or more storage classes
+a|
+Places all incoming data for files into the first storage class that is created
+|===
+
+[NOTE]
+====
+For an Infinite Volume with two or more storage classes, you should modify the data policy as soon as possible to create rules that filter data for different types of files into the different storage classes. You should modify the data policy by using Unified Manager.
+====
+
+The data policy does not affect the location of the files in the file system in the Infinite Volume's namespace, and storage classes are transparent to client applications. The file system in the namespace contains the file names. The data policy affects only which storage class is used to store the data for the files. Data policies are useful when you assign two or more storage classes to an Infinite Volume.
+
+You can modify the data policy to create additional rules, but you cannot delete the data policy or its default rule.
+
+The following diagram illustrates how a data policy filters data for an Infinite Volume. The file name is stored in the namespace constituent, and rules in the data policy specify that data for this particular file is stored in the silver storage class.
+
+image::../media/how-a-data-policy-filters-data-written-to-an-infinite-volume.gif[This graphic is described by the surrounding text]

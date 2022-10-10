@@ -1,0 +1,22 @@
+---
+permalink: health-checker/concept-creating-and-monitoring-protection-relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'Unified Manager enables you to create protection relationships, to monitor and troubleshoot mirror protection and backup vault protection of data stored on managed clusters, and to restore data when it is overwritten or lost.'
+---
+= Creating, monitoring, and troubleshooting protection relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Unified Manager enables you to create protection relationships, to monitor and troubleshoot mirror protection and backup vault protection of data stored on managed clusters, and to restore data when it is overwritten or lost.
+
+*Related information*
+
+xref:task-resolving-a-protection-job-failure.adoc[Resolving a protection job failure]
+
+xref:task-resolving-lag-issues.adoc[Resolving lag issues]
+
+xref:task-setting-up-protection-relationships-in-unified-manager.adoc[Setting up protection relationships in Unified Manager]
+
+xref:task-performing-a-protection-relationship-failover-and-failback.adoc[Performing a protection relationship failover and failback]

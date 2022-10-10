@@ -1,0 +1,149 @@
+---
+permalink: online-help/reference-volume-data-protection-configuration-report.html
+sidebar: sidebar
+keywords: 
+summary: 'The Volume Data Protection Configuration report enables you to view the unprotected volumes and storage virtual machines \(SVMs\) that are used in a node or a cluster. This information enables you to understand the data protection risks for your system, and to view the details of the protected volumes and unprotected volumes in your system.'
+---
+= Volume Data Protection Configuration report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Volume Data Protection Configuration report enables you to view the unprotected volumes and storage virtual machines (SVMs) that are used in a node or a cluster. This information enables you to understand the data protection risks for your system, and to view the details of the protected volumes and unprotected volumes in your system.
+
+The Volume Data Protection Configuration report is displayed in two formats:
+
+* Protected and Unprotected Volumes pie chart
+* Unprotected Volume Data tabular view
+
+== Protected and Unprotected Volumes pie chart
+
+Displays the relative percentage of the protected volumes and unprotected volumes in your system.
+
+== Unprotected Volume Data tabular view
+
+* *Cluster*
++
+Displays the cluster name.
+
+* *Storage Virtual Machine*
++
+Displays the name of the storage virtual machine (SVM) that contains the volume.
+
+* *Volume*
++
+Displays the volume name.
+
+* *Total Data Capacity (GB)*
++
+Displays the total data capacity (used plus available) in GB.
+
+* *Used Data Capacity (GB)*
++
+Displays the used data capacity (in GB).
+
+* *Used Data %*
++
+Displays the used data capacity as a percentage.
+
+* *Available Data Capacity (GB)*
++
+Displays the available data capacity (in GB).
+
+* *Available Data %*
++
+Displays the available data capacity as a percentage.
+
+* *Snapshot Reserve Used Capacity (GB)*
++
+Displays the amount of space that is used by Snapshot copies from Snapshot reserve (in GB).
+
+* *Snapshot Reserve Used %*
++
+Displays the amount of space that is used by Snapshot copies from Snapshot reserve as a percentage.
+
+* *Snapshot Reserve Available Capacity (GB)*
++
+Displays the amount of space that is available for Snapshot copies (in GB).
+
+* *Snapshot Reserve Available %*
++
+Displays the amount of space that is available for Snapshot copies as a percentage.
+
+* *Snapshot Reserve Total Capacity (GB)*
++
+Displays the total snapshot reserve capacity of the aggregate (in GB).
+
+* *Days To Full*
++
+Displays the estimated number of days remaining before the aggregate reaches full capacity.
+
+* *Space Full Threshold %*
++
+Displays the percentage at which an aggregate is full.
+
+* *Space Nearly Full Threshold %*
++
+Displays the percentage at which an aggregate is nearly full.
+
+* *Daily Growth Rate %*
++
+Displays the growth rate that occurs every 24 hours in the volume.
+
+* *Total Number Of Inodes*
++
+Displays the total number of inodes in the volume.
+
+* *Inode Utilization*
++
+Specifies the inode space that is used in the volume.
+
+* *Quota Committed Capacity*
++
+Displays the space that is reserved in the volumes.
+
+* *Quota Overcommitted Capacity (GB)*
++
+Displays the amount of space that can be used (in GB) before the system generates the Volume Quota Overcommitted event.
+
+* *Snapshot Autodelete*
++
+Displays whether automatic deletion of Snapshot copies is enabled or disabled.
+
+* *Deduplication*
++
+Displays whether deduplication is enabled or disabled for the volume.
+
+* *Deduplication Space Savings (GB)*
++
+Displays the amount of space that is saved in a volume by using deduplication (in GB).
+
+* *Compression*
++
+Displays whether compression is enabled or disabled for the volume.
+
+* *Compression Space Savings (GB)*
++
+Displays the amount of space that is saved in a volume by using compression (in GB).
+
+* *Thin Provisioned*
++
+Displays whether space guarantee is set for the selected volume. Valid values are Yes and No.
+
+* *Autogrow*
++
+Displays whether the FlexVol volume automatically grows in size when it is out of space.
+
+* *Space Guarantee*
++
+Displays the FlexVol volume setting control when a volume removes free blocks from an aggregate.
+
+* *State*
++
+Displays the state of the volume that is being exported.
+
+* *SnapLock Type*
++
+Indicates whether the volume is a SnapLock or non-SnapLock volume.
+
+* *Expiry Date*
