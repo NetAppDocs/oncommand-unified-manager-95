@@ -1,0 +1,27 @@
+---
+permalink: online-help/task-customizing-the-events-report-to-display-incident-events-assigned-to-the-admin.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Events report to display incident events that are assigned to the admin, filtered by the impact level and the admin name.'
+---
+= Customizing the Events report to display incident events assigned to the admin
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Events report to display incident events that are assigned to the admin, filtered by the impact level and the admin name.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To filter incident events, click in the *Impact Level* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* list, select *Equal To*.
+. Click *Select Values* and select *Incident*.
+. Click *OK*.
+. To assign these incidents to the admin, click in the *Assigned To* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+. From the *Condition* drop-down list, select *Equal To*.
+. Click *Select Values* and select *Admin Name*.
+. Click *OK*.

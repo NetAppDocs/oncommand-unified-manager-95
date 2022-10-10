@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task-accessing-system-manager-from-the-um-interface.html
+sidebar: sidebar
+keywords: 
+summary: 'When troubleshooting requires that you make configuration changes to a cluster, you can use the System Manager graphical interface instead of the ONTAP command-line interface. System Manager is included with ONTAP as a web service, it is enabled by default, and it is accessible by using a browser.'
+---
+= Accessing OnCommand System Manager from the Unified Manager interface
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When troubleshooting requires that you make configuration changes to a cluster, you can use the System Manager graphical interface instead of the ONTAP command-line interface. System Manager is included with ONTAP as a web service, it is enabled by default, and it is accessible by using a browser.
+
+== Before you begin
+
+You must have a cluster user account configured with the `admin` role and the `http`, `ontapi`, and `console` application types.
+
+== Steps
+
+. In the left navigation pane, click *Dashboards* > *Cluster View*.
+. In the *Dashboards/Cluster View* page, select the cluster that you want to manage.
++
+An overview of the monitoring status, capacity, and performance for that cluster is displayed.
+
+. Click the *System Manager* icon.
++
+If the cluster uses a self-signed digital certificate, the browser might display a warning indicating that the certificate is not trusted. You can either acknowledge the risk to continue the access or install a Certificate Authority (CA) signed digital certificate on the cluster for server authentication.
+
+. Log in to System Manager by using your cluster administrator credentials.
++
+If login to the System Manager user interface is protected using SAML authentication you will enter your credentials in the identity provider (IdP) login page instead of the System Manager login page.

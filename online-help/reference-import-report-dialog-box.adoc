@@ -1,0 +1,55 @@
+---
+permalink: online-help/reference-import-report-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Import Report dialog box to import reports from .rptdesign files.'
+---
+= Import Report dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Import Report dialog box to import reports from `.rptdesign` files.
+
+== Properties
+
+You can import a report by specifying the report file name, report name, and report description.
+
+* *Select Report File*
++
+Enables you to select the `.rptdesign` file that you want to import.
++
+[NOTE]
+====
+In Google Chrome, the `fakepath` of the `.rptdesign` file is displayed. In Mozilla Firefox, only the `.rptdesign` file name is displayed. In Internet Explorer, the complete path of the `.rptdesign` file is displayed.
+====
+
+* *Name*
++
+Displays the name of the report. This field is empty by default. You can enter a name for the imported report.
+
+* *Description*
++
+Specifies the description of the imported report. The description cannot exceed 150 characters.
+
+* *Select database user with report schema role*
++
+Select, or create, a database user if you are importing reports from the Storage Automation Store.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Import*
++
+Validates the selected `.rptdesign` file, and imports the report.
+
+* *Cancel*
++
+Cancels the import operation, and closes the Import Report dialog box.
+
+*Related information*
+
+xref:concept-what-report-importing-is.adoc[What report importing is]
+
+xref:task-importing-reports.adoc[Importing reports]

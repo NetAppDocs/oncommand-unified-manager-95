@@ -1,0 +1,80 @@
+---
+permalink: install/reference-windows-software-and-installation-requirements.html
+sidebar: sidebar
+keywords: 
+summary: 'For the successful installation of Unified Manager on Windows, you must ensure that the system on which Unified Manager is being installed meets the software requirements.'
+---
+= Windows software and installation requirements
+:icons: font
+:imagesdir: ../media/
+:pp: {plus}{plus}
+
+[.lead]
+For the successful installation of Unified Manager on Windows, you must ensure that the system on which Unified Manager is being installed meets the software requirements.
+
+== Operating system software
+
+Unified Manager runs only on a 64-bit English language Windows operating system. You can install Unified Manager on the following Windows platforms:
+
+* Microsoft Windows Server 2012 Standard and Datacenter Edition
+* Microsoft Windows Server 2012 R2 Standard and Datacenter Edition
+* Microsoft Windows Server 2016 Standard and Datacenter Edition
+
+[NOTE]
+====
+On Windows Server 2012 R2, Windows update KB2919355 must be installed on the target system or the installation will fail.
+====
+
+Note that Windows Server 2008 is not supported as it was in earlier releases. See the Interoperability Matrix for the complete and most current list of supported Windows versions.
+
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+
+The server should be dedicated to running Unified Manager; no other applications should be installed on the server.
+
+The following third-party packages are required:
+
+* Microsoft Visual C{pp} 2015 Redistributable package version 14.0.24212
+* Microsoft Visual C{pp} Redistributable Packages for Visual Studio 2013 version 12.0.40660
+* MySQL Community Edition version 5.7.23, or later versions in the 5.7 family
+* OpenJDK version 11
+* p7zip version 18.01 or later
+
+If these third-party packages are not installed, Unified Manager installs them as part of the installation.
+
+[NOTE]
+====
+Starting with Unified Manager 9.5, OpenJDK is provided in the Unified Manager installation package and installed automatically. Oracle Java is not supported starting with Unified Manager 9.5.
+====
+
+If MySQL is pre-installed, you must ensure that:
+
+* It is using the default port.
+* The sample databases are not installed.
+* The service name is "`MYSQL`".
+
+[NOTE]
+====
+If you plan to upgrade any of the third-party software after Unified Manager has been running, you must shut down Unified Manager first. After the third-party software installation is complete you can restart Unified Manager.
+====
+
+== Installation requirements
+
+* Microsoft .NET 4.5.2, or greater, must be installed.
+* You must reserve 2 GB of disk space for the `temp` directory to extract the installation files.
+* You must reserve 2 GB of disk space in the Windows drive for caching the Unified Manager MSI files.
+* The Microsoft Windows Server on which you want to install Unified Manager must be configured with a fully qualified domain name (FQDN) such that `ping` responses to the host name and FQDN are successful.
+* You must disable Microsoft IIS worldwide web publishing service and ensure that ports 80 and 443 are free.
+* You must make sure that the Remote Desktop Session Host setting for "`Windows Installer RDS Compatibility`" is disabled during the installation.
+* UDP port 514 must be free, and must not be used by any other service.
+
+[NOTE]
+====
+The Unified Manager installation program configures the following exclusions in Windows Defender:
+
+* Unified Manager data directory (Windows Server 2016 only)
+* Unified Manager installation directory
+* MySQL data directory
+
+If your server has a different antivirus scanner installed you must configure these exclusions manually.
+
+====

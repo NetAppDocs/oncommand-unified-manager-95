@@ -1,0 +1,16 @@
+---
+permalink: performance-checker/concept-object-monitoring-using-the-object-inventory-performance-pages.html
+sidebar: sidebar
+keywords: 
+summary: 'The Performance object inventory pages enable you to monitor object performance based on the values of specific performance counters or based on performance events. This is beneficial because identifying objects with performance events enables you to investigate the cause of cluster performance issues.'
+---
+= Object monitoring using the Performance object inventory pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance object inventory pages enable you to monitor object performance based on the values of specific performance counters or based on performance events. This is beneficial because identifying objects with performance events enables you to investigate the cause of cluster performance issues.
+
+The Performance object inventory pages display the associated counters, associated objects, and performance threshold policies for all objects in all clusters. These pages also enable you to apply performance threshold policies to objects. You can sort the page based on any column, and you can search across all object names or data.
+
+You can export data from these pages to a comma-separated values (`.csv`) file by using the *Export* button, and then use the exported data to build reports.

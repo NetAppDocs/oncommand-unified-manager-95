@@ -1,0 +1,102 @@
+---
+permalink: online-help/concept-what-health-events-are.html
+sidebar: sidebar
+keywords: 
+summary: 'Health events are notifications that are generated automatically when a predefined condition occurs or when an object crosses a health threshold. These events enable you to take action to prevent issues that can lead to poor performance and system unavailability. Events include an impact area, severity, and impact level.'
+---
+= What health events are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Health events are notifications that are generated automatically when a predefined condition occurs or when an object crosses a health threshold. These events enable you to take action to prevent issues that can lead to poor performance and system unavailability. Events include an impact area, severity, and impact level.
+
+Health events are categorized by the type of impact area such as availability, capacity, configuration, or protection. Events are also assigned a severity type and impact level that assist you in determining if immediate action is required.
+
+You can configure alerts to send notification automatically when specific events or events of a specific severity occur.
+
+Obsolete, resolved, and informational events are automatically logged and retained for a default of 180 days.
+
+It is important that you take immediate corrective action for events with severity level Error or Critical.
+
+*Related information*
+
+xref:concept-what-alerts-are.adoc[What alerts are]
+
+xref:concept-what-performance-events-are.adoc[What performance events are]
+
+xref:concept-what-event-management-system-events-are.adoc[What Event Management System events are]
+
+xref:concept-event-state-definitions.adoc[Event state definitions]
+
+xref:reference-description-of-event-severity-types.adoc[Description of event severity types]
+
+xref:reference-description-of-event-impact-levels.adoc[Description of event impact levels]
+
+xref:reference-description-of-event-impact-areas.adoc[Description of event impact areas]
+
+xref:reference-list-of-events-and-severity-types.adoc[List of events and severity types]
+
+xref:reference-aggregate-events.adoc[Aggregate events]
+
+xref:reference-cluster-events.adoc[Cluster events]
+
+xref:reference-disk-events.adoc[Disks events]
+
+xref:reference-enclosures-events.adoc[Enclosures events]
+
+xref:reference-fans-events.adoc[Fans events]
+
+xref:reference-flash-card-events.adoc[Flash card events]
+
+xref:reference-inodes-events.adoc[Inodes events]
+
+xref:reference-logical-interface-events.adoc[Logical interface (LIF) events]
+
+xref:reference-lun-events.adoc[LUN events]
+
+xref:reference-management-station-events.adoc[Management station events]
+
+xref:reference-metrocluster-bridge-events.adoc[MetroCluster Bridge events]
+
+xref:reference-metrocluster-connectivity-events.adoc[MetroCluster Connectivity events]
+
+xref:reference-metrocluster-switch-events.adoc[MetroCluster switch events]
+
+xref:reference-nvme-namespace-events.adoc[NVMe Namespace events]
+
+xref:reference-node-events.adoc[Node events]
+
+xref:reference-nvram-battery-events.adoc[NVRAM battery events]
+
+xref:reference-port-events.adoc[Port events]
+
+xref:reference-power-supplies-events.adoc[Power supplies events]
+
+xref:reference-protection-events.adoc[Protection events]
+
+xref:reference-qtree-events.adoc[Qtree events]
+
+xref:reference-service-processor-events.adoc[Service processor events]
+
+xref:reference-snapmirror-relationship-events.adoc[SnapMirror relationship events]
+
+xref:reference-snapshot-events.adoc[Snapshot events]
+
+xref:reference-snapvault-relationship-events.adoc[SnapVault relationship events]
+
+xref:reference-storage-failover-settings-events.adoc[Storage failover settings events]
+
+xref:reference-storage-services-events.adoc[Storage services events]
+
+xref:reference-storage-shelf-events.adoc[Storage shelf events]
+
+xref:reference-storage-vm-events.adoc[SVM events]
+
+xref:reference-svm-storage-class-events.adoc[SVM storage class events]
+
+xref:reference-user-and-group-quota-events.adoc[User and group quota events]
+
+xref:reference-volume-events.adoc[Volume events]
+
+xref:reference-volume-move-status-events.adoc[Volume move status events]

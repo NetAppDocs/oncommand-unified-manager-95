@@ -1,0 +1,54 @@
+---
+permalink: health-checker/task-managing-your-infinite-volume-with-storage-classes-and-data-policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can effectively manage your Infinite Volume by creating the Infinite Volume with the required number of storage classes, configuring thresholds for each storage class, creating rules and a data policy to determine the placement of data written to the Infinite Volume, configuring data protection, and optionally configuring notification alerts.'
+---
+= Managing your Infinite Volume with storage classes and data policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can effectively manage your Infinite Volume by creating the Infinite Volume with the required number of storage classes, configuring thresholds for each storage class, creating rules and a data policy to determine the placement of data written to the Infinite Volume, configuring data protection, and optionally configuring notification alerts.
+
+== Before you begin
+
+* OnCommand Workflow Automation (WFA) must be installed.
+* You must have the OnCommand Administrator or Storage Administrator role.
+* You must have created the required number of aggregates by customizing the appropriate predefined workflow in WFA.
+* You must have created the required number of storage classes by customizing the appropriate predefined workflow in WFA.
+* You must have configured the Unified Manager server as a data source in WFA, and then you must have verified that the data is cached successfully.
+
+== About this task
+
+While performing this task, you are required to switch between two applications: OnCommand Workflow Automation (WFA) and OnCommand Unified Manager.
+
+The task provides high-level steps. For details about performing the WFA tasks, see the _OnCommand Workflow Automation_ documentation.
+
+image::../media/cr-workflow-oc-6-0.gif[Workflow for managing Vserver with Infinite Volume with storage classes]
+
+== Steps
+
+. image:../media/wfa-icon.gif[Icon for WFA procedure] Customize the predefined workflow to define the required storage classes.
+. image:../media/wfa-icon.gif[Icon for WFA procedure] Create an SVM with Infinite Volume with the required number of storage classes by using the appropriate workflow.
+. image:../media/um-icon.gif[Icon for Unified Manager procedure] Add the cluster containing the SVM with Infinite Volume to the Unified Manager database.
++
+You can add the cluster by providing the IP address or the FQDN of the cluster.
+
+. image:../media/um-icon.gif[Icon for Unified Manager procedure] xref:task-editing-storage-class-threshold-settings.adoc[Based on your organization's requirements, modify the thresholds for each storage class].
++
+You should use the default storage class threshold settings to effectively monitor storage class space.
+
+. image:../media/um-icon.gif[Icon for Unified Manager procedure] xref:task-adding-alerts.adoc[Configure notification alerts and traps to address any availability and capacity issues related to the Infinite Volume].
+. image:../media/um-icon.gif[Icon for Unified Manager procedure] xref:task-creating-rules.adoc[Set up rules in the data policy, and then activate all the changes made to the data policy]
++
+Rules in a data policy determine the placement of the content written to the Infinite Volume.
++
+[NOTE]
+====
+Rules in a data policy affect only new data written to the Infinite Volume and do not affect existing data in the Infinite Volume.
+====
+
+. image:../media/wfa-icon.gif[Icon for WFA procedure] Create a disaster recovery (DR) SVM with Infinite Volume, and then configure a data protection (DP) by performing the following steps:
+ .. Create a data protection (DP) Infinite Volume by using the appropriate workflow.
+ .. Set up a DP mirror relationship between the source and destination by using the appropriate workflow.

@@ -1,0 +1,12 @@
+---
+permalink: health-checker/concept-managing-backup-and-restore-operations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create backups of Unified Manager and use the restore feature to restore the backup to the same \(local\) system or a new \(remote\) system in case of a system failure or data loss.'
+---
+= Configuring backup and restore operations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create backups of Unified Manager and use the restore feature to restore the backup to the same (local) system or a new (remote) system in case of a system failure or data loss.
