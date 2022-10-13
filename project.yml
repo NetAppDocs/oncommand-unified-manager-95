@@ -6,22 +6,24 @@ settings:
   prod:
     pdf_enabled: true
   versions:
-    - name: OnCommand Unified Manager
+    - name: Unified Manager 9.5
       url: /oncommand-unified-manager-95
       version-number: "9.5"
-    - name: Active IQ Unified Manager
+    - name: Unified Manager 9.9
       url: /active-iq-unified-manager-99
       version-number: "9.9"
-    - name: Active IQ Unified Manager
+    - name: Unified Manager 9.8
       url: /active-iq-unified-manager-98
       version-number: "9.8"
-    - name: Active IQ Unified Manager
+    - name: Unified Manager 9.7
       url: /active-iq-unified-manager-97
       version-number: "9.7"
 sidebar:
   entries:
     - title: Home
       url: "/index.html"
+    - title: Release notes
+      url: "/release-notes.html"
     - section: install
     - section: config
     - section: online-help
@@ -33,8 +35,8 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: Perform configuration and administrative tasks
-          url: config/index.html
+        - title: Release notes
+          url: /release-notes.html
     - title: More resources
       links:
         - title: Documentation for the latest version of Active IQ Unified Manager
