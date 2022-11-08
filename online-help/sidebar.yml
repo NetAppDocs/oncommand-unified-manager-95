@@ -2,6 +2,7 @@ section: online-help
 title: Online Help
 entries:
   - title: Introduction to OnCommand Unified Manager
+    pdf-filename: Introduction to OnCommand Unified Manager (manage storage)
     url: "/online-help/concept-introduction-to-unified-manager.html"
     entries:
     - title: Introduction to OnCommand Unified Manager health monitoring
@@ -1568,6 +1569,7 @@ entries:
     url: "/online-help/concept-troubleshooting.html"
     entries:
     - title: Changing the Unified Manager host name
+      pdf-filename: Changing the Unified Manager host name (manage storage)
       url: "/online-help/concept-changing-the-unified-manager-host-name.html"
       entries:
       - title: Changing the Unified Manager virtual appliance host name

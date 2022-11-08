@@ -103,11 +103,13 @@ entries:
       - title: Restoring data using the Health/Volumes inventory page
         url: "/health-checker/task-restoring-data-using-the-health-volumes-page.html"
     - title: Managing health thresholds
+      pdf-filename: Managing health thresholds (cluster health)
       url: "/health-checker/concept-managing-health-thresholds.html"
       entries:
       - title: What storage capacity health thresholds are
         url: "/health-checker/concept-what-storage-capacity-health-thresholds-are.html"
       - title: Configuring global health threshold settings
+        pdf-filename: Configuring global health threshold settings (cluster health)
         url: "/health-checker/task-configuring-global-health-threshold-settings.html"
         entries:
         - title: Configuring global aggregate health threshold values
@@ -126,6 +128,7 @@ entries:
       - title: Editing individual qtree health threshold settings
         url: "/health-checker/task-editing-individual-qtree-health-threshold-settings.html"
     - title: Managing scripts
+      pdf-filename: Managing scripts (cluster health)
       url: "/health-checker/concept-managing-scripts.html"
       entries:
       - title: How scripts work with alerts
@@ -137,9 +140,11 @@ entries:
       - title: Testing script execution
         url: "/health-checker/task-testing-script-execution.html"
     - title: Managing and monitoring groups
+      pdf-filename: Managing and monitoring groups (cluster health)
       url: "/health-checker/concept-managing-and-monitoring-groups.html"
       entries:
       - title: Understanding groups
+        pdf-filename: Understanding groups (cluster health)
         url: "/health-checker/concept-understanding-groups.html"
         entries:
         - title: What a group is
@@ -205,6 +210,7 @@ entries:
       - title: Reordering annotation rules
         url: "/health-checker/task-reordering-annotation-rules.html"
     - title: Configuring backup and restore operations
+      pdf-filename: Configuring backup and restore operations (cluster health)
       url: "/health-checker/concept-managing-backup-and-restore-operations.html"
       entries:
       - title: What a database backup is
@@ -224,6 +230,7 @@ entries:
       - title: Migrating a Unified Manager virtual appliance to a Linux system
         url: "/health-checker/task-migrating-a-unified-manager-virtual-appliance-to-a-rhel-or-centos-system.html"
     - title: What a Unified Manager maintenance window is
+      pdf-filename: What a Unified Manager maintenance window is (cluster health)
       url: "/health-checker/concept-what-a-um-maintenance-window-is.html"
       entries:
       - title: Scheduling a maintenance window to disable cluster event notifications
@@ -233,6 +240,7 @@ entries:
       - title: Viewing events that occurred during a maintenance window
         url: "/health-checker/task-viewing-events-that-occurred-during-a-maintenance-window.html"
     - title: Managing SAML authentication settings
+      pdf-filename: Managing SAML authentication settings (cluster health)
       url: "/health-checker/concept-managing-saml-authentication-settings-um.html"
       entries:
       - title: Identity provider requirements
@@ -249,6 +257,7 @@ entries:
       - title: Disabling SAML authentication from the maintenance console
         url: "/health-checker/task-disabling-saml-authentication-from-the-maintenance-console-um.html"
     - title: Managing storage objects using the Favorites option
+      pdf-filename: Managing storage objects using the Favorites option (cluster health)
       url: "/health-checker/generic-managing-storage-objects-using-the-favorite-option.html"
       entries:
       - title: Adding to, and removing storage objects from, the Favorites list
@@ -280,6 +289,7 @@ entries:
       - title: Importing reports
         url: "/health-checker/task-importing-reports.html"
     - title: Using Unified Manager REST APIs
+      pdf-filename: Using Unified Manager REST APIs (cluster health)
       url: "/health-checker/concept-using-unified-manager-rest-apis-ocum.html"
       entries:
       - title: Accessing REST APIs using the Swagger API web page
@@ -300,6 +310,7 @@ entries:
       - title: Adding alerts
         url: "/health-checker/task-adding-alerts.html"
       - title: Creating rules
+        pdf-filename: Creating rules (cluster health)
         url: "/health-checker/task-creating-rules.html"
         entries:
         - title: Creating rules using templates
@@ -331,6 +342,7 @@ entries:
       - title: Acknowledging and resolving events
         url: "/health-checker/task-acknowledging-and-resolving-events.html"
       - title: Event details page
+        pdf-filename: Event details page (cluster health)
         url: "/health-checker/reference-event-details-page.html"
         entries:
         - title: What the Event Information section displays
@@ -374,10 +386,6 @@ entries:
       url: "/health-checker/concept-what-the-maintenance-user-does.html"
     - title: Diagnostic user capabilities
       url: "/health-checker/concept-what-the-diagnostic-user-does.html"
-    - title: Accessing the maintenance console
-      url: "/health-checker/task-accessing-the-maintenance-console.html"
-    - title: Accessing the maintenance console using the vSphere VM console
-      url: "/health-checker/task-accessing-the-maintenance-console-using-vsphere.html"
     - title: Maintenance console menus
       url: "/health-checker/concept-maintenance-console-menu.html"
       entries:
@@ -396,6 +404,7 @@ entries:
     - title: Adding network interfaces
       url: "/health-checker/task-adding-additional-network-interfaces.html"
     - title: Adding disk space to the Unified Manager database directory
+      pdf-filename: Adding disk space to the Unified Manager database directory (cluster health)
       url: "/health-checker/concept-adding-disk-space-to-the-unified-manager-database-directory.html"
       entries:
       - title: Adding space to the data directory of the Linux host
