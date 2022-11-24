@@ -15,7 +15,7 @@ option of the OS installer
 *   CPU: 9572 MHz total
 *	Free disk space:  100 GB of disk space for /opt, 50 GB for the root partition
 
-For detailed system requirements, see the link:../install/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and the link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+For detailed system requirements, see the link:/install/reference-red-hat-and-centos-software-and-installation-requirements.html[Red Hat Enterprise Linux and CentOS software and installation requirements] and the link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
 
 == Installing OnCommand Unified Manager
 
@@ -26,12 +26,12 @@ For detailed system requirements, see the link:../install/concept-requirements-f
 `# unzip OnCommandUnifiedManager-rhel7-9.5RC1.zip`
 
 === Verify repository configuration
-The procedures for configuring Red Hat Enterprise Linux or CentOS repositories are site specific. The pre_install_check.sh script included in the installation package can be optionally used to verify whether your operating system is correctly configured. If your system is connected to the internet, you automatically receive the instructions for setting up the Red Hat Enterprise Linux and MySQL repositories. For information on how to install on a system that has no internet connectivity, see the link:install/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager]
+The procedures for configuring Red Hat Enterprise Linux or CentOS repositories are site specific. The pre_install_check.sh script included in the installation package can be optionally used to verify whether your operating system is correctly configured. If your system is connected to the internet, you automatically receive the instructions for setting up the Red Hat Enterprise Linux and MySQL repositories. For information on how to install on a system that has no internet connectivity, see the link:/install/concept-install-upgrade-and-remove-unified-manager-software.html[Installing, upgrading, and removing Unified Manager software on Red Hat or CentOS]
 
 `# ./pre_install_check.sh`
 
 === Install Unified Manager
-Unified Manager uses the `yum` utility to install the software and any dependent software. As there are varying images of Red Hat Enterprise Linux or CentOS in different organizations, the packages installed depend on the software present in the images. The `yum` utility will determine the dependent software packages for installation. If you need more information on the dependent software packages, see the link:install/reference-red-hat-and-centos-software-and-installation-requirements.html[Red Hat Enterprise Linux and CentOS software and installation requirements]
+Unified Manager uses the `yum` utility to install the software and any dependent software. As there are varying images of Red Hat Enterprise Linux or CentOS in different organizations, the packages installed depend on the software present in the images. The `yum` utility will determine the dependent software packages for installation. If you need more information on the dependent software packages, see the link:/install/concept-install-upgrade-and-remove-unified-manager-software.html[Installing, upgrading, and removing Unified Manager software on Red Hat or CentOS]
 
 As the root user, or using sudo, run the following command from the directory where the installation file was unzipped:
 

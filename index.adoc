@@ -2,11 +2,11 @@
 layout: astra
 sidebar: sidebar
 permalink: index.html
-lead: Fix this in index.adoc (repo root). While you are there, fix the summary that is on the next line.
+lead: OnCommand Unified Manager enables you to monitor and manage the health and performance of your ONTAP storage systems from a single interface. This documentation library includes information for version 9.5.
 summary: Fix this too.
 ---
 
-= OnCommand Unified Manager 9.5 Documentation
+= Active IQ Unified Manager 9.8 Documentation
 :hardbreaks:
 :nofooter:
 :icons: font

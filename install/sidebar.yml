@@ -6,8 +6,6 @@ entries:
     entries:
     - title: What the Unified Manager server does
       url: "/install/concept-what-the-unified-manager-server-does.html"
-    - title: OnCommand Unified Manager product documentation
-      url: "/install/reference-oncommand-unified-manager-product-documentation.html"
     - title: Overview of the installation sequence
       url: "/install/concept-overview-of-the-installation-sequence-um.html"
   - title: Requirements for installing Unified Manager
