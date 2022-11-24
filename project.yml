@@ -52,11 +52,11 @@ homepage:
     - title: Install & configure Unified Manager
       links:
         - title: Install & upgrade on VMware vSphere systems
-          url: install-vapp/concept-requirements-for-installing-unified-manager.html
+          url: install/concept-installing-upgrading-and-removing-unified-manager-software-on-vmware-vsphere.html
         - title: Install & upgrade on Linux systems
-          url: install-linux/concept-requirements-for-installing-unified-manager.html
+          url: install/concept-install-upgrade-and-remove-unified-manager-software.html
         - title: Install & upgrade on Windows systems
-          url: install-windows/concept-requirements-for-installing-unified-manager.html
+          url: install/concept-installing-upgrading-and-removing-unified-manager-software.html
         - title: Configure Unified Manager
           url: config/concept-configuring-unified-manager.html
     - title: Performance monitoring
@@ -65,26 +65,6 @@ homepage:
           url: performance-checker/concept-managing-performance-thresholds.html
         - title: Cluster performance
           url: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
-        - title: QoS policy group
-          url: performance-checker/concept-managing-performance-using-qos-policy-group-information.html  
-    - title: Data protection monitoring
-      links:
-        - title: Set up protection relationship
-          url: /data-protection/task-setting-up-protection-relationships-in-unified-manager.html
-        - title: Perform failover and failback
-          url: /data-protection/task-performing-protection-relationship-failover-and-failback.html
-        - title: Manage protection relationship
-          url: /data-protection/concept-managing-and-monitoring-protection-relationships.html
-        - title: Generate reports
-          url: /reporting/concept-unified-manager-reporting.html
-    - title: Use REST APIs
-      links:
-        - title: Get started
-          url: /api-automation/concept-api-url-and-categories.html
-        - title: Access Unified Manager APIs
-          url: /api-automation/concept-rest-api-accessing-and-authentication-in-um-apis.html
-        - title: Access ONTAP APIs
-          url: /api-automation/concept-gateway-apis.html             
     - title: More resources
       links:
         - title: Unified Manager videos
