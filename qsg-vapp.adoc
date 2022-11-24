@@ -1,0 +1,41 @@
+---
+permalink: qsg-vapp.html
+sidebar: sidebar
+keywords: quick start guide, getting started, QSG, VMWare QSG, vApp QSG, quick installation
+summary: "Quick start guide for Unified Manager on VMWare vSphere platform."
+---
+= Quick start instructions for VMWare installations
+
+== System requirements
+
+*	Operating system: VMware ESXi 5.5, 6.0, and 6.5
+*	RAM: 12 GB
+*	CPU: 9572 MHz total
+*	Free disk space: 5 GB (thin provisioned), 152 GB (thick provisioned)
+
+For detailed system requirements, see the link:../install/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+
+== Installing OnCommand Unified Manager
+
+=== Download the installer
+
+.	Download the `OnCommandUnifiedManager-9.5RC1.ovas` installation package.
+.	Save the file to a local directory or network directory that is accessible to your vSphere Client.
+
+=== Install Unified Manager
+
+VMware Tools is not included in the Unified Manager installation package. You must mount a CD-ROM or ISO image to install it as part of the Unified Manager installation process.
+
+.	In the vSphere Client, click *File > Deploy OVF Template*.
+.	Locate the OVA file and use the wizard to deploy the virtual appliance on the ESXi server.
+.	On the Network Configuration page in the Properties tab, populate the fields as required for the type of installation you are performing:
+*	For a static configuration; Enter required information in all fields (Secondary DNS is not required).
+*	For DHCP using IPv4; Leave all the fields blank.
+*	For DHCP using IPv6; Check the “Enable Auto IPv6 addressing” box and leave all the other fields blank.
+.	Power on the VM.
+.	Click the Console tab to view the initial boot process.
+.   Follow the prompt to install VMware Tools on the VM.
+.	Configure the time zone.
+.	Enter a Unified Manager maintenance user name and password.
+
+At the end of the installation, the information to connect to the Unified Manager web UI is displayed.
