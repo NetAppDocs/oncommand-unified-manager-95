@@ -11,9 +11,6 @@ summary: 'You can share a report with one or more users through email. After you
 [.lead]
 You can share a report with one or more users through email. After you customize a report, you must save the changes before you share the report to ensure that the changes are displayed.
 
-* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,#GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB>>
-* <<SECTION_9A2E9BA0D79549B2806F5C0F452323CB,#SECTION_9A2E9BA0D79549B2806F5C0F452323CB>>
-
 == Properties
 
 You can share a report by specifying properties such as the email address of the user, subject of the email, and the format of the report.

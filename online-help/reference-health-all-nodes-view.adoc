@@ -11,10 +11,6 @@ summary: 'The Health/Nodes inventory page enables you to view detailed informati
 [.lead]
 The Health/Nodes inventory page enables you to view detailed information about the nodes in a selected cluster.
 
-* <<SECTION_C83208BFAC68480D937E01EF5A02F8A1,Command button>>
-* <<GUID-9F6EB7FC-3E5A-4147-B27E-C8493910ADF6,Nodes list>>
-* <<GUID-5FEC3C60-25BF-4C85-85EB-657255852BCF,Filters pane>>
-
 == Command button
 
 * *Export*

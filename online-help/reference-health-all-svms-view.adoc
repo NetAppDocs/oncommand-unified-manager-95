@@ -11,10 +11,6 @@ summary: 'The Health/Storage Virtual Machines inventory page enables you to view
 [.lead]
 The Health/Storage Virtual Machines inventory page enables you to view detailed information about the storage virtual machines (SVMs) that you are monitoring.
 
-* <<SECTION_3F2AFB5273C847D9849EBDD25BC247F7,Command button>>
-* <<GUID-EDCB984F-094A-4A8D-822E-8A7DC146C020,SVMs list>>
-* <<GUID-CAC5113E-E10F-4A57-AFB3-547D9E419C23,Filters pane>>
-
 == Command buttons
 
 * *Export*

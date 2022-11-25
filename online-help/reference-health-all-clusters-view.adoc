@@ -13,10 +13,6 @@ The Health/Clusters inventory page enables you to add clusters and to view detai
 
 You must have the OnCommand Administrator or Storage Administrator role.
 
-* <<GUID-9C9076CD-1E24-45EF-BE62-BDC76CA0923B,Command buttons>>
-* <<GUID-1A86461D-23B8-4FF0-8662-742A83F6301D,Clusters table>>
-* <<GUID-B227F65F-2419-4151-992F-F3FCB67E37E8,Filters pane>>
-
 == Command buttons
 
 * *View Monitoring Status*

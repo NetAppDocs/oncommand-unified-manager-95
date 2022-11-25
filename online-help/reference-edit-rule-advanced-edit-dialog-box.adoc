@@ -11,11 +11,6 @@ summary: 'You can use the Edit Rule dialog box to edit the properties of a rule 
 [.lead]
 You can use the Edit Rule dialog box to edit the properties of a rule that is not created by using a template. The rule properties you can edit include the file types, directory paths, matching criteria, or owners. You can select an appropriate storage class for the rule. For example, you can edit the conditions specified in the matching criteria of a rule.
 
-* <<GUID-994C1008-2F22-4CA3-B3FB-82E9B4E48282,Rule Name>>
-* <<SECTION_FDD670D33B574939AA3EAC2CA54CCFD4,Matching Criteria>>
-* <<SECTION_B70156CB019A4AD786F1F371961330CD,Content Placement area>>
-* <<SECTION_AF9720DC4EA34FD4A762B3F3617205D5,Command buttons>>
-
 == Rule Name
 
 Displays the name of the rule.

@@ -11,10 +11,6 @@ summary: 'The Health/Volumes inventory page displays information about the volum
 [.lead]
 The Health/Volumes inventory page displays information about the volumes in the storage systems that are monitored and enables you to modify the volume threshold settings.
 
-* <<GUID-C4C756A8-FD7B-4092-B3F1-57A7C07C8178,Command buttons>>
-* <<GUID-7BFC6918-ED6B-4EB7-A901-6E1CDF9D8C84,Volumes Overview>>
-* <<GUID-5ED0BA51-8332-4FA7-B80A-F39D9AC3EFC1,Filters pane>>
-
 == Command buttons
 
 * *Edit Thresholds*
