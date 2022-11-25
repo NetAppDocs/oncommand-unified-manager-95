@@ -17,6 +17,7 @@ image::../media/opm-wrkld-perf-measurement-png.gif[Performance Manager workload 
 
 The following table lists the workload performance measurement values.
 
+[options="header"]
 |===
 | Measurement| Description
 a|

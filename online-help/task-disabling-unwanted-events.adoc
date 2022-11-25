@@ -26,6 +26,7 @@ When you disable an event for an object (for example, the `vol offline` event), 
 . In the left navigation pane, click *Configuration* > *Manage Events*.
 . In the *Configuration/Manage Events* page page, disable or enable events by choosing one of the following options:
 +
+[options="header"]
 |===
 | If you want to...| Then do this...
 a|

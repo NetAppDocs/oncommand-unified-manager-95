@@ -41,6 +41,7 @@ If you have paired Workflow Automation and Unified Manager, you must manually up
 . From the vSphere Client, power on the Unified Manager VM.
 . Select the Unified Manager upgrade image:
 +
+[options="header"]
 |===
 | If you are using...| Then do this...
 a|

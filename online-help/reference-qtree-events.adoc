@@ -13,10 +13,9 @@ Qtree events provide you with information about the qtree capacity and the file 
 
 == Impact area: capacity
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 Qtree Space Nearly Full(ocumEvtQtreeSpaceNearlyFull)
 

@@ -28,6 +28,7 @@ The *Add* button turns gray, and the object is added to the additional objects l
 
 . Hide or show data for selected objects:
 +
+[options="header"]
 |===
 | To do this...| Take this action...
 a|

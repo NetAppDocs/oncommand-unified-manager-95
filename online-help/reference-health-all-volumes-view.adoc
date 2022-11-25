@@ -204,6 +204,7 @@ You can move the pointer over the status to view more information about the volu
 +
 The caching policy that is associated with the selected volume. The policy provides information about how the Flash Pool caching occurs for the volume.
 +
+[options="header"]
 |===
 | Cache policy| Description
 a|

@@ -27,6 +27,7 @@ The list of rules in the data policy for the selected SVM with Infinite Volume i
 . Click *Edit*.
 . In the *Edit Rule* dialog box, edit the rule as required:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|

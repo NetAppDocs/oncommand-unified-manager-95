@@ -32,6 +32,7 @@ A message box displays to confirm that you want to complete the configuration an
 . Click *Confirm and Logout* and Unified Manager is restarted.
 . Access your IdP server and enter the Unified Manager server URI and metadata to complete the configuration.
 +
+[options="header"]
 |===
 | Identity provider| Configuration steps
 a|

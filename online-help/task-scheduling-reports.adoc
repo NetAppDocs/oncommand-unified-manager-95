@@ -20,6 +20,7 @@ The Report details page is displayed.
 . Click *Actions* > *Schedule Report*.
 . In the *Schedule Report* dialog box, select one of the preferred schedules for your report:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|

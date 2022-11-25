@@ -22,6 +22,7 @@ You can verify that your script is executed correctly when an alert is generated
 . In the *Management/Scripts* page page, add your test script.
 . In the *Configuration/Alerting* page, perform one of the following actions:
 +
+[options="header"]
 |===
 | To...| Do this...
 a|

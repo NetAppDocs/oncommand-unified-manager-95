@@ -13,6 +13,7 @@ A data policy automatically filters data written to the Infinite Volume into dif
 
 A default data policy is automatically created for a storage virtual machine (SVM) with Infinite Volume when you create the Infinite Volume. The data policy is active and contains a default rule. The default rule stores incoming data for files as follows for Infinite Volumes with and without storage classes:
 
+[options="header"]
 |===
 | For an Infinite Volume...| The default data policy does this...
 a|

@@ -33,6 +33,7 @@ A threshold breach must occur continuously for the specified duration. If the th
 
 Some cluster objects and performance counters enable you to create a combination threshold policy that requires two performance counters to exceed their maximum limits before an event is generated. For example, you can create a threshold policy using the following criteria:
 
+[options="header"]
 |===
 | Cluster object| Performance counter| Warning threshold| Critical threshold| Duration
 a|

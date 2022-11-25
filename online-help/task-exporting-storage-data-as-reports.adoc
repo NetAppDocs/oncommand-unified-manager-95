@@ -25,6 +25,7 @@ The export functionality is not supported for the constituents of an Infinite Vo
 
 . Perform one of the following actions:
 +
+[options="header"]
 |===
 | If you want to export...| Do this...
 a|

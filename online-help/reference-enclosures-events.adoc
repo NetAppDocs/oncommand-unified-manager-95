@@ -13,10 +13,9 @@ Enclosures events provide you with information about the status of disk shelf en
 
 == Impact area: availability
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 Disk Shelf Fans Failed(ocumEvtShelfFanFailed)
 
@@ -62,10 +61,9 @@ Warning
 
 == Impact area: configuration
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 Disk Shelf Discovered(Not applicable)
 

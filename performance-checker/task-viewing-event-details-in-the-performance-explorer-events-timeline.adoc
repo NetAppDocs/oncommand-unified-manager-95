@@ -25,6 +25,7 @@ A pop-up dialog displays information about the event types, the date and time wh
 
 . View full event details for one event or multiple events:
 +
+[options="header"]
 |===
 | To do this...| Click this...
 a|

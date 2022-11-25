@@ -15,6 +15,7 @@ You can search strings on Object Inventory Performance pages. Use the *Search* f
 
 . Perform one of the following options, based on your search requirements:
 +
+[options="header"]
 |===
 | To locate this...| Type this...
 a|

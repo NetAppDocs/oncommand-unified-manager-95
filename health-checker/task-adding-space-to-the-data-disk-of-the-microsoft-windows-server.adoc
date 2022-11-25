@@ -24,6 +24,7 @@ We recommend that you back up the Unified Manager database before adding disk sp
 . Log in as administrator to the Windows server on which you want to add disk space.
 . Follow the step that corresponds to method you want to use to add more space:
 +
+[options="header"]
 |===
 | Option| Description
 a|

@@ -28,6 +28,7 @@ When installed on VMware, if you have already logged in as the maintenance user 
 
 . Follow these steps to access the maintenance console:
 +
+[options="header"]
 |===
 | On this operating system...| Follow these steps...
 a|

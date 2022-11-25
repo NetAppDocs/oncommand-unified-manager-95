@@ -13,6 +13,7 @@ Depending on whether you are installing Unified Manager on virtual infrastructur
 
 The following table displays the values that are recommended for memory, CPU, and disk space resources. These values have been qualified so that Unified Manager meets acceptable performance levels.
 
+[options="header"]
 |===
 | Hardware configuration| Recommended settings
 a|

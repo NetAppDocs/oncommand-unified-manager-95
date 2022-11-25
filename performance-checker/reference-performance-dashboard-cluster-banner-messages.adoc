@@ -11,6 +11,7 @@ summary: 'Unified Manager may display cluster banner messages on the Performance
 [.lead]
 Unified Manager may display cluster banner messages on the Performance Dashboard to alert you to status issues for a particular cluster.
 
+[options="header"]
 |===
 | Banner message| Description| Resolution
 a|

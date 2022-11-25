@@ -15,10 +15,9 @@ An asterisk (*) identifies EMS events that have been converted to Unified Manage
 
 == Impact area: availability
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 Node Root Volume Space Nearly Full(ocumEvtClusterNodeRootVolumeSpaceNearlyFull )
 
@@ -129,10 +128,9 @@ Critical
 
 == Impact area: capacity
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 QoS Monitor Memory Maxed *(ocumQosMonitorMemoryMaxed)
 
@@ -155,10 +153,9 @@ Information
 
 == Impact area: configuration
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 Node Renamed(Not applicable)
 
@@ -172,10 +169,9 @@ Information
 
 == Impact area: performance
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 Node IOPS Critical Threshold Breached(ocumNodeIopsIncident)
 

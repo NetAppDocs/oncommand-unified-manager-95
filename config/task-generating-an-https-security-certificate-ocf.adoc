@@ -28,6 +28,7 @@ The Regenerate HTTPS Certificate dialog box is displayed.
 
 . Select one of the following options depending on how you want to generate the certificate:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|

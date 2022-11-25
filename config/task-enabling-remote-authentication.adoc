@@ -37,6 +37,7 @@ The certificate that is used to authenticate users must conform to the X.509 for
 . In the *Setup/Authentication* page, select *Enable Remote Authentication*.
 . In the *Authentication Service* field, select the type of service and configure the authentication service.
 +
+[options="header"]
 |===
 | For Authentication type...| Enter the following information...
 a|

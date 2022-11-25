@@ -16,6 +16,7 @@ You can manage your report schedules from the Manage Report Schedules dialog box
 . In the left navigation pane, click *Reports*, and then click *Manage Report Schedules*.
 . In the *Manage Report Schedules* dialog box,
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|

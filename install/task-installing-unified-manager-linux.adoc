@@ -32,6 +32,7 @@ The Red Hat Enterprise Linux or CentOS system may have all the required versions
 . Log in to the server on which you are installing Unified Manager.
 . Enter the appropriate commands to assess what software might require installation or upgrade on the target system to support installation:
 +
+[options="header"]
 |===
 | Required software and minimum version| Command to verify software and version
 a|
@@ -50,6 +51,7 @@ a|
 
 . If any version of the listed software is earlier than the required version, enter the appropriate command to uninstall that module:
 +
+[options="header"]
 |===
 | Software to uninstall| Command to uninstall the software
 a|

@@ -19,6 +19,7 @@ You must have the OnCommand Administrator or Storage Administrator role.
 
 . Navigate to the storage objects you want to annotate:
 +
+[options="header"]
 |===
 | To add annotation to...| Do this...
 a|

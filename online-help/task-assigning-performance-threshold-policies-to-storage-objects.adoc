@@ -33,6 +33,7 @@ Additionally, if some objects do not support the counter being tracked in the th
 
 . From the Performance inventory page of any storage object, select the object or objects to which you want to assign a threshold policy:
 +
+[options="header"]
 |===
 | To assign thresholds to...| Click...
 a|

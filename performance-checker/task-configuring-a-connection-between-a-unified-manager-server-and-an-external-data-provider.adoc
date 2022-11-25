@@ -60,6 +60,7 @@ The current server configuration information is displayed.
 . When prompted, type `y` to continue.
 . When prompted, enter the type of statistics to send, the time interval at which the statistics are sent, and whether you want to enable the transmission of statistics now:
 +
+[options="header"]
 |===
 | For..| Enter...
 a|

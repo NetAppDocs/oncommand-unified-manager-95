@@ -28,6 +28,7 @@ The detailed information for the selected node is displayed in the Health/Cluste
 
 . To view other details about the node, perform the appropriate action:
 +
+[options="header"]
 |===
 | To view...| Click...
 a|

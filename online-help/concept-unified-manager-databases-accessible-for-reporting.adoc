@@ -15,6 +15,7 @@ Starting with Unified Manager 7.3, additional schemas are exposed that provide a
 
 All table data from the following databases are available:
 
+[options="header"]
 |===
 | Database| Description
 a|

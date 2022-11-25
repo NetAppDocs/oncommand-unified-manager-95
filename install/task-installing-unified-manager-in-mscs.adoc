@@ -16,6 +16,7 @@ For configuring high availability, you must install Unified Manager on both the 
 . Log in as the domain user on both the nodes of the cluster.
 . Set up high availability by choosing one of the following options:
 +
+[options="header"]
 |===
 | If you want to...| Then do this...
 a|

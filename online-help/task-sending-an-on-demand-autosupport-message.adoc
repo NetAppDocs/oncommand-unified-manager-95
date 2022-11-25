@@ -20,6 +20,7 @@ You must be logged in as the maintenance user.
 . In the toolbar, click *image:../media/clusterpage-settings-icon.gif[]*, and then click *AutoSupport* from the *Setup* menu.
 . Perform one or both of the following actions:
 +
+[options="header"]
 |===
 | If you want to send the AutoSupport message to...| Do this...
 a|

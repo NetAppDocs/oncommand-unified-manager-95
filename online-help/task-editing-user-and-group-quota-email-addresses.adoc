@@ -27,6 +27,7 @@ If you edit an email address, the rules to generate the user and group quota ema
 . Click *Edit Email Address* below the row of tabs.
 . In the *Edit Email Address* dialog box, perform the appropriate action:
 +
+[options="header"]
 |===
 | If...| Then...
 a|

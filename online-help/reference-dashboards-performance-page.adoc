@@ -43,6 +43,7 @@ You can click the object icon to display the Performance Inventory page for that
 
 There are five performance counters, each displayed in a separate panel, for every cluster. This information is updated automatically after each five-minute collection period:
 
+[options="header"]
 |===
 | Counter| Description
 a|

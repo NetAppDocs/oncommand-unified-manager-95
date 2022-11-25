@@ -74,6 +74,7 @@ All the date information that is displayed uses the time zone that is configured
 
 . If no DHCP services are available, or if there is an error in the details for the static network configuration, select one of the following options:
 +
+[options="header"]
 |===
 | If you use...| Then do this...
 a|

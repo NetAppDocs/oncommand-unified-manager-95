@@ -17,6 +17,7 @@ You do not have to specify port numbers when connecting to the Unified Manager w
 
 The Unified Manager server uses specific protocols to access the following interfaces:
 
+[options="header"]
 |===
 | Interface| Protocol| Port| Description
 a|
@@ -85,6 +86,7 @@ Depending on your environment, you can choose to modify the ports and protocols 
 
 The Unified Manager server connects using the following protocols and ports to the managed storage systems, servers, and other components:
 
+[options="header"]
 |===
 | Destination| Protocol| Port| Description
 a|

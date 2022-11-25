@@ -28,6 +28,7 @@ The *Add* button turns gray, and the object is added to the additional objects l
 
 . Hide or show data for selected objects:
 +
+[options="header"]
 |===
 | To do this...| Take this action...
 a|
@@ -43,6 +44,7 @@ Click the gray eye icon of the selected object in the Comparing pane.     The ey
 
 . Remove selected objects from the *Comparing* pane:
 +
+[options="header"]
 |===
 | To do this...| Take this action...
 a|

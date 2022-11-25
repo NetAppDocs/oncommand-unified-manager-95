@@ -21,6 +21,7 @@ Unlike all other Unified Manager event messages, these particular management sta
 
 . To view management station event information, perform these actions:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
