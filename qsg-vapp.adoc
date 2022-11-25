@@ -13,7 +13,7 @@ summary: "Quick start guide for Unified Manager on VMWare vSphere platform."
 *	CPU: 9572 MHz total
 *	Free disk space: 5 GB (thin provisioned), 152 GB (thick provisioned)
 
-For detailed system requirements, see the link:install/reference-vmware-software-and-installation-requirements.html[VMware software and installation requirements] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+For detailed system requirements, see link:install/reference-vmware-software-and-installation-requirements.html[VMware software and installation requirements] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
 
 == Installing OnCommand Unified Manager
 

@@ -1,5 +1,5 @@
 ---
-permalink: install-windows/task-unattended-installation-of-unified-manager.html
+permalink: install/task-unattended-installation-of-unified-manager.html
 sidebar: sidebar
 keywords: perform, unattended, installation, unified manager
 summary: "You can install Unified Manager without user intervention by using the command-line interface. You can complete the unattended installation by passing the parameters in key-value pairs."

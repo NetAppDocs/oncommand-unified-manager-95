@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Catalyst migration
+  name: OnCommand Unified Manager 9.5
   internal:
     pdf_enabled: true
   prod:
@@ -20,22 +20,24 @@ settings:
       version-number: "9.7"
 sidebar:
   entries:
-    - title: Home
+    - title: OnCommand Unified Manager 9.5 docs
       url: "/index.html"
     - title: Release notes
       url: "/release-notes.html"
-    - title: Quick start install for VMware vSphere
-      url: "/qsg-vapp.html"
-    - title: Quick start install for Linux
-      url: "/qsg-linux.html"
-    - title: Quick start install for Windows
-      url: "/qsg-windows.html"
+    - title: Get started
+      entries:
+      - title: Quick start install for VMware vSphere
+        url: "/qsg-vapp.html"
+      - title: Quick start install for Linux
+        url: "/qsg-linux.html"
+      - title: Quick start install for Windows
+        url: "/qsg-windows.html"
     - section: install
     - section: config
     - section: online-help
     - section: performance-checker
     - section: health-checker
-    - title: Legal
+    - title: Legal notices
       url: "/legal-notices.html"
 homepage:
   tiles:
