@@ -18,7 +18,7 @@ The MetroCluster configuration includes the following key hardware elements:
 The storage controllers connect directly to the storage using SAS cables.
 +
 Each storage controller is configured as a DR partner to a storage controller on the partner site.
-
++
  ** Copper SAS cables can be used for shorter distances.
  ** Optical SAS cables can be used for longer distances.
 

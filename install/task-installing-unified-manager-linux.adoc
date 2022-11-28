@@ -42,11 +42,11 @@ a|
 a|
 MySQL 5.7.23 Community Edition
 a|
-`rpm -qa | grep -i mysql`
+`rpm -qa \| grep -i mysql`
 a|
 p7zip 9.20.1
 a|
-`rpm -qa | grep p7zip`
+`rpm -qa \| grep p7zip`
 |===
 
 . If any version of the listed software is earlier than the required version, enter the appropriate command to uninstall that module:
@@ -89,7 +89,7 @@ The pre-installation script checks that the system has a valid Red Hat subscript
 +
 [NOTE]
 ====
-You must perform <<STEP_EFB6C72C92504ED68EFE5AE44E710D98,step 7>>_only_ if you are required to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to <<STEP_84638F64625B460D9B39BB07971C2480,step 8>>.
+You must perform step 7 _only_ if you are required to manually download the packages that are required for your installation. If your system has Internet access and all the required packages are available, go to step 8.
 ====
 
 . For systems that are not connected to the Internet or that are not using the Red Hat Enterprise Linux repositories, perform the following steps to determine whether you are missing any required packages, and then download those packages:

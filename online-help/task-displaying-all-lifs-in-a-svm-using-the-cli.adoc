@@ -20,7 +20,7 @@ The operational status of a LIF is determined by whether it has been configured 
 . To display information about all LIFs in a SVM, enter the following command: `network interface show -vserver vserver_name`
 +
 The command displays the following information:
-
++
  ** Node or SVM associated with the LIF
  ** LIF name
  ** Administrative and operational status
@@ -29,7 +29,6 @@ The command displays the following information:
  ** Node and port on which the LIF is configured
 +
 A home server can be either a node or a SVM.
-
 +
 If data for a field is not available (for instance, the operational duplex and speed for an inactive port), the field is listed as undef.
 +

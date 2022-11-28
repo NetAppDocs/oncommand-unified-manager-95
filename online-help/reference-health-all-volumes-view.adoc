@@ -142,7 +142,6 @@ A data protection (DP) volume or read/write volume with an incoming SnapMirror o
  ** Not Applicable
 +
 A volume for which protection roles do not apply, such as a load sharing volume, data constituent, or temporary volume
-
 +
 You can move your pointer over the protection role for a volume to display a graphical representation of the protection topology for the selected volume. This may include the source volume, the total number of outgoing synchronous and asynchronous SnapMirror relationships, and the total number of outgoing SnapVault relationships. Blue highlighting around the volume indicates the selected volume.
 +

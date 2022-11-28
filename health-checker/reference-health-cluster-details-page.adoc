@@ -392,19 +392,18 @@ Displays information about nodes in the selected cluster. You can view detailed 
 * *HA Details*
 +
 Provides a pictorial representation of the HA state and the health status of the nodes in the HA pair. The health status of the node is indicated by the following colors:
-
- ** *Green*
++
+  ** *Green*
 +
 The node is in a working condition.
-
- ** *Yellow*
++
+  ** *Yellow*
 +
 The node has taken over the partner node or the node is facing some environmental issues.
-
- ** *Red*
++
+  ** *Red*
 +
 The node is down.
-
 +
 You can view information about the availability of the HA pair and take required action to prevent any risks. For example, in the case of a possible takeover operation, the following message is displayed: `Storage failover possible`.
 +

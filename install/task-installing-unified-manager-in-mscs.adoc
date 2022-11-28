@@ -36,5 +36,5 @@ a|
 Configure high availability on a new Unified Manager installation
 a|
 Install Unified Manager on both the nodes.     link:task-installing-unified-manager-on-windows.md#[Installing Unified Manager on a Windows system]
-+
+
 |===

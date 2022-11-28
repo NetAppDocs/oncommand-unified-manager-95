@@ -81,7 +81,7 @@ a|
 DHCP
 a|
 Select *Retry DHCP*.    If you plan to use DHCP, you should ensure that it is configured correctly.
-+
+
 If you use a DHCP-enabled network, the FQDN and DNS server entries are given to the virtual appliance automatically. If DHCP is not properly configured with DNS, the host name "`OnCommand`" is automatically assigned and associated with the security certificate. If you have not set up a DHCP-enabled network, you must manually enter the networking configuration information.
 a|
 A static network configuration

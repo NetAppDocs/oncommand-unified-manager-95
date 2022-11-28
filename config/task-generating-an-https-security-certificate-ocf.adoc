@@ -39,9 +39,9 @@ a|
 Generate the certificate using different values
 a|
     Click the *Update the Current Certificate Attributes* option.
-+
+
 The Common Name and Alternative Names fields will use the values from the existing certificate if you do not enter new values. The other fields do not require values, but you can enter values, for example, for the City, State, and Country if you want those values to be populated in the certificate.
-+
+
 [NOTE]
 ====
 You can select the "`Exclude local identifying information (e.g. localhost)`" checkbox if you want to remove the local identifying information from the Alternative Names field in the certificate. When this checkbox is selected only what you enter in the field is used in the Alternative Names field. When left blank the resulting certificate will not have an Alternative Names field at all.

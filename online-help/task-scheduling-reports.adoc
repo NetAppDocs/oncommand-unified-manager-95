@@ -31,7 +31,7 @@ a|
 Create a new schedule
 a|
 Click *Create New Schedule*, and then enter the schedule name, specify the email address, select the report format and frequency, and enter a time or day you want the report to run.     You can specify one or more email addresses, separated by commas. The _PDF_ option is selected as the default report format. The _Hourly_ option is selected as the default frequency.
-+
+
 |===
 
 . Click *Schedule*.

@@ -696,19 +696,18 @@ You can also view the initiator groups and initiators that are mapped to the sel
 * *Initiator Groups tab*
 +
 Displays details about initiator groups. You can view details such as the name of the initiator group, the access state, the type of host operating system that is used by all the initiators in the group, and the supported protocol. When you click the link in the access state column, you can view the current access state of the initiator group.
-
- ** *Normal*
++
+    ** *Normal*
 +
 The initiator group is connected to multiple access paths.
-
- ** *Single Path*
++
+    ** *Single Path*
 +
 The initiator group is connected to a single access path.
-
- ** *No Paths*
++
+    ** *No Paths*
 +
 There is no access path connected to the initiator group.
-
 +
 You can view whether initiator groups are mapped to all the LIFs or specific LIFs through a port set. When you click the count link in the Mapped LIFs column, either all LIFs are displayed or specific LIFs for a port set are displayed. LIFs that are mapped through the target portal are not displayed. The total number of initiators and LUNs that are mapped to an initiator group is displayed.
 +
