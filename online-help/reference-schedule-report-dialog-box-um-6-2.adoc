@@ -11,9 +11,6 @@ summary: 'You can schedule the reports to be generated on a recurring basis at a
 [.lead]
 You can schedule the reports to be generated on a recurring basis at a specified frequency from the Schedule Report dialog box. The report is sent by email to one or more users specified in the Schedule Report dialog box.
 
-* <<SECTION_E32FF36F47E94E098924C1214CF327BA,#SECTION_E32FF36F47E94E098924C1214CF327BA>>
-* <<SECTION_0C97AE8D893A4EBCB4F74851B8AAD325,#SECTION_0C97AE8D893A4EBCB4F74851B8AAD325>>
-
 == Properties
 
 You can schedule a report by specifying properties such as the email address of the user, the format of the report, and the frequency at which the report is generated.

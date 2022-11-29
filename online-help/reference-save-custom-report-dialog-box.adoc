@@ -11,9 +11,6 @@ summary: 'You can use the Save Custom Report dialog box to save a custom report 
 [.lead]
 You can use the Save Custom Report dialog box to save a custom report after making additional changes to the custom report.
 
-* link:reference-share-report-dialog-box-um-6-2.md#GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB[reference-share-report-dialog-box-um-6-2.md#GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB]
-* link:reference-share-report-dialog-box-um-6-2.md#SECTION_9A2E9BA0D79549B2806F5C0F452323CB[reference-share-report-dialog-box-um-6-2.md#SECTION_9A2E9BA0D79549B2806F5C0F452323CB]
-
 == Properties
 
 You can save a custom report by specifying properties such as the description.
