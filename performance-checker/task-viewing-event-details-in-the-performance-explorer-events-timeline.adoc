@@ -40,3 +40,5 @@ a|
 ====
 Clicking a single event on the multiple events dialog displays the appropriate Event Details page.
 ====
+
+|===
