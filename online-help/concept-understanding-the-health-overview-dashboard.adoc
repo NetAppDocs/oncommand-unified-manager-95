@@ -36,9 +36,3 @@ Displays information about the performance of clusters, SVMs, and volumes that a
 * *Protection*
 +
 Displays information about the protection relationships that are monitored by Unified Manager. Based on the protection-related events that are generated, the protection relationships are categorized as Healthy, Warning, or Error.
-
-*Related information*
-
-xref:reference-description-of-dashboard-windows.adoc[Description of dashboard windows]
-
-xref:concept-understanding-the-performance-panels-on-the-dashboard.adoc[Understanding the Performance dashboard]

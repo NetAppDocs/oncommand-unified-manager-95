@@ -839,21 +839,3 @@ The Related Groups pane enables you to view the list of groups associated with t
 == Related Alerts pane
 
 The Related Alerts pane enables you to view the list of alerts that are created for the selected SVM. You can also add an alert by clicking the *Add Alert* link or edit an existing alert by clicking the alert name.
-
-*Related information*
-
-xref:reference-export-policy-rules-dialog-box.adoc[Export Policy Rules dialog box]
-
-xref:task-viewing-the-details-of-svms-with-infinite-volume.adoc[Viewing the details of SVMs with Infinite Volume]
-
-xref:task-viewing-the-constituents-of-an-infinite-volume.adoc[Viewing the constituents of an Infinite Volume]
-
-xref:task-editing-the-infinite-volume-threshold-settings.adoc[Editing the Infinite Volume threshold settings]
-
-xref:task-creating-rules.adoc[Creating rules]
-
-xref:task-viewing-rules.adoc[Viewing rules]
-
-xref:task-previewing-changes-to-your-data-policy.adoc[Previewing changes to your data policy]
-
-xref:task-adding-alerts.adoc[Adding alerts]

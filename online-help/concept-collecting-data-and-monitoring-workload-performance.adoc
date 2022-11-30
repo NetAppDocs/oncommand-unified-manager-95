@@ -24,11 +24,3 @@ During the first 4 days that Unified Manager is monitoring a volume, if more tha
 ====
 Daylight savings time (DST) changes the system time, which alters the expected range of performance statistics for monitored workloads. Unified Manager immediately begins to correct the expected range, which takes approximately 15 days to complete. During this time you can continue to use Unified Manager, but, since Unified Manager uses the expected range to detect events, some events might not be accurate. Events detected prior to the time change are not affected. Manually changing the time on a cluster, or on a Unified Manager server, to an earlier time will also affect the event analysis results.
 ====
-
-*Related information*
-
-xref:concept-how-the-discovery-process-works.adoc[How the cluster discovery process works]
-
-xref:concept-what-the-expected-range-of-performance-is.adoc[What the expected range of performance is]
-
-xref:reference-workload-performance-measurement-values.adoc[Workload performance measurement values]

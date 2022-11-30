@@ -38,9 +38,3 @@ Shares the report with the saved configuration and closes the Share Report dialo
 * *Cancel*
 +
 Closes the Share Report dialog box while displaying a message to save the report configuration.
-
-*Related information*
-
-xref:concept-what-report-sharing-is.adoc[What report sharing is]
-
-xref:task-sharing-reports.adoc[Sharing reports]

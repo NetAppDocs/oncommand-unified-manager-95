@@ -73,6 +73,4 @@ Discards your selections and closes the Advanced Destination Settings dialog box
 
 *Related information*
 
-xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]
-
 http://www.netapp.com/us/media/tr-3966.pdf[NetApp Technical Report 3966: NetApp Data Compression and Deduplication Deployment and Implementation Guide (Clustered Data ONTAP)]

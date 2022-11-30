@@ -112,13 +112,3 @@ Make note of the names of the volume and aggregate so you have them available wh
 ====
 
 . After resolving the capacity issue, return to the Unified Manager**Event** details page and mark the event as resolved.
-
-*Related information*
-
-xref:reference-job-details-page.adoc[Protection/Job details page]
-
-xref:task-adding-and-reviewing-notes-about-an-event.adoc[Adding and reviewing notes about an event]
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]
-
-xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]

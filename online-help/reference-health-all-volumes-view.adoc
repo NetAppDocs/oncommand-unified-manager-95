@@ -331,9 +331,3 @@ The Filters pane enables you to set filters to customize the way information is 
 ====
 The filters specified in the Filters pane override the filters specified for the columns in the volumes list.
 ====
-
-*Related information*
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]

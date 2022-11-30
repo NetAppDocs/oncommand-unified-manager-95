@@ -24,9 +24,3 @@ You must ensure that the report you plan to import is supported by Unified Manag
 . Click *Import*.
 +
 If you cannot import the report, you can check the log file to find the error causing the issue.
-
-*Related information*
-
-xref:concept-what-report-importing-is.adoc[What report importing is]
-
-xref:reference-import-report-dialog-box.adoc[Import Report dialog box]

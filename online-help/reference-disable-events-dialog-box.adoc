@@ -46,7 +46,3 @@ Disables the event type and closes the dialog box.
 * *Cancel*
 +
 Discards the changes and closes the dialog box.
-
-*Related information*
-
-xref:task-disabling-unwanted-events.adoc[Disabling or enabling events]

@@ -40,9 +40,3 @@ Updates the changes made to the rule and closes the Edit Rule dialog box.
 * *Cancel*
 +
 Cancels the recent changes made to the rule and closes the Edit Rule dialog box.
-
-*Related information*
-
-xref:task-editing-template-based-rules.adoc[Editing template-based rules]
-
-xref:task-editing-custom-rules.adoc[Editing custom rules]

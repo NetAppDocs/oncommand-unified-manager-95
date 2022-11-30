@@ -20,11 +20,3 @@ You must have the Operator, OnCommand Administrator, or Storage Administrator ro
 . In the left navigation pane, click *Configuration* > *Alerting*.
 +
 The list of alerts is displayed in the Configuration/Alerting page.
-
-*Related information*
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-deleting-alerts.adoc[Deleting alerts]
-
-xref:task-adding-users.adoc[Adding users]

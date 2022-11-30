@@ -22,7 +22,3 @@ You must have the OnCommand Administrator or Storage Administrator role.
 . In the *Health/Storage Virtual Machine* details page, click *Actions* > *Edit Thresholds*.
 . In the *Edit Storage Class Thresholds* dialog box, modify the thresholds as required.
 . Click *Save and Close*.
-
-*Related information*
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

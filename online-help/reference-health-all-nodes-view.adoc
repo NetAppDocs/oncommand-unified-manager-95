@@ -135,7 +135,3 @@ The Filters pane enables you to set filters to customize the way information is 
 ====
 The filters that are specified in the Filters pane override the filters that are specified for the columns in the Nodes list.
 ====
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]

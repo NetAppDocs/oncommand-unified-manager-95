@@ -42,7 +42,3 @@ If the backup folder name contains a space, you must include the absolute path o
 == After you finish
 
 After the restore operation is complete, you can log in to Unified Manager.
-
-*Related information*
-
-xref:concept-what-a-database-restore-is.adoc[What a database restore is]

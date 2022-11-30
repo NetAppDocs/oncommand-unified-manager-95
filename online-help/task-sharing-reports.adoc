@@ -31,9 +31,3 @@ By default, the name of the report appears as the subject of the email.
 The _PDF_ option is selected as the default report format. If the XHTML format is selected, the recipient must open the report that is sent by email by using a supported web browser.
 
 . Click *Share*.
-
-*Related information*
-
-xref:concept-what-report-sharing-is.adoc[What report sharing is]
-
-xref:reference-share-report-dialog-box-um-6-2.adoc[Share Report dialog box]

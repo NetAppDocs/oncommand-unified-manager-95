@@ -44,7 +44,3 @@ Creates a new rule for the data policy and closes the Create Rule dialog box.
 * *Cancel*
 +
 Cancels the recent changes made to the rule and closes the Create Rule dialog box.
-
-*Related information*
-
-xref:task-creating-rules.adoc[Creating rules]

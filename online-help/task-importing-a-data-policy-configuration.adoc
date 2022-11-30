@@ -33,9 +33,3 @@ The list of rules in the data policy for the selected SVM with Infinite Volume i
 . In the *Import Data Policy* dialog box, specify the data policy that you want to import by providing the absolute path of the data policy file.
 . Click *Import*.
 . Click *Activate* to activate the imported rules in the SVM.
-
-*Related information*
-
-xref:task-exporting-a-data-policy-configuration.adoc[Exporting a data policy configuration]
-
-xref:task-adding-users.adoc[Adding users]

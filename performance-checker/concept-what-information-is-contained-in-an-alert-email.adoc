@@ -23,9 +23,3 @@ After upgrading to Unified Manager 7.2, or greater, links to events and alerts f
 A sample alert email is shown below:
 
 image::../media/um-email-alert.gif[]
-
-*Related information*
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]
-
-xref:task-adding-alerts.adoc[Adding alerts]

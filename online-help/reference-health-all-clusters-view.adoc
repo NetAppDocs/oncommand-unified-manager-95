@@ -107,17 +107,3 @@ The Filters pane enables you to set filters to customize the display of informat
 ====
 The filters specified in the Filters pane override the filters specified for the columns in the clusters list.
 ====
-
-*Related information*
-
-xref:task-editing-clusters.adoc[Editing clusters]
-
-xref:task-rediscovering-clusters.adoc[Rediscovering clusters]
-
-xref:reference-dashboards-cluster-view-page.adoc[Dashboards/Cluster View page]
-
-xref:task-adding-clusters.adoc[Adding clusters]
-
-xref:task-removing-clusters.adoc[Removing clusters]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]

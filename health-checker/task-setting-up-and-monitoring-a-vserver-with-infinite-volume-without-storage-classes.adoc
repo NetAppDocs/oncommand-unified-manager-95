@@ -49,11 +49,3 @@ You should use the default Infinite Volume threshold settings.
 . image:../media/wfa-icon.gif[Icon for WFA procedure] Create a disaster recovery (DR) SVM with Infinite Volume, and then configure data protection (DP) by performing the following steps:
  .. Create a data protection (DP) Infinite Volume by using the appropriate workflow.
  .. Set up a DP mirror relationship between the source and destination by using the appropriate workflow.
-
-*Related information*
-
-xref:task-editing-the-infinite-volume-threshold-settings.adoc[Editing the Infinite Volume threshold settings]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

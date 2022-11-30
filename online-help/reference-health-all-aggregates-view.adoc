@@ -255,11 +255,3 @@ Enables you to set filters to customize the way information is displayed in the 
 ====
 The filters specified in the Filters pane override the filters specified for the columns in the aggregates list.
 ====
-
-*Related information*
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]
-
-xref:concept-what-storage-efficiency-is.adoc[What storage efficiency is]

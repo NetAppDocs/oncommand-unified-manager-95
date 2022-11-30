@@ -46,9 +46,3 @@ Enables you to restore the configuration settings to the factory default values.
 * *Save*
 +
 Saves the configuration settings for the selected option.
-
-*Related information*
-
-xref:task-configuring-lag-threshold-settings-for-unmanaged-protection-relationships.adoc[Editing lag health threshold settings for unmanaged protection relationships]
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]

@@ -25,9 +25,3 @@ Retaining events for more than 180 days affects the server performance and is no
 . In the *Configuration/Manage Events* page, click the *Event Retention Settings* button.
 . Configure the appropriate settings in the *Event Retention Settings* dialog box.
 . Click *Save and Close*.
-
-*Related information*
-
-xref:task-configuring-event-notification-settings.adoc[Configuring event notification settings]
-
-xref:task-adding-users.adoc[Adding users]

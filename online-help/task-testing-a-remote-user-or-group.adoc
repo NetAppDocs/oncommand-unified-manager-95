@@ -20,13 +20,3 @@ You can validate that a remote user or remote group can access the Unified Manag
 
 . In the toolbar, click *image:../media/clusterpage-settings-icon.gif[]*, and then click *Users* in the left Management menu.
 . In the *Management/Users* page, select a remote user or remote group that you want to validate, and then click *Test*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]
-
-xref:task-setting-up-authentication-services.adoc[Setting up authentication services]
-
-xref:task-testing-the-configuration-of-authentication-servers-um-6-0.adoc[Testing the configuration of authentication servers]

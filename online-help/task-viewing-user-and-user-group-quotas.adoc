@@ -19,9 +19,3 @@ You must have one of the following roles to perform this task: Operator, OnComma
 
 . In the left navigation pane, click *Health* > *SVMs*.
 . In the *Health/Storage Virtual Machines* inventory page, select a SVM and then click the *User and Group Quotas* tab.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:concept-overview-of-the-quota-process-um-6-1.adoc[Overview of the quota process]

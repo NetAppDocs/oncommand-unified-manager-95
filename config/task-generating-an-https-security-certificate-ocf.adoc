@@ -55,7 +55,3 @@ You can select the "`Exclude local identifying information (e.g. localhost)`" ch
 == After you finish
 
 Verify the new certificate information by viewing the HTTPS certificate.
-
-*Related information*
-
-xref:task-changing-the-unified-manager-host-name-on-vmware.adoc[Changing the Unified Manager virtual appliance host name]

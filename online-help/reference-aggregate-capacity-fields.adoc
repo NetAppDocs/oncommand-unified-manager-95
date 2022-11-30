@@ -157,7 +157,3 @@ Displays the amount of data capacity that is currently being used in the cloud t
 * *Cloud Tier*
 +
 Displays the name of the cloud tier when it was created by ONTAP.
-
-*Related information*
-
-xref:reference-health-all-aggregates-view.adoc[Health/Aggregates inventory page]

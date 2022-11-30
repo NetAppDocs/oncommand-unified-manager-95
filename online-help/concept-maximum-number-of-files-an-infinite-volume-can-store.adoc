@@ -18,7 +18,3 @@ The size of the namespace constituent is roughly proportional to the size of the
 For a two-node Infinite Volume or a multi-node Infinite Volume without SnapDiff enabled, setting the Infinite Volume to a size of 80 TB or greater typically creates a namespace constituent of 10 TB.
 
 The file count not only includes regular files, but also other file system structures, such as directories and symbolic links.
-
-*Related information*
-
-xref:concept-what-an-infinite-volume-is.adoc[What an Infinite Volume is]

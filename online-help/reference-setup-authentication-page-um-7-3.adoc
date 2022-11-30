@@ -14,9 +14,3 @@ You can use the Setup/Authentication page to configure Unified Manager to authen
 Using the Remote Authentication page you can configure Unified Manager to communicate with your authentication server to authenticate remote users.
 
 Using the SAML Authentication page you can configure Unified Manager to communicate with a secure Identity provider (IdP) to authenticate remote users.
-
-*Related information*
-
-xref:reference-remote-authentication-page.adoc[Remote Authentication page]
-
-xref:reference-saml-authentication-page-um.adoc[SAML Authentication page]

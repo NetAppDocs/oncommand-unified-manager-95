@@ -26,19 +26,3 @@ The details in the Health/Clusters inventory page, Health/Clusters Storage Summa
 . In the left navigation pane, click *Health* > *Clusters*.
 . In the *View* menu, select *Storage Summary* to view details about storage capacity and utilization in all clusters
 . View the complete details of the cluster in the *Health/Cluster* details page by clicking the cluster name.
-
-*Related information*
-
-xref:reference-capacity-all-clusters-view.adoc[Health/Clusters Storage Summary page]
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-editing-clusters.adoc[Editing clusters]
-
-xref:reference-health-all-clusters-view.adoc[Health/Clusters inventory page]
-
-xref:reference-health-cluster-details-page.adoc[Health/Cluster details page]

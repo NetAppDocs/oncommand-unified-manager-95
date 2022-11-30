@@ -114,9 +114,3 @@ The Filters pane enables you to set filters to customize the way information is 
 ====
 The filters specified in the Filters pane override the filters specified for the columns in the SVMs list.
 ====
-
-*Related information*
-
-xref:task-viewing-the-details-of-svms-with-infinite-volume.adoc[Viewing the details of SVMs with Infinite Volume]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]

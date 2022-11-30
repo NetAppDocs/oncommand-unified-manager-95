@@ -114,9 +114,3 @@ Displays the time that has elapsed since the event was resolved. If the time ela
 * *Obsoleted Time*
 +
 Displays the time when the state of the event became Obsolete.
-
-*Related information*
-
-xref:concept-what-health-events-are.adoc[What health events are]
-
-xref:reference-event-management-inventory-page.adoc[Events inventory page]

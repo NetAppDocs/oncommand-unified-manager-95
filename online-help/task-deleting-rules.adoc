@@ -36,7 +36,3 @@ You cannot delete the default rule.
 
 . Preview any other changes made to the data policy.
 . Click *Activate* to activate the changes in the rule properties in the SVM.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

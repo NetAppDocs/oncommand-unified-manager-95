@@ -47,7 +47,3 @@ Choose this option when you want to create an association between a source SVM a
 . Click *Next*.
 . Select one or more SVM protection destination.
 . Click *Finish*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

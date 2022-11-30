@@ -24,15 +24,3 @@ image::../media/opm-expected-range-jpg.gif[Expected range for latency in Perform
 In this example, the latency for a volume has an expected range, in gray, of 0 milliseconds per operation (ms/op) at its lowest and 5 ms/op at its highest. If the actual latency, in blue, suddenly increases to 10 ms/op, due to an intermittent spike in network traffic or contention on a cluster component, it is then above the expected range and has exceeded the performance threshold.
 
 When network traffic has decreased, or the cluster component is no longer in contention, the latency returns within the expected range. If the latency remains at or above 10 ms/op for a long period of time, you might need to take corrective action to resolve the event.
-
-*Related information*
-
-xref:concept-what-the-expected-range-of-performance-is.adoc[What the expected range of performance is]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-collecting-data-and-monitoring-workload-performance.adoc[Collecting data and monitoring workload performance]
-
-xref:reference-workload-performance-measurement-values.adoc[Workload performance measurement values]
-
-xref:task-determining-whether-a-workload-has-a-performance-issue.adoc[Determining whether a workload has a performance issue]

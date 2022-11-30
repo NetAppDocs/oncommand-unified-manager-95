@@ -100,7 +100,3 @@ Files and directories in the volume can have either UNIX permissions or Windows 
 * *Unix Permission*
 +
 Displays the UNIX permission bits in an octal string format, which is set for the volumes that are exported. It is similar to the UNIX style permission bits.
-
-*Related information*
-
-xref:reference-health-svm-details-page.adoc[Health/Storage Virtual Machine details page]

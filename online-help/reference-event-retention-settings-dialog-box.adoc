@@ -44,7 +44,3 @@ Saves the configuration settings for the selected option and closes the dialog b
 * *Cancel*
 +
 Cancels the recent changes and closes the dialog box.
-
-*Related information*
-
-xref:task-configuring-event-retention-settings.adoc[Configuring event retention settings]

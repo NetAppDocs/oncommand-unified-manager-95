@@ -55,13 +55,3 @@ You can select the "`Exclude local identifying information (e.g. localhost)`" ch
 == After you finish
 
 Verify the new certificate information by viewing the HTTPS certificate.
-
-*Related information*
-
-xref:concept-what-a-database-restore-is.adoc[What a database restore is]
-
-xref:task-viewing-the-https-security-certificate-ocf.adoc[Viewing the HTTPS security certificate]
-
-xref:task-downloading-an-https-certificate-signing-request-ocf.adoc[Downloading an HTTPS certificate signing request]
-
-xref:task-restarting-the-unified-manager-virtual-machine.adoc[Restarting the Unified Manager virtual machine]

@@ -56,7 +56,3 @@ Displays if the LDAP protocol is enabled or not.
 * *Name Service Switch*
 +
 Displays the information type gathered from hosts. Possible values are file, LDAP, or NIS.
-
-*Related information*
-
-xref:reference-health-svm-details-page.adoc[Health/Storage Virtual Machine details page]

@@ -55,17 +55,3 @@ The chart shows a higher response time for write requests than read requests, in
 . Compare the *Reads/writes latency* chart to the *Latency* chart.
 +
 The spikes in total response time that align with the aggregate in the Cluster Components chart also align with the writes in the Reads/writes latency chart. The administrator must decide whether the client applications using the workload must be addressed or whether the aggregate is being overused.
-
-*Related information*
-
-xref:concept-how-unified-manager-uses-workload-response-time-to-identify-performance-issues.adoc[How Unified Manager uses workload latency to identify performance issues]
-
-xref:reference-performance-statistics-displayed-in-the-data-breakdown-charts.adoc[Performance statistics displayed in the data breakdown charts]
-
-xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]

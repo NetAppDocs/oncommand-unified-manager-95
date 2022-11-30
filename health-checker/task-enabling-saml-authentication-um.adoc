@@ -65,13 +65,3 @@ If not already completed, access your IdP and enter the Unified Manager server U
 When using ADFS as your identity provider, the Unified Manager GUI does not honor the ADFS timeout and will continue to work until the Unified Manager session timeout is reached. When Unified Manager is deployed on Windows, Red Hat, or CentOS, you can change the GUI session timeout using the following Unified Manager CLI command: ``um option set absolute.session.timeout=00:15:00``This command sets the Unified Manager GUI session timeout to 15 minutes.
 
 ====
-
-*Related information*
-
-xref:reference-identity-provider-requirements-um.adoc[Identity provider requirements]
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-disabling-saml-authentication-from-the-maintenance-console-um.adoc[Disabling SAML authentication from the maintenance console]
-
-xref:concept-what-a-database-restore-is.adoc[What a database restore is]

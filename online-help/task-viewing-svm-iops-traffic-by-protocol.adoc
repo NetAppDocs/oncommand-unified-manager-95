@@ -32,7 +32,3 @@ The IOPS - Protocols chart is displayed.
 The IOPS advanced protocol comparative chart is displayed. You can restrict the comparison by deselecting or selecting the image:../media/eye-icon.gif[] that is associated with a protocol.
 
 . To view the specific values, move your cursor into the chart area of either chart to see the popup window.
-
-*Related information*
-
-xref:reference-performance-statistics-displayed-in-the-data-breakdown-charts.adoc[Performance statistics displayed in the data breakdown charts]

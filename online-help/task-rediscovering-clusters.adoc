@@ -28,7 +28,3 @@ Unified Manager rediscovers the selected cluster and displays the latest health 
 ====
 You can obtain the monitoring status of the cluster from the right pane of the Dashboards/Cluster View page.
 ====
-
-*Related information*
-
-xref:reference-cluster-setup-page.adoc[Configuration/Cluster Data Sources page]

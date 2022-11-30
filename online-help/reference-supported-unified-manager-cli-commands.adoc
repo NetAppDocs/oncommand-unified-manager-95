@@ -200,8 +200,3 @@ Displays all first level subcommands.
 a|
 Displays all first level subcommands.
 |===
-*Related information*
-
-xref:task-adding-scripts.adoc[Adding scripts]
-
-xref:concept-how-scripts-work-with-alerts.adoc[How scripts work with alerts]

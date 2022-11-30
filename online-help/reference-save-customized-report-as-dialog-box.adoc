@@ -34,9 +34,3 @@ Saves the customized report .
 * *Cancel*
 +
 Cancels the recent changes and closes the Save Customized Report As dialog box.
-
-*Related information*
-
-xref:concept-what-reports-do.adoc[What reports do]
-
-xref:task-customizing-a-report.adoc[Customizing a report]

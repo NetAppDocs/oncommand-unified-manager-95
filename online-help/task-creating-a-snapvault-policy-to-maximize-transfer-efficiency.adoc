@@ -30,7 +30,3 @@ The SnapVault tab is displayed.
 . Click *Create*.
 +
 The new policy is displayed in the Create Policy drop-down list.
-
-*Related information*
-
-xref:reference-create-snapvault-policy-dialog-box.adoc[Create SnapVault Policy dialog box]

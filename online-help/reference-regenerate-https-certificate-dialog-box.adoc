@@ -50,7 +50,3 @@ Optional. The country location of your company. This is typically a two-letter I
 Required. Additional, non-primary domain names that can be used to access this server in addition to the existing localhost or other network addresses. Separate each alternate name with a comma.
 +
 Select the "`Exclude local identifying information (e.g. localhost)`" checkbox if you want to remove the local identifying information from the Alternative Names field in the certificate. When this checkbox is selected only what you enter in the field is used in the Alternative Names field. When left blank the resulting certificate will not have an Alternative Names field at all.
-
-*Related information*
-
-xref:task-generating-an-https-security-certificate-ocf.adoc[Generating an HTTPS security certificate]

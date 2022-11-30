@@ -11,9 +11,6 @@ summary: 'You can view, modify, or delete existing report schedules and add new 
 [.lead]
 You can view, modify, or delete existing report schedules and add new schedules for your reports from the Manage Report Schedules dialog box.
 
-* link:reference-schedule-report-dialog-box-um-6-2.md#SECTION_E32FF36F47E94E098924C1214CF327BA[reference-schedule-report-dialog-box-um-6-2.md#SECTION_E32FF36F47E94E098924C1214CF327BA]
-* link:reference-schedule-report-dialog-box-um-6-2.md#SECTION_0C97AE8D893A4EBCB4F74851B8AAD325[reference-schedule-report-dialog-box-um-6-2.md#SECTION_0C97AE8D893A4EBCB4F74851B8AAD325]
-
 == Properties
 
 You can select an existing schedule or create a new schedule for your reports. You can view, modify, or delete your report schedules.
@@ -78,9 +75,3 @@ Saves the schedule being viewed, modified, or added and closes the Manage Report
 * *Cancel*
 +
 Closes the Manage Report Schedules dialog box while displaying a message to save the schedule.
-
-*Related information*
-
-xref:concept-what-report-scheduling-is.adoc[What report scheduling is]
-
-xref:task-managing-report-schedules.adoc[Managing report schedules]

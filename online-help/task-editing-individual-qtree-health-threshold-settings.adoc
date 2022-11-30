@@ -26,7 +26,3 @@ Based on changes to the threshold values, events are generated or obsoleted in t
 . In the *Health/Storage Virtual Machine* details page, click the Qtrees tab.
 . Select one or more qtrees and then click *Edit Thresholds*.
 . In the *Edit Qtree Thresholds* dialog box, change the capacity thresholds for the selected qtree or qtrees and click *Save*.
-
-*Related information*
-
-xref:task-configuring-global-qtree-health-threshold-values.adoc[Configuring global qtree health threshold values]

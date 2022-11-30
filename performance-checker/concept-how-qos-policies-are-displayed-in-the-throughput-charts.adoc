@@ -51,7 +51,3 @@ When an adaptive QoS policy that has been defined in IOPS/TB appears in the IOPS
 ====
 The IOPS/TB chart displays performance data only when the logical capacity used by the volume is greater than or equal to 1 TB. Gaps are displayed in the chart when the used capacity falls below 1 TB during the selected timeframe.
 ====
-
-*Related information*
-
-xref:task-viewing-workload-qos-minimum-and-maximum-settings.adoc[Viewing workload QoS minimum and maximum settings]

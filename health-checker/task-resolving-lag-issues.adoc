@@ -51,15 +51,3 @@ As you select each volume, the protection information in the Summary, Topology, 
 In this scenario, you note that the SnapMirror policy is DPDefault, and the SnapMirror schedule updates hourly at five minutes after the hour. You realize that all of the volumes in the relationship are attempting to complete a SnapMirror transfer at the same time.
 
 . To resolve the lag issue, you modify the schedules for two of the cascaded volumes so that each destination begins a SnapMirror transfer after its source has completed a transfer.
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:task-adding-and-reviewing-notes-about-an-event.adoc[Adding and reviewing notes about an event]
-
-xref:task-assigning-events-to-specific-users.adoc[Assigning events to specific users]
-
-xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

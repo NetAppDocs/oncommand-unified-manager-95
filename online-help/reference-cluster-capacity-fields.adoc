@@ -91,7 +91,3 @@ Displays the space used by data in the cloud tier for storage providers that req
 * *Cluster StorageGRID Capacity Used*
 +
 Displays the space used by data in the cloud tier for storage providers that do not require a FabricPool license, for example, StorageGRID.
-
-*Related information*
-
-xref:concept-managing-and-monitoring-clusters-and-cluster-object-health.adoc[Managing and monitoring clusters and cluster object health]

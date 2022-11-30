@@ -79,15 +79,3 @@ The throughput on the Namespace, measured in megabytes per second.
 * *Threshold Policy*
 +
 The user-defined performance threshold policy, or policies, that are active on this storage object. You can position your cursor over policy names containing an ellipsis (...) to view the full policy name or the list of assigned policy names. The *Assign Performance Threshold Policy* and *Clear Performance Threshold Policy* buttons remain disabled until you select one or more objects by clicking the check boxes located at the far left.
-
-*Related information*
-
-xref:concept-refining-object-inventory-performance-page-content.adoc[Refining Performance inventory page contents]
-
-xref:task-assigning-performance-threshold-policies-to-storage-objects.adoc[Assigning performance threshold policies to storage objects]
-
-xref:task-removing-performance-threshold-policies-from-storage-objects.adoc[Removing performance threshold policies from storage objects]
-
-xref:task-filtering-on-the-object-inventory-performance-pages.adoc[Filtering data in the Object Inventory Performance pages]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]

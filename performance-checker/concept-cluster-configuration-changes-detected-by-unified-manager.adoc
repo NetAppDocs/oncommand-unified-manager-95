@@ -30,7 +30,3 @@ Unified Manager can detect when the takeover, partial takeover, or giveback oper
 * An ONTAP upgrade or revert operation is completed successfully.
 +
 The previous version and new version are displayed.
-
-*Related information*
-
-xref:concept-how-moving-a-volume-works.adoc[How moving a FlexVol volume works]

@@ -47,9 +47,3 @@ Enables you to restore the configuration settings to the factory default values.
 * *Save*
 +
 Saves the configuration settings for the selected option.
-
-*Related information*
-
-xref:task-configuring-global-qtree-health-threshold-values.adoc[Configuring global qtree health threshold values]
-
-xref:task-editing-individual-qtree-health-threshold-settings.adoc[Editing individual qtree health threshold settings]

@@ -157,7 +157,3 @@ The amount of data capacity that is currently being used in the cloud tier.
 * *Cloud Tier*
 +
 The name of the cloud tier object store when it was created by ONTAP.
-
-*Related information*
-
-xref:task-viewing-the-aggregate-list-and-details.adoc[Viewing the aggregate list and details]

@@ -47,9 +47,3 @@ Validates the selected `.rptdesign` file, and imports the report.
 * *Cancel*
 +
 Cancels the import operation, and closes the Import Report dialog box.
-
-*Related information*
-
-xref:concept-what-report-importing-is.adoc[What report importing is]
-
-xref:task-importing-reports.adoc[Importing reports]

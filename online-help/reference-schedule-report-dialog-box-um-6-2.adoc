@@ -47,9 +47,3 @@ Schedules the report with the saved or updated template and closes the Schedule 
 * *Cancel*
 +
 Closes the Schedule Report dialog box while displaying a message to save the schedule report template.
-
-*Related information*
-
-xref:concept-what-report-scheduling-is.adoc[What report scheduling is]
-
-xref:task-scheduling-reports.adoc[Scheduling reports]

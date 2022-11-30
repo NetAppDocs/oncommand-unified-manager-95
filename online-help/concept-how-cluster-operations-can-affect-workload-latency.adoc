@@ -21,13 +21,3 @@ This example shows the IOPS chart on the Performance/Volume Details page. The ac
 ====
 In some cases where a cluster is overloaded, Unified Manager might display the message `Data collection is taking too long on Cluster cluster_name`. This means that not enough statistics have been collected for Unified Manager to analyze. You need to reduce the resources the cluster is using so that statistics can be collected.
 ====
-
-*Related information*
-
-xref:concept-what-the-expected-range-of-performance-is.adoc[What the expected range of performance is]
-
-xref:concept-how-unified-manager-uses-workload-response-time-to-identify-performance-issues.adoc[How Unified Manager uses workload latency to identify performance issues]
-
-xref:task-investigating-perceived-slow-response-time-for-a-workload.adoc[Investigating a perceived slow response time for a workload]
-
-xref:concept-how-graphs-of-performance-data-work.adoc[How graphs of performance data work]

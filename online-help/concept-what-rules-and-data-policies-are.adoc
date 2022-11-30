@@ -20,13 +20,3 @@ For example, if you have a rule, "`Place all files of type .mp3 in the bronze st
 * *Data policy*
 +
 A data policy is a list of rules. Each SVM with Infinite Volume has its own data policy. Each file that is added to the Infinite Volume is compared to its data policy's rules to determine where to place that file. The data policy enables you to filter incoming files based on the file attributes and place these files in the appropriate storage classes.
-
-*Related information*
-
-xref:concept-what-the-default-rule-is.adoc[What the default rule is]
-
-xref:task-creating-rules.adoc[Creating rules]
-
-xref:concept-how-a-data-policy-filters-data-written-to-an-infinite-volume.adoc[How a data policy filters data written to an Infinite Volume]
-
-xref:task-viewing-rules.adoc[Viewing rules]

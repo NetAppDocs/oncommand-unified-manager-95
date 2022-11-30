@@ -18,11 +18,3 @@ In some cases there are *Help* links provided on the page that reference additio
 There are also some links provided in this help topic.
 
 You should consider the actions suggested here as only a guidance in resolving this event. The action you take to resolve this event should be based on the context of your environment.
-
-*Related information*
-
-xref:task-responding-to-a-system-defined-qos-policy-group-performance-event.adoc[Responding to QoS policy group performance events]
-
-xref:task-responding-to-a-system-defined-node-resources-overutilized-performance-event.adoc[Responding to node resources overutilized performance events]
-
-xref:concept-understanding-events-from-adaptive-qos-policies-that-have-a-defined-block-size.adoc[Understanding events from adaptive QoS policies that have a defined block size]

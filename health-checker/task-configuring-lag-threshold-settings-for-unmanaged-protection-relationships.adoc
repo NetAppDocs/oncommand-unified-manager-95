@@ -27,7 +27,3 @@ The settings described in this task are applied globally to all unmanaged protec
 . In the *Configuration/Health Thresholds* page, click *Relationships*.
 . Increase or decrease the global default warning or error lag time percentage as required.
 . Click *Save*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

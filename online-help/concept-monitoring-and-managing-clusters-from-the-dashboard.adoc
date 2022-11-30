@@ -16,9 +16,3 @@ Three dashboards provide unique views into the health and performance of your cl
 * The Dashboards/Overview page provides information about the health and performance of your storage objects.
 * The Dashboards/Performance page provides high-level performance status of all the clusters that are being monitored.
 * The Dashboards/Cluster View page provides information about individual clusters.
-
-*Related information*
-
-xref:concept-understanding-the-health-overview-dashboard.adoc[Understanding the Health overview dashboard]
-
-xref:concept-understanding-the-performance-panels-on-the-dashboard.adoc[Understanding the Performance dashboard]
