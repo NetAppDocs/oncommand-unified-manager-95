@@ -53,7 +53,7 @@ You must verify that the data mount, virtual IP, volume group, and NIC are onlin
 
 +
 The regenerated certificate provides only the cluster IP address, not the fully qualified domain name (FQDN). You must use the global IP address to set up Unified Manager for high-availability.
-. Access the Unified Manager UI using the following link: `\https://<FQDN of Global IP>`
+. Access the Unified Manager UI using the following: `\https://<FQDN of Global IP>`
 
 == After you finish
 

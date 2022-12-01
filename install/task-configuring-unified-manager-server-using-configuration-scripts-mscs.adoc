@@ -54,7 +54,7 @@ The script is available at `Install_Dir\NetApp\ocum\bin`.
 
 +
 The regenerated certificate provides the cluster IP address, not the fully qualified domain name (FQDN). You must use the global IP address to set up Unified Manager for high-availability.
-. Access the Unified Manager UI using the following link: `https://<FQDN of Global IP>`
+. Access the Unified Manager UI using the following: `https://<FQDN of Global IP>`
 
 == After you finish
 
