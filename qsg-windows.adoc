@@ -15,7 +15,7 @@ summary: "Quick start guide for Unified Manager on Linux platform."
 
 For detailed system requirements, see link:install/reference-windows-software-and-installation-requirements.html[Windows software and installation requirements] and link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
 
-== Installing Active IQ Unified Manager
+== Installing OnCommand Unified Manager
 
 === Download the installer
 .	Download the `OnCommandUnifiedManager-9.5RC1.exes` installation package.
