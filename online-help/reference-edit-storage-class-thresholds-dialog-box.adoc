@@ -52,7 +52,3 @@ Saves all the threshold settings and then closes the Edit Storage Class Threshol
 * *Cancel*
 +
 Cancels changes (if any) to the threshold settings and closes the Edit Storage Class Thresholds dialog box.
-
-*Related information*
-
-xref:task-editing-storage-class-threshold-settings.adoc[Editing the threshold settings of storage classes]

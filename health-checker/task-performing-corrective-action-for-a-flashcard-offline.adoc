@@ -52,11 +52,3 @@ In this example, you use the event name, the event time, and the event source to
 == After you finish
 
 After you diagnose the problem, contact the appropriate administrator or operator to complete the manual steps necessary to get the flash card back online.
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:reference-health-cluster-details-page.adoc[Health/Cluster details page]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

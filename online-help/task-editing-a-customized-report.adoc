@@ -19,9 +19,3 @@ The Report details page is displayed.
 
 . Modify the report as necessary, and then click *Actions* > *Save Custom Report*.
 . In the *Save Custom Report* dialog box, enter a brief description about the changes made on the custom report and click *Save*.
-
-*Related information*
-
-xref:concept-what-reports-do.adoc[What reports do]
-
-xref:reference-save-custom-report-dialog-box.adoc[Save Custom Report dialog box]

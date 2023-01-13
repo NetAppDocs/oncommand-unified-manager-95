@@ -43,9 +43,3 @@ The Details section also provides navigation links to the individual cluster det
 * The Health link navigates to the Health/Cluster details page of the selected cluster.
 * The Performance link navigates to the Performance/Cluster details page of the selected cluster.
 * The System Manager link navigates to the login page for OnCommand System Manager so that you can manage cluster settings.
-
-*Related information*
-
-xref:reference-dashboard-page.adoc[Dashboards/Overview page]
-
-xref:reference-dashboards-performance-page.adoc[Dashboards/Performance page]

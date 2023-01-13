@@ -15,10 +15,9 @@ The following SVM storage class events apply only to SVMs with Infinite Volume.
 
 == Impact area: availability
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 SVM Storage Class Not Available(ocumEvtVserverStorageClassNotAvailable)
 
@@ -41,10 +40,9 @@ Error
 
 == Impact area: capacity
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 SVM Storage Class Space Nearly Full(ocumEvtVserverStorageClassNearlyFull)
 

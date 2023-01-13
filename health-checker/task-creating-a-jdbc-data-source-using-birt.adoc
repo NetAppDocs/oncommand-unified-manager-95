@@ -33,6 +33,7 @@ You must have created a database user with the Report Schema role.
 You should be able to view and select the MySQL driver.
 . Enter the fully qualified host name or the IP address of the Unified Manager instance using appropriate format:
 +
+[options="header"]
 |===
 | Address Type| Format
 a|

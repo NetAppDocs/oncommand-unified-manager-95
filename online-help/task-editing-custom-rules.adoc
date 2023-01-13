@@ -31,6 +31,7 @@ The list of rules in the data policy for the selected SVM with Infinite Volume i
 . Click *Edit*.
 . In the *Edit Rule* dialog box, add new conditions or condition sets:
 +
+[options="header"]
 |===
 | If you want to add...| Click...
 a|
@@ -47,9 +48,3 @@ a|
 . Verify that your modifications are applied to the rule by expanding the rule in the *Data Policy* tab.
 . Preview any other changes made to the data policy.
 . Click *Activate* to activate the changes in the rule properties in the SVM.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:concept-what-conditions-and-condition-sets-are.adoc[What conditions and condition sets are]

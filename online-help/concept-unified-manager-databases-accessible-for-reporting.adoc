@@ -15,6 +15,7 @@ Starting with Unified Manager 7.3, additional schemas are exposed that provide a
 
 All table data from the following databases are available:
 
+[options="header"]
 |===
 | Database| Description
 a|
@@ -49,7 +50,3 @@ Data about the Unified Manager application health and performance issues.
 A reporting user -- a Database user with the Report Schema role -- is able to access the data in these tables. This user has read-only access to reporting and other database views directly from the Unified Manager database. Note that this user does not have permission to access any tables that contain user data or cluster credential information.
 
 See the http://www.netapp.com/us/media/tr-4565.pdf[Technical Report for Unified Manager Reporting] (TR-4565) for more details.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

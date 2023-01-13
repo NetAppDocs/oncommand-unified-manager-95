@@ -33,9 +33,3 @@ The list of rules in the data policy for the selected SVM with Infinite Volume i
 == Results
 
 The data policy configuration is exported as a JSON file in the specified location.
-
-*Related information*
-
-xref:task-importing-a-data-policy-configuration.adoc[Importing a data policy configuration]
-
-xref:task-adding-users.adoc[Adding users]

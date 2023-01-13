@@ -36,9 +36,3 @@ You can upload custom scripts and gather event details about the alert.
 . In the *Add Script* dialog box, click *Browse* to select your script file.
 . Enter a description for the script that you select.
 . Click *Add*.
-
-*Related information*
-
-xref:concept-managing-scripts.adoc[Managing scripts]
-
-xref:task-testing-script-execution.adoc[Testing script execution]

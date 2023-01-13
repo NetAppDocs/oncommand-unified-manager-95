@@ -35,7 +35,3 @@ Reports in text, CSV, and Excel formats are supported in the following scenarios
 * A table with just one header as a row
 
 You cannot import reports that have a column span of more than one. If a report in text, CSV, or Excel format has more than a one-header row, only the first header row is considered, and the remaining rows are ignored.
-
-*Related information*
-
-xref:reference-scheduled-reports-page.adoc[Reports page]

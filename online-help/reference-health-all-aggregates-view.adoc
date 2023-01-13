@@ -11,10 +11,6 @@ summary: 'The Health/Aggregates inventory page displays information about the ag
 [.lead]
 The Health/Aggregates inventory page displays information about the aggregates that are monitored, and enables you to view and modify the threshold settings.
 
-* <<GUID-6CAB3FA2-F38B-4F22-816F-146FBAC8D6E0,Command buttons>>
-* <<GUID-57C5BA68-DFCB-47C7-9671-6AC9CFB89302,Aggregates list>>
-* <<GUID-D4395720-BA9A-4D04-BC24-4FE34C0FF1AD,Filters pane>>
-
 == Command buttons
 
 * *Edit Thresholds*
@@ -259,11 +255,3 @@ Enables you to set filters to customize the way information is displayed in the 
 ====
 The filters specified in the Filters pane override the filters specified for the columns in the aggregates list.
 ====
-
-*Related information*
-
-xref:task-editing-individual-aggregate-health-threshold-settings.adoc[Editing individual aggregate health threshold settings]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]
-
-xref:concept-what-storage-efficiency-is.adoc[What storage efficiency is]

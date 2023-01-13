@@ -27,6 +27,7 @@ The list of rules in the data policy for the selected SVM with Infinite Volume i
 . Click *Edit*.
 . In the *Edit Rule* dialog box, edit the rule as required:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -47,9 +48,3 @@ Double-click the appropriate rule property, and then modify as required.
 . Verify that your modifications are applied to the rule by expanding the rule in the *Data Policy* tab.
 . Preview any other changes made to the data policy.
 . Click *Activate* to activate the changes to the rule properties in the SVM.
-
-*Related information*
-
-xref:concept-what-a-rule-template-is.adoc[What a rule template is]
-
-xref:task-adding-users.adoc[Adding users]

@@ -23,6 +23,7 @@ You must have generated a support bundle using the maintenance console and have 
 . Access the `/support` directory.
 . Retrieve the support bundle and copy it to the local directory using the following command:
 +
+[options="header"]
 |===
 | If you are using...| Then use the following command...
 a|

@@ -17,7 +17,7 @@ The difference between the two options listed below is that in one case you are 
 
 Because this task requires that you create a backup of Unified Manager on the Red Hat Enterprise Linux 6.x system, you should create the backup only when you are prepared to complete the entire upgrade process so that Unified Manager is offline for the shortest period of time. Gaps in collected data will appear in the Unified Manager UI for the period of time during which the Red Hat Enterprise Linux 6.x system is shut down and before the new Red Hat Enterprise Linux 7.x is started.
 
-See the http://docs.netapp.com/ocum-95/topic/com.netapp.doc.onc-um-ag/home.html[Workflows for managing cluster health] or the online help if you need to review detailed instructions for the backup and restore processes.
+See the _Unified Manager Online Help_ if you need to review detailed instructions for the backup and restore processes.
 
 *Upgrading the host OS using a new server*
 

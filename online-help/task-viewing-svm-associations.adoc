@@ -20,7 +20,3 @@ You must have the OnCommand Administrator or Storage Administrator role.
 . In the left navigation pane, click *Protection* > *SVM Associations*.
 +
 The list of SVM associations and their properties is displayed.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

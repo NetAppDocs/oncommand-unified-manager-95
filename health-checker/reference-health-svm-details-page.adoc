@@ -16,22 +16,6 @@ You can use the Health/Storage Virtual Machine details page to view detailed inf
 You can monitor only data SVMs.
 ====
 
-* <<GUID-3025A576-2B23-4753-8289-5B12A97C9BF8,Command buttons>>
-* <<GUID-894ECEFC-8E65-47AB-90A3-27D08D7C8D19,Health tab>>
-* <<GUID-40F2AA3E-6BAE-472C-9292-72EED884C6AB,Capacity tab>>
-* <<GUID-C79EA5D2-C435-43B8-BE4D-690D1EDC1134,Configuration tab>>
-* <<GUID-1557C06E-F3FD-4E41-A4B8-07E0E65A2788,LIFs tab>>
-* <<GUID-10AF6555-A8DF-432C-9649-09EBDF137A45,Qtrees tab>>
-* <<SECTION_C39C8DD776864136BE1E8D35DDEE9B92,User and Group Quotas tab>>
-* <<GUID-E60799D0-C4F9-4978-ADC7-4382F61E7989,NFS Exports tab>>
-* <<SECTION_C5F2F60E9A2943879A30026EB71B1FBB,CIFS Shares tab>>
-* <<SECTION_D20C126DD9D14B17AE84A9F5E4EF045C,SAN tab>>
-* <<GUID-610E01A3-B5C4-43AA-867E-2D995A947F50,Data Policy tab>>
-* <<GUID-A9DC32CB-A419-4A70-B76C-73E431E6AED4,Related Annotations pane>>
-* <<GUID-3B378F0E-1C22-4D5C-AB7C-BF813999848E,Related Devices pane>>
-* <<SECTION_1AF58DB9D07C41D1939340A2BF9DDEAE,Related Groups pane>>
-* <<GUID-65B2B6DC-3489-402E-9C6F-E08A65640A02,Related Alerts pane>>
-
 == Command buttons
 
 The command buttons enable you to perform the following tasks for the selected SVM:
@@ -712,19 +696,18 @@ You can also view the initiator groups and initiators that are mapped to the sel
 * *Initiator Groups tab*
 +
 Displays details about initiator groups. You can view details such as the name of the initiator group, the access state, the type of host operating system that is used by all the initiators in the group, and the supported protocol. When you click the link in the access state column, you can view the current access state of the initiator group.
-
- ** *Normal*
++
+    ** *Normal*
 +
 The initiator group is connected to multiple access paths.
-
- ** *Single Path*
++
+    ** *Single Path*
 +
 The initiator group is connected to a single access path.
-
- ** *No Paths*
++
+    ** *No Paths*
 +
 There is no access path connected to the initiator group.
-
 +
 You can view whether initiator groups are mapped to all the LIFs or specific LIFs through a port set. When you click the count link in the Mapped LIFs column, either all LIFs are displayed or specific LIFs for a port set are displayed. LIFs that are mapped through the target portal are not displayed. The total number of initiators and LUNs that are mapped to an initiator group is displayed.
 +

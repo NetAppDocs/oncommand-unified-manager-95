@@ -25,9 +25,3 @@ You must activate AutoSupport in order to receive the benefits of NetApp Active 
 . Select the *Enable Periodic AutoSupport* check box.
 . If required, define the name, port, and authentication information for the HTTP proxy server.
 . Click *Save*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-sending-an-on-demand-autosupport-message.adoc[Sending on-demand AutoSupport messages]

@@ -28,7 +28,3 @@ If you are restoring the backup image to a new server, after the restore operati
 ====
 Old backup files cannot be used to restore an image after Unified Manager has been upgraded to a newer version of software. To save space, all old backup files, except the newest file, are removed automatically when you upgrade Unified Manager.
 ====
-
-*Related information*
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]

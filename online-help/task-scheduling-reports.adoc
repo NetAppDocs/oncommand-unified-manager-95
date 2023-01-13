@@ -20,6 +20,7 @@ The Report details page is displayed.
 . Click *Actions* > *Schedule Report*.
 . In the *Schedule Report* dialog box, select one of the preferred schedules for your report:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -30,13 +31,7 @@ a|
 Create a new schedule
 a|
 Click *Create New Schedule*, and then enter the schedule name, specify the email address, select the report format and frequency, and enter a time or day you want the report to run.     You can specify one or more email addresses, separated by commas. The _PDF_ option is selected as the default report format. The _Hourly_ option is selected as the default frequency.
-+
+
 |===
 
 . Click *Schedule*.
-
-*Related information*
-
-xref:concept-what-report-scheduling-is.adoc[What report scheduling is]
-
-xref:reference-schedule-report-dialog-box-um-6-2.adoc[Schedule Report dialog box]

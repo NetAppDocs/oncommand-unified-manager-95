@@ -33,9 +33,3 @@ If you receive the error message "`Failed to save the custom report. The require
 == Results
 
 The customized report is saved and displayed in its respective report category in the Report details page.
-
-*Related information*
-
-xref:concept-what-reports-do.adoc[What reports do]
-
-xref:reference-save-customized-report-as-dialog-box.adoc[Save Customized Report As dialog box]

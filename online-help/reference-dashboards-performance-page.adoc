@@ -43,6 +43,7 @@ You can click the object icon to display the Performance Inventory page for that
 
 There are five performance counters, each displayed in a separate panel, for every cluster. This information is updated automatically after each five-minute collection period:
 
+[options="header"]
 |===
 | Counter| Description
 a|
@@ -95,17 +96,3 @@ You can click *View Cluster Details* for a cluster that has performance events t
 == Cluster status messages
 
 If a cluster that is managed by Unified Manager becomes unavailable, a status message banner is displayed above the performance counters. A *Details* button is displayed at the right of the status message banner if the cluster is unreachable. By clicking the *Details* button in the status message, you can navigate to the Cluster Data Sources page, which shows complete information about the issue. On the Cluster Data Sources page, you can find the data that is required to troubleshoot the issue that made the cluster become unavailable.
-
-*Related information*
-
-xref:reference-description-of-event-severity-types.adoc[Description of event severity types]
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]
-
-xref:concept-monitoring-cluster-performance-from-the-cluster-landing-page.adoc[Monitoring cluster performance from the Performance Cluster Landing page]
-
-xref:concept-monitoring-performance-using-the-object-performance-inventory-pages.adoc[Monitoring performance using the Performance Inventory pages]
-
-xref:task-displaying-information-about-a-performance-event.adoc[Displaying information about performance events]
-
-xref:concept-managing-performance-using-perf-capacity-and-available-iops-information.adoc[Managing performance using performance capacity and available IOPS information]

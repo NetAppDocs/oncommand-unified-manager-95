@@ -13,6 +13,7 @@ You must add the cluster service resources of Unified Manager to Veritas Cluster
 
 The following table lists the category of all the Unified Manager services:
 
+[options="header"]
 |===
 | Category| Services
 a|

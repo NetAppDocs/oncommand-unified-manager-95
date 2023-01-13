@@ -16,9 +16,3 @@ This workflow shows you how to generate, retrieve, and send a support bundle to 
 For more information about the maintenance console and support bundles, see xref:task-using-the-maintenance-console.adoc[Using the maintenance console].
 
 Unified Manager stores two generated support bundles at one time.
-
-*Related information*
-
-xref:concept-what-the-maintenance-user-does.adoc[What the maintenance user does]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

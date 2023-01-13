@@ -21,7 +21,3 @@ You must have the Operator, OnCommand Administrator, or Storage Administrator ro
 . From the *Events* inventory page, click the event for which you want to add the event-related information.
 . In the *Event* details page, add the required information in the *Notes and Updates* area.
 . Click *Post*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

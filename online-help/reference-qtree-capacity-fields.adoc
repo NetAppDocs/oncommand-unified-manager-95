@@ -60,7 +60,3 @@ Displays the hard limit for the number of files permitted on the qtrees. The val
 * *File Soft Limit*
 +
 Displays the soft limit for the number of files permitted on the qtrees. The value is displayed as _Unlimited_ if the quota is set without a file soft limit, if the quota is not set, or if the quotas are off on the volume to which the qtree belongs.
-
-*Related information*
-
-xref:concept-managing-quotas.adoc[Managing quotas]

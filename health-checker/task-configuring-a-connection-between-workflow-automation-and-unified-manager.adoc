@@ -40,13 +40,3 @@ You must use theUnified Manager server port (port 443).
 The Setup/Workflow Automation page displays.
 
 . Click *Yes* to reload the web UI, and add the Workflow Automation features.
-
-*Related information*
-
-xref:task-setting-up-protection-relationships-in-unified-manager.adoc[Setting up protection relationships in Unified Manager]
-
-xref:task-creating-a-database-user.adoc[Creating a database user]
-
-http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-
-xref:task-performing-a-protection-relationship-failover-and-failback.adoc[Performing a protection relationship failover and failback]

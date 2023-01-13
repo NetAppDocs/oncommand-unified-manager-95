@@ -202,7 +202,3 @@ The SnapLock expiration date.
 * *Tiering Policy*
 +
 The tiering policy set for the volume. Valid when deployed on FabricPool-enabled aggregates only.
-
-*Related information*
-
-xref:task-viewing-the-volume-list-and-details.adoc[Viewing the volume list and details]

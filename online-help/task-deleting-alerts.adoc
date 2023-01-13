@@ -20,7 +20,3 @@ You must have the OnCommand Administrator role.
 . In the left navigation pane, click *Configuration* > *Alerting*.
 . On the *Configuration/Alerting* page, select the alerts that you want to delete, and click *Delete*.
 . Click *Yes* to confirm the delete request.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

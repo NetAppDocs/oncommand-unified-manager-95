@@ -25,6 +25,7 @@ If it does, you must delete the connection using the Unified Managermaintenance 
 . When installed in a high-availability setup, remove the HA service group resources and delete the HA service group before uninstalling Unified Manager from both nodes.
 . Uninstall Unified Manager by choosing one of the following options:
 +
+[options="header"]
 |===
 | To uninstall Unified Manager from the...| Then...
 a|

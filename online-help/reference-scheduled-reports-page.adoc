@@ -41,27 +41,3 @@ The following is a list of report groups and report types that are displayed in 
  ** Volume Relationships Inventory
  ** Volume Transfer Status (Historical)
  ** Volume Transfer Rate (Historical)
-
-*Related information*
-
-xref:reference-cluster-capacity-fields.adoc[Storage Summary report]
-
-xref:reference-aggregate-capacity-fields.adoc[Aggregate Capacity and Utilization report]
-
-xref:reference-volume-capacity-fields.adoc[Volume Capacity and Utilization report]
-
-xref:reference-qtree-capacity-fields.adoc[Qtree Capacity and Utilization report]
-
-xref:reference-events-report.adoc[Events report]
-
-xref:reference-cluster-health-fields.adoc[Cluster Inventory report]
-
-xref:reference-nfs-shares-health-fields.adoc[NFS Exports report]
-
-xref:reference-svm-health-fields.adoc[SVM Inventory report]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]
-
-xref:concept-unified-manager-databases-accessible-for-reporting.adoc[Unified Manager databases accessible for custom reporting]
-
-xref:concept-using-unified-manager-rest-apis-ocum.adoc[Using Unified Manager REST APIs]

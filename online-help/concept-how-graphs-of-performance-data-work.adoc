@@ -36,11 +36,3 @@ To view event information on a graph, you can position the cursor over an event 
 image::../media/opm-bully-volume-png.gif[Incident pop-up in Performance Manager]
 
 In this example, on the Performance/Volume Details page, clicking an event icon on the Latency chart displays detailed information about the event in a pop-up box. The event is also highlighted in the Events List.
-
-*Related information*
-
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:reference-performance-volume-details-page.adoc[Performance/Volume Details page]
-
-xref:reference-performance-statistics-displayed-in-the-data-breakdown-charts.adoc[Performance statistics displayed in the data breakdown charts]

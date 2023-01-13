@@ -11,10 +11,6 @@ summary: 'The Health/Volumes inventory page displays information about the volum
 [.lead]
 The Health/Volumes inventory page displays information about the volumes in the storage systems that are monitored and enables you to modify the volume threshold settings.
 
-* <<GUID-C4C756A8-FD7B-4092-B3F1-57A7C07C8178,Command buttons>>
-* <<GUID-7BFC6918-ED6B-4EB7-A901-6E1CDF9D8C84,Volumes Overview>>
-* <<GUID-5ED0BA51-8332-4FA7-B80A-F39D9AC3EFC1,Filters pane>>
-
 == Command buttons
 
 * *Edit Thresholds*
@@ -146,7 +142,6 @@ A data protection (DP) volume or read/write volume with an incoming SnapMirror o
  ** Not Applicable
 +
 A volume for which protection roles do not apply, such as a load sharing volume, data constituent, or temporary volume
-
 +
 You can move your pointer over the protection role for a volume to display a graphical representation of the protection topology for the selected volume. This may include the source volume, the total number of outgoing synchronous and asynchronous SnapMirror relationships, and the total number of outgoing SnapVault relationships. Blue highlighting around the volume indicates the selected volume.
 +
@@ -204,6 +199,7 @@ You can move the pointer over the status to view more information about the volu
 +
 The caching policy that is associated with the selected volume. The policy provides information about how the Flash Pool caching occurs for the volume.
 +
+[options="header"]
 |===
 | Cache policy| Description
 a|
@@ -335,9 +331,3 @@ The Filters pane enables you to set filters to customize the way information is 
 ====
 The filters specified in the Filters pane override the filters specified for the columns in the volumes list.
 ====
-
-*Related information*
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]

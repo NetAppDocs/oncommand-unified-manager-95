@@ -17,6 +17,7 @@ You can use the Filtering panel to customize the grid view based on your prefere
 
 Four types of filter parameters are supported.
 
+[options="header"]
 |===
 | Parameter| Validation
 a|

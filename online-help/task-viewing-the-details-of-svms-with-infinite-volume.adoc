@@ -21,15 +21,3 @@ You can use the Health/Storage Virtual Machines inventory page to view detailed 
 . In the left navigation pane, click *Health* > *SVMs*.
 . In the *Health/Storage Virtual Machines* inventory page, use the column filter in *Allowed Volume Type* to list the Infinite Volumes that are monitored.
 . View the complete details of the SVM with Infinite Volume by clicking the SVM name.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-editing-the-infinite-volume-threshold-settings.adoc[Editing the Infinite Volume threshold settings]
-
-xref:task-editing-storage-class-threshold-settings.adoc[Editing the threshold settings of storage classes]
-
-xref:task-viewing-rules.adoc[Viewing rules]

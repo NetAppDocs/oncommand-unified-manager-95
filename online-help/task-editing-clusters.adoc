@@ -28,9 +28,3 @@ If you change the IP address of a cluster to an IP address of an existing monito
 . On the *Configuration/Cluster Data Sources* page, select the cluster you want to edit, and then click *Edit*.
 . In the *Edit Cluster* dialog box, modify the values as required.
 . Click *Submit*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:reference-cluster-setup-page.adoc[Configuration/Cluster Data Sources page]

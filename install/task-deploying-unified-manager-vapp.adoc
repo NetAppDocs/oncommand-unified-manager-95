@@ -36,7 +36,3 @@ VMware Tools are not included in the Unified Manager``.ova`` file, and must be i
 == After you finish
 
 After finishing the deployment and initial setup, you can either add clusters, or configure additional network settings in the maintenance console, and then access the web UI.
-
-*Related information*
-
-xref:concept-requirements-for-installing-unified-manager.adoc[Requirements for installing Unified Manager]

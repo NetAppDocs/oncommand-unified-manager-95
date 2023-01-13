@@ -25,11 +25,3 @@ You can also add values to annotations while creating annotations.
 
 . Optional: In the *Annotation Values* section, click *Add* to add values to the annotation.
 . Click *Save and Close*.
-
-*Related information*
-
-xref:reference-management-annotations-page.adoc[Management/Annotations page]
-
-xref:reference-add-annotation-dialog-box.adoc[Add Annotation dialog box]
-
-xref:task-adding-values-to-annotations.adoc[Adding values to annotations]

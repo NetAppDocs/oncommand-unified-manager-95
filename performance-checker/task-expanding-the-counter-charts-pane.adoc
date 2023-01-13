@@ -19,6 +19,7 @@ After you have defined the comparison objects and the time range for counters, y
 
 . Expand or reduce the *Counter Charts* pane.
 +
+[options="header"]
 |===
 | To...| Do this...
 a|

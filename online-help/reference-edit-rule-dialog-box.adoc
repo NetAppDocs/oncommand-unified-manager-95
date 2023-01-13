@@ -11,11 +11,6 @@ summary: 'You can use the Edit Rule dialog box to edit the properties of a rule,
 [.lead]
 You can use the Edit Rule dialog box to edit the properties of a rule, such as the file types, directory paths, or owners. You can also select an appropriate storage class for the rule. For example, when a certain file path is no longer valid, you can delete the file path from the corresponding rule.
 
-* <<GUID-2CBD0278-3E65-4ED1-AF55-AFC657159846,Rule Name>>
-* <<SECTION_FDD670D33B574939AA3EAC2CA54CCFD4,Matching Criteria>>
-* <<SECTION_B70156CB019A4AD786F1F371961330CD,Content Placement area>>
-* <<SECTION_AF9720DC4EA34FD4A762B3F3617205D5,Command buttons>>
-
 == Rule Name
 
 Displays the name of the rule.
@@ -45,9 +40,3 @@ Updates the changes made to the rule and closes the Edit Rule dialog box.
 * *Cancel*
 +
 Cancels the recent changes made to the rule and closes the Edit Rule dialog box.
-
-*Related information*
-
-xref:task-editing-template-based-rules.adoc[Editing template-based rules]
-
-xref:task-editing-custom-rules.adoc[Editing custom rules]

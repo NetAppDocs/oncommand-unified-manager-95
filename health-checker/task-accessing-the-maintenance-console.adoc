@@ -28,6 +28,7 @@ When installed on VMware, if you have already logged in as the maintenance user 
 
 . Follow these steps to access the maintenance console:
 +
+[options="header"]
 |===
 | On this operating system...| Follow these steps...
 a|
@@ -61,7 +62,3 @@ On Microsoft Windows Server 2012 if you receive an execution policy error, enter
 +
 |===
 The Unified Manager maintenance console menu is displayed.
-
-*Related information*
-
-xref:task-using-the-maintenance-console.adoc[Using the maintenance console]

@@ -13,6 +13,7 @@ Moving logical interfaces (LIFs) to a less busy port can help improve load balan
 
 Indirect access can reduce system efficiency. It occurs when a volume workload is using different nodes for network processing and data processing. To reduce indirect access, you can rearrange LIFs, which involves moving LIFs to use the same node for network processing and data processing. You can configure load balancing to have ONTAP automatically move busy LIFs to a different port or you can move a LIF manually.
 
+[options="header"]
 |===
 a|
 *Benefits*

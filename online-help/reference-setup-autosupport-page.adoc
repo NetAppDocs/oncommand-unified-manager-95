@@ -61,9 +61,3 @@ Enter the user name and the password required to authenticate with the HTTP prox
 ====
 HTTP proxies that provide only Basic Authentication are not supported.
 ====
-
-*Related information*
-
-xref:task-enabling-periodic-autosupport.adoc[Enabling periodic AutoSupport]
-
-xref:task-sending-an-on-demand-autosupport-message.adoc[Sending on-demand AutoSupport messages]

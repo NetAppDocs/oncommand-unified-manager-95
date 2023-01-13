@@ -38,9 +38,3 @@ The newly created rule is displayed in the Data Policy tab.
 
 . Preview any other changes made to the data policy.
 . Click *Activate* to activate the changes in the rule properties in the SVM.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:concept-what-conditions-and-condition-sets-are.adoc[What conditions and condition sets are]

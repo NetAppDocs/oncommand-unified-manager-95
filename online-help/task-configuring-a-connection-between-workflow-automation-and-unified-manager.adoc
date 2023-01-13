@@ -40,7 +40,3 @@ You must use theUnified Manager server port (port 443).
 The Setup/Workflow Automation page displays.
 
 . Click *Yes* to reload the web UI, and add the Workflow Automation features.
-
-*Related information*
-
-xref:reference-setup-workflow-automation-page.adoc[Setup/Workflow Automation page]

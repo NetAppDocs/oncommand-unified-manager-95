@@ -20,6 +20,7 @@ You must have Windows administrator privileges.
 . Log in to Windows using the default local administrator account.
 . Stop the Unified Manager services:
 +
+[options="header"]
 |===
 | From the...| Stop the services in following order...
 a|
@@ -42,6 +43,7 @@ When installed in a high-availability setup, stop the Unified Manager service by
 
 . Start the Unified Manager services:
 +
+[options="header"]
 |===
 | From the...| Start the services in following order...
 a|

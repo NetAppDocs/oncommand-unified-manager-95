@@ -20,11 +20,3 @@ The implementation of scheduling and generating reports from the Reports option 
 * Executing Unified Manager REST APIs to return the information you are interested in reviewing
 
 ====
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]
-
-xref:concept-unified-manager-databases-accessible-for-reporting.adoc[Unified Manager databases accessible for custom reporting]
-
-xref:concept-using-unified-manager-rest-apis-ocum.adoc[Using Unified Manager REST APIs]

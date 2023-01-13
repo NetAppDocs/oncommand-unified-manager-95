@@ -15,10 +15,9 @@ An asterisk (*) identifies EMS events that have been converted to Unified Manage
 
 == Impact area: availability
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 NVMeNS Offline *(nvmeNamespaceStatusOffline)
 
@@ -59,10 +58,9 @@ Information
 
 == Impact area: performance
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name) | Impact level| Source type| Severity
 a|
 NVMe Namespace IOPS Critical Threshold Breached(ocumNvmeNamespaceIopsIncident)
 

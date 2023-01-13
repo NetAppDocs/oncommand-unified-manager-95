@@ -16,6 +16,7 @@ You can manage your report schedules from the Manage Report Schedules dialog box
 . In the left navigation pane, click *Reports*, and then click *Manage Report Schedules*.
 . In the *Manage Report Schedules* dialog box,
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -50,9 +51,3 @@ a|
 
 +
 |===
-
-*Related information*
-
-xref:concept-what-report-scheduling-is.adoc[What report scheduling is]
-
-xref:reference-manage-report-schedules-dialog-box-um-6-2.adoc[Manage Report Schedules dialog box]

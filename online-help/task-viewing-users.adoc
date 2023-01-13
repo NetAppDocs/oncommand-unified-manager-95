@@ -20,7 +20,3 @@ You must have the OnCommand Administrator role.
 . In the toolbar, click *image:../media/clusterpage-settings-icon.gif[]*, and then click *Users* in the left Management menu.
 +
 The list of users is displayed in the Management/Users page.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

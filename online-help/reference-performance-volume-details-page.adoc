@@ -34,15 +34,3 @@ If you access the Performance/Volume Details page by clicking the name link of a
 * ***Break down data by***
 +
 Provides a list of charts you can add to the Performance/Volume Details page to display more detailed performance statistics for the selected volume.
-
-*Related information*
-
-xref:concept-how-unified-manager-uses-workload-response-time-to-identify-performance-issues.adoc[How Unified Manager uses workload latency to identify performance issues]
-
-xref:concept-how-cluster-operations-can-affect-workload-latency.adoc[How cluster operations can affect workload latency]
-
-xref:concept-what-the-expected-range-of-performance-is.adoc[What the expected range of performance is]
-
-xref:concept-what-performance-events-are.adoc[What performance events are]
-
-xref:task-determining-whether-a-workload-has-a-performance-issue.adoc[Determining whether a workload has a performance issue]

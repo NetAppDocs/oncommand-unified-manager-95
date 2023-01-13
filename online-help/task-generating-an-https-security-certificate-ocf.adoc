@@ -28,6 +28,7 @@ The Regenerate HTTPS Certificate dialog box is displayed.
 
 . Select one of the following options depending on how you want to generate the certificate:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -38,14 +39,14 @@ a|
 Generate the certificate using different values
 a|
     Click the *Update the Current Certificate Attributes* option.
-+
+
 The Common Name and Alternative Names fields will use the values from the existing certificate if you do not enter new values. The other fields do not require values, but you can enter values, for example, for the City, State, and Country if you want those values to be populated in the certificate.
-+
+
 [NOTE]
 ====
 You can select the "`Exclude local identifying information (e.g. localhost)`" checkbox if you want to remove the local identifying information from the Alternative Names field in the certificate. When this checkbox is selected only what you enter in the field is used in the Alternative Names field. When left blank the resulting certificate will not have an Alternative Names field at all.
 ====
-+
+
 |===
 
 . Click *Yes* to regenerate the certificate.
@@ -54,13 +55,3 @@ You can select the "`Exclude local identifying information (e.g. localhost)`" ch
 == After you finish
 
 Verify the new certificate information by viewing the HTTPS certificate.
-
-*Related information*
-
-xref:concept-what-a-database-restore-is.adoc[What a database restore is]
-
-xref:task-viewing-the-https-security-certificate-ocf.adoc[Viewing the HTTPS security certificate]
-
-xref:task-downloading-an-https-certificate-signing-request-ocf.adoc[Downloading an HTTPS certificate signing request]
-
-xref:task-restarting-the-unified-manager-virtual-machine.adoc[Restarting the Unified Manager virtual machine]

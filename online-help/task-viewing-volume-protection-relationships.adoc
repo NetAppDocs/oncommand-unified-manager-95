@@ -35,15 +35,3 @@ The Protection/Volume Relationships page is displayed.
 ====
 The volume transfer views display information for volumes in asynchronous relationships only - volumes in synchronous relationships are not shown.
 ====
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV files for reporting]
-
-xref:reference-relationship-all-relationships-view.adoc[Protection/Volume Relationships page]
-
-xref:reference-relationship-last-1-month-transfer-status-view.adoc[Protection/Volume Transfer Status (Historical) page]
-
-xref:reference-relationship-last-1-month-transfer-rate-view.adoc[Protection/Volume Transfer Rate (Historical) page]
-
-xref:task-adding-users.adoc[Adding users]

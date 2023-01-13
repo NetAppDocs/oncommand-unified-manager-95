@@ -13,10 +13,11 @@ Using a browser, API client, or SSH, the required ports must be accessible to th
 
 == Connections to the Unified Manager server
 
-You do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always runs on its default port, you can enter `https://<host>` instead of `https://<host>:443`. The default port numbers cannot be changed.
+You do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always runs on its default port, you can enter `\https://<host>` instead of `\https://<host>:443`. The default port numbers cannot be changed.
 
 The Unified Manager server uses specific protocols to access the following interfaces:
 
+[options="header"]
 |===
 | Interface| Protocol| Port| Description
 a|
@@ -85,6 +86,7 @@ Depending on your environment, you can choose to modify the ports and protocols 
 
 The Unified Manager server connects using the following protocols and ports to the managed storage systems, servers, and other components:
 
+[options="header"]
 |===
 | Destination| Protocol| Port| Description
 a|

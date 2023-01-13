@@ -76,7 +76,3 @@ Displays the number of disk shelves contained by the node.
 * *Disk Count*
 +
 Displays the number of disks in a node.
-
-*Related information*
-
-xref:reference-health-all-clusters-view.adoc[Health/Clusters inventory page]

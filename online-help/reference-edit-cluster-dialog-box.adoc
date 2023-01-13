@@ -32,9 +32,3 @@ Enables you to specify the type of protocol that can be configured on the cluste
 * *Port*
 +
 Enables you to specify the port number used to connect to the cluster. If the port is not specified, the default port for the selected protocol is used (80 for HTTP or 443 for HTTPS).
-
-*Related information*
-
-xref:task-editing-clusters.adoc[Editing clusters]
-
-xref:task-adding-clusters.adoc[Adding clusters]

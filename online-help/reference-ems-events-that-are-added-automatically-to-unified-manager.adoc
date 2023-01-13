@@ -13,6 +13,7 @@ When using Unified Manager 9.4 or greater software, the following ONTAP EMS even
 
 The following EMS events are available when monitoring clusters running ONTAP 9.5 or greater software:
 
+[options="header"]
 |===
 | Unified Manager Event name| EMS Event name| Affected resource| ONTAP severity
 a|

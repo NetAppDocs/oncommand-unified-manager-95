@@ -17,6 +17,7 @@ Shared and non-shared QoS policies for IOPS and MBps use the terms "`minimum`" a
 
 While ONTAP enables you to create these two types of QoS policies, depending on how they are applied to workloads there are three ways that the QoS policy will be displayed in the performance charts.
 
+[options="header"]
 |===
 | Type of policy| Functionality| Indicator in Unified Manager interface
 a|
@@ -50,7 +51,3 @@ When an adaptive QoS policy that has been defined in IOPS/TB appears in the IOPS
 ====
 The IOPS/TB chart displays performance data only when the logical capacity used by the volume is greater than or equal to 1 TB. Gaps are displayed in the chart when the used capacity falls below 1 TB during the selected timeframe.
 ====
-
-*Related information*
-
-xref:task-viewing-workload-qos-minimum-and-maximum-settings.adoc[Viewing workload QoS minimum and maximum settings]

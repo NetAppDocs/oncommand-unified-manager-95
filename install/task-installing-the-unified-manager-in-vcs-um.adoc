@@ -28,7 +28,7 @@ You must configure both the instances of Unified Manager to use the same databas
 . Log in to the first node of the cluster.
 . Install Unified Manager on the first node.
 +
-link:concept-installing-unified-manager-on-rhel-or-centos.md#[Installing Unified Manager on Red Hat Enterprise Linux or CentOS]
+xref:concept-installing-unified-manager-on-rhel-or-centos.adoc[Installing Unified Manager on Red Hat Enterprise Linux or CentOS]
 
 . Repeat Steps 1 and 2 on the second node of the cluster.
 . On the second instance of Unified Manager, log in as the root user to the Red Hat Enterprise Linux or CentOS server and enter the same umadmin password as you defined on the first instance of Unified Manager.`passwd umadmin`

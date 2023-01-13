@@ -84,7 +84,3 @@ The space used by data in the cloud tier for storage providers that require a Fa
 * *Cluster StorageGRID Capacity Used*
 +
 The space used by data in the cloud tier for storage providers that do not require a FabricPool license, for example, StorageGRID.
-
-*Related information*
-
-xref:task-viewing-the-cluster-list-and-details.adoc[Viewing the cluster list and details]

@@ -25,6 +25,7 @@ A pop-up dialog displays information about the event types, the date and time wh
 
 . View full event details for one event or multiple events:
 +
+[options="header"]
 |===
 | To do this...| Click this...
 a|
@@ -39,9 +40,5 @@ a|
 ====
 Clicking a single event on the multiple events dialog displays the appropriate Event Details page.
 ====
-+
+
 |===
-
-*Related information*
-
-xref:concept-sources-of-performance-events.adoc[Sources of performance events]

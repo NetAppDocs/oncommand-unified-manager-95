@@ -30,17 +30,3 @@ This example shows the Latency chart on the Performance/Volume Details page. The
 ====
 There can be gaps in the blue line if Unified Manager was unable to gather data. This can occur because the cluster or volume was unreachable, Unified Manager was turned off during that time, or the collection was taking longer than the 5 minute collection period.
 ====
-
-*Related information*
-
-xref:task-determining-whether-a-workload-has-a-performance-issue.adoc[Determining whether a workload has a performance issue]
-
-xref:task-investigating-perceived-slow-response-time-for-a-workload.adoc[Investigating a perceived slow response time for a workload]
-
-xref:concept-what-the-expected-range-of-performance-is.adoc[What the expected range of performance is]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-how-cluster-operations-can-affect-workload-latency.adoc[How cluster operations can affect workload latency]
-
-xref:concept-how-graphs-of-performance-data-work.adoc[How graphs of performance data work]

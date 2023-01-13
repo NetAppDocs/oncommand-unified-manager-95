@@ -29,7 +29,3 @@ The details of the selected annotation are displayed.
 == Results
 
 The selected annotation and its value is deleted.
-
-*Related information*
-
-xref:task-deleting-values-from-annotations.adoc[Deleting values from annotations]

@@ -33,7 +33,3 @@ The Event details page for the failed protection job displays.
 . Review the error message in the Cause field of the *Summary* area to determine the problem and evaluate potential corrective actions.
 +
 See xref:task-identifying-the-problem-and-performing-corrective-actions-for-a-failed-protection-job.adoc[Identifying the problem and performing corrective actions for a failed protection job].
-
-*Related information*
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

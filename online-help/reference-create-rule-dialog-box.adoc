@@ -11,12 +11,6 @@ summary: 'You can use the Create Rule dialog box to create new rules for your da
 [.lead]
 You can use the Create Rule dialog box to create new rules for your data policy. For example, when you want to specify the placement of content of a certain file type, you can use the Create Rule dialog box to create the rule for your data policy.
 
-* <<SECTION_0A8AA3BE0DFE41D284976A15DD4F4AD5,Rule Name>>
-* <<GUID-6E41C56A-A8B0-44D4-B256-9F39BD91FAA1,Templates area>>
-* <<SECTION_F2D7992E1C414C70B4B62FA9EA5C1737,Matching Criteria>>
-* <<SECTION_04EF2E4E84C446A3856DB523BD18E294,Content Placement>>
-* <<SECTION_F7D4679EC50F41C681416655C72DA263,Command buttons>>
-
 == Rule Name
 
 Specifies the name of the new rule.
@@ -50,7 +44,3 @@ Creates a new rule for the data policy and closes the Create Rule dialog box.
 * *Cancel*
 +
 Cancels the recent changes made to the rule and closes the Create Rule dialog box.
-
-*Related information*
-
-xref:task-creating-rules.adoc[Creating rules]

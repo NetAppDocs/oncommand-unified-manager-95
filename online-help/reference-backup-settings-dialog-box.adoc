@@ -17,6 +17,7 @@ You can change the following database backup settings:
 +
 Specifies the path to the location where you store the backup files. The following table specifies the backup path format, and default locations, for different operating systems:
 +
+[options="header"]
 |===
 | Host operating system| Backup path format
 a|

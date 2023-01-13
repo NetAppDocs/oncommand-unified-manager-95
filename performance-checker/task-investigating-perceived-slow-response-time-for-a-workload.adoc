@@ -45,13 +45,3 @@ The Reads/writes/other chart is displayed below the IOPS chart.
 . Review the *Reads/writes/other* chart to identify dramatic spikes or drops in the amount of reads or writes for the volume.
 +
 If there are no dramatic spikes or drops in reads or writes, the storage administrator can confirm that I/O on the cluster is operating normally. Any performance issues might be on the network or the connected clients.
-
-*Related information*
-
-xref:task-determining-whether-a-workload-has-a-performance-issue.adoc[Determining whether a workload has a performance issue]
-
-xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]
-
-xref:concept-how-unified-manager-uses-workload-response-time-to-identify-performance-issues.adoc[How Unified Manager uses workload latency to identify performance issues]
-
-xref:concept-how-graphs-of-performance-data-work.adoc[How graphs of performance data work]

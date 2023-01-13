@@ -13,9 +13,6 @@ The Configuration/Manage Events page displays the list of events that are disabl
 
 You can access this page only if you have the OnCommand Administrator or Storage Administrator role.
 
-* <<GUID-49615DD0-0E3D-4657-B35B-172D41553139,Command buttons>>
-* <<SECTION_54BD4675CEC143A0BC102572F7562CE2,List view>>
-
 == Command buttons
 
 The command buttons enable you to perform the following tasks for selected events:
@@ -51,7 +48,3 @@ Displays the severity of the event. The severity can be Critical, Error, Warning
 * *Source Type*
 +
 Displays the source type for which the event is generated.
-
-*Related information*
-
-xref:task-disabling-unwanted-events.adoc[Disabling or enabling events]

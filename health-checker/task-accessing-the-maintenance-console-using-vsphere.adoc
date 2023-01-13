@@ -25,7 +25,3 @@ You must be the maintenance user. The virtual appliance must be powered on to ac
 . Log in to the maintenance console using your user name and password.
 +
 After 15 minutes of inactivity, the maintenance console logs you out.
-
-*Related information*
-
-xref:task-using-the-maintenance-console.adoc[Using the maintenance console]

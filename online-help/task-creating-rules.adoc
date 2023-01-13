@@ -15,7 +15,3 @@ You can add new rules to your data policy to determine the placement of data tha
 
 * You must have the OnCommand Administrator or Storage Administrator role.
 * The cluster containing the SVM with Infinite Volume with storage classes must be added to the Unified Manager database.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

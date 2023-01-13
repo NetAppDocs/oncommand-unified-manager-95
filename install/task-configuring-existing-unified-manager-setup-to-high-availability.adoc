@@ -26,7 +26,7 @@ See the _Veritas Cluster Server 6.2.1 Installation Guide_.
 . Log in to the new node of the cluster.
 . Install Unified Manager on the node.
 +
-link:concept-installing-unified-manager-on-rhel-or-centos.md#[Installing Unified Manager on Red Hat Enterprise Linux or CentOS]
+xref:concept-installing-unified-manager-on-rhel-or-centos.adoc[Installing Unified Manager on Red Hat Enterprise Linux or CentOS]
 
 . Configure the Unified Manager server using configuration scripts on the existing node with data.
 . Initiate manual fail over to the second node.

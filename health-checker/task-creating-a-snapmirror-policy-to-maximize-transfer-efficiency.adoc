@@ -29,9 +29,3 @@ The Create SnapMirror Policy dialog box is displayed.
 . Click *Create*.
 +
 The new policy is displayed in the SnapMirror Policy drop-down list.
-
-*Related information*
-
-xref:task-setting-up-protection-relationships-in-unified-manager.adoc[Setting up protection relationships in Unified Manager]
-
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]

@@ -25,6 +25,7 @@ Conditions within a condition group are executed using logical AND. All the cond
 
 You can create conditions with storage objects by using the following operands and operator and specifying the required value.
 
+[options="header"]
 |===
 | Storage object type| Applicable operands
 a|
@@ -103,7 +104,3 @@ When a group rule containing these two condition groups is applied on storage ob
 
 * All volumes that include "`vol`" in their names and that are hosted on the SVM with the name "`data_svm`".
 * All volumes that include "`vol`" in their names and that are annotated with the data-priority annotation value "`critical`".
-
-*Related information*
-
-xref:concept-managing-and-monitoring-groups.adoc[Managing and monitoring groups]

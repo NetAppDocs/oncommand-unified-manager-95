@@ -25,6 +25,7 @@ The export functionality is not supported for the constituents of an Infinite Vo
 
 . Perform one of the following actions:
 +
+[options="header"]
 |===
 | If you want to export...| Do this...
 a|
@@ -57,13 +58,3 @@ From the Top Performers tab, and from the SVMs details page, you can choose to d
 The file is downloaded.
 
 . Open the `.csv` file in the appropriate application.
-
-*Related information*
-
-xref:reference-health-all-volumes-view.adoc[Health/Volumes inventory page]
-
-xref:reference-health-all-aggregates-view.adoc[Health/Aggregates inventory page]
-
-xref:reference-health-all-svms-view.adoc[Health/Storage Virtual Machines inventory page]
-
-xref:reference-health-all-clusters-view.adoc[Health/Clusters inventory page]

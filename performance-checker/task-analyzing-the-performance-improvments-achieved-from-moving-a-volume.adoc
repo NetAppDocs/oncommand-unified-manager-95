@@ -49,17 +49,3 @@ Because the volume moved to an aggregate with Flash Pool enabled, you can see th
 The Cache hit ratio chart displays statistics about the reads and writes to cache.
 +
 The volume successfully moved to a less busy aggregate and the change event is highlighted in the Events List on the right. The average latency decreased significantly from over 42 ms/op to around 24 ms/op. The current latency is around 1.5 ms/op. In the Cache hit ratio chart, the amount of successful read and write hits to cache is now at 100% because the volume is now on an aggregate with Flash Pool enabled.
-
-*Related information*
-
-xref:concept-collecting-data-and-monitoring-workload-performance.adoc[Collecting data and monitoring workload performance]
-
-xref:reference-performance-statistics-displayed-in-the-data-breakdown-charts.adoc[Performance statistics displayed in the data breakdown charts]
-
-xref:concept-what-performance-events-are.adoc[What performance events are]
-
-xref:concept-cluster-configuration-changes-detected-by-unified-manager.adoc[Configuration changes detected by Unified Manager]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-analyzing-performance-events.adoc[Analyzing performance events]

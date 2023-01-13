@@ -33,7 +33,3 @@ Data policy modifications can include creating new rules, editing existing rules
 
 . Click *Activate*.
 . In the *Summary of Changes to Data Policy Configuration* window, preview the changes to your data policy, and then click *Activate* to activate the changes in the data policy in the SVM with Infinite Volume.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

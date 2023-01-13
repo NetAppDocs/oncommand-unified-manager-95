@@ -16,6 +16,7 @@ For configuring high availability, you must install Unified Manager on both the 
 . Log in as the domain user on both the nodes of the cluster.
 . Set up high availability by choosing one of the following options:
 +
+[options="header"]
 |===
 | If you want to...| Then do this...
 a|
@@ -27,13 +28,13 @@ Add another server to be paired with the existing server:
  .. Create a backup of the existing Unified Manager installation, and store the backup to a mounted LUN.
  .. Install Unified Manager on the second node.
 +
-link:task-installing-unified-manager-on-windows.md#[Installing Unified Manager on a Windows system]
+xref:task-installing-unified-manager-on-windows.adoc[Installing Unified Manager on a Windows system]
 
  .. Restore the backup of the existing Unified Manager installation onto the second node.
 
 a|
 Configure high availability on a new Unified Manager installation
 a|
-Install Unified Manager on both the nodes.     link:task-installing-unified-manager-on-windows.md#[Installing Unified Manager on a Windows system]
-+
+Install Unified Manager on both the nodes.     xref:task-installing-unified-manager-on-windows.adoc[Installing Unified Manager on a Windows system]
+
 |===

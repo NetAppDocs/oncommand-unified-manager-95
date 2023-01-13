@@ -29,7 +29,3 @@ Shares in folders are not displayed in the CIFS Shares tab.
 . In the left navigation pane, click *Health* > *SVMs*.
 . Select the SVM for which you want to view the CIFS share details.
 . In the *Health/Storage Virtual Machine* details page, click the *CIFS Shares* tab.
-
-*Related information*
-
-xref:task-troubleshooting-non-availability-of-cifs-shares.adoc[Troubleshooting access to CIFS shares]

@@ -35,7 +35,3 @@ Select if you want to create a cron-style schedule.
 . Click *Create*.
 +
 The new schedule is displayed in the SnapMirror Schedule or SnapVault Schedule drop-down list.
-
-*Related information*
-
-xref:reference-create-schedule-dialog-box.adoc[Create Schedule dialog box]
