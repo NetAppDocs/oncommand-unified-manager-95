@@ -1,0 +1,46 @@
+---
+permalink: online-help/reference-create-rule-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Create Rule dialog box to create new rules for your data policy. For example, when you want to specify the placement of content of a certain file type, you can use the Create Rule dialog box to create the rule for your data policy.'
+---
+= Create Rule dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Create Rule dialog box to create new rules for your data policy. For example, when you want to specify the placement of content of a certain file type, you can use the Create Rule dialog box to create the rule for your data policy.
+
+== Rule Name
+
+Specifies the name of the new rule.
+
+== Templates area
+
+Displays the list of rule templates. You can select an appropriate rule template from the list to create a rule for the data policy.
+
+== Matching Criteria
+
+Displays a list of conditions related to the selected rule template. The condition list changes based on the rule template selected. For example, if you select "`Place all files with the specified owner names in a suitable storage class`", *List of Owner that...* is displayed in Matching Criteria.
+
+* *Add*
++
+Enables you to add a new rule property based on the rule template selected. For example, if you selected the rule template, "`Place all files with the specified owner names in a suitable storage class`", the *Add* button enables you to add the owner's name.
+
+* *Delete*
++
+Enables you to delete a selected rule property.
+
+== Content Placement
+
+Enables you to select an appropriate storage class for your rule from the list.
+
+== Command buttons
+
+* *Create*
++
+Creates a new rule for the data policy and closes the Create Rule dialog box.
+
+* *Cancel*
++
+Cancels the recent changes made to the rule and closes the Create Rule dialog box.

@@ -1,0 +1,257 @@
+---
+permalink: online-help/reference-health-all-aggregates-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health/Aggregates inventory page displays information about the aggregates that are monitored, and enables you to view and modify the threshold settings.'
+---
+= Health/Aggregates inventory page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health/Aggregates inventory page displays information about the aggregates that are monitored, and enables you to view and modify the threshold settings.
+
+== Command buttons
+
+* *Edit Thresholds*
++
+Displays the Edit Aggregate Thresholds dialog box, which enables you to edit the threshold settings for one or more aggregates.
+
+* *Export*
++
+Enables you to export the details of all the monitored aggregates to a comma-separated values (`.csv`) file.
+
+== Aggregates list
+
+Displays, in tabular format, the properties of all the discovered aggregates. You can use the column filters to customize the data that is displayed:
+
+* *Status*
++
+The current status of the aggregate. The status can be Critical (image:../media/sev-critical-um60.png[Icon for event severity – critical]), Error (image:../media/sev-error-um60.png[Icon for event severity – error]), Warning (image:../media/sev-warning-um60.png[Icon for event severity – warning]), or Normal (image:../media/sev-normal-um60.png[Icon for event severity – normal]).
++
+You can move the pointer over the status to view more information about the event or events generated for the aggregate.
++
+If the status of the aggregate is determined by a single event, you can view information such as the event name, time and date when the event was triggered, the name of the administrator to whom the event is assigned, and the cause of the event. You can click the *View Details* button to view more information about the event.
++
+If the status of the aggregate is determined by multiple events of the same severity, the top three events are displayed with information such as the event name, time and date when the events are triggered, and the name of the administrator to whom the event is assigned. You can view more details about each of these events by clicking the event name. You can also click the *View All Events* link to view the list of generated events.
+
+* *Aggregate*
++
+The name of the aggregate.
++
+You can move the pointer over an aggregate to view information such as the last generated event, node that contains the aggregate, RAID type, Snapshot reserve, Snapshot copies, and space allocated in the aggregate. You can also view the number of volume move operations that are currently in progress.
+
+* *State*
++
+The current state of the aggregate:
+
+ ** Offline
++
+Read or write access is not allowed.
+
+ ** Online
++
+Read and write access to volumes hosted on this aggregate is allowed.
+
+ ** Restricted
++
+Limited operations, such as parity reconstruction, are allowed, but data access is not allowed.
+
+ ** Creating
++
+The aggregate is being created.
+
+ ** Destroying
++
+The aggregate is being destroyed.
+
+ ** Failed
++
+The aggregate cannot be brought online.
+
+ ** Frozen
++
+The aggregate is (temporarily) not serving requests.
+
+ ** Inconsistent
++
+The aggregate has been marked corrupted; contact technical support.
+
+ ** Iron Restricted
++
+Diagnostic tools cannot be run on the aggregate.
+
+ ** Mounting
++
+The aggregate is being mounted.
+
+ ** Partial
++
+At least one disk was found for the aggregate, but two or more disks are missing.
+
+ ** Quiesced
++
+The aggregate is quiesced.
+
+ ** Quiescing
++
+The aggregate is being quiesced.
+
+ ** Reverted
++
+The revert operation of the aggregate is completed.
+
+ ** Unmounted
++
+The aggregate is offline.
+
+ ** Unmounting
++
+The aggregate is being taken offline.
+
+ ** Unknown
++
+Specifies that the aggregate is discovered, but the aggregate information is not yet retrieved by the Unified Manager server.
+
+* *Node*
++
+The name of the storage controller that contains the aggregate.
+
+* *Mirror Status*
++
+The mirror status of the aggregate:
+
+ ** Mirrored
++
+The aggregate plex data is mirrored.
+
+ ** Mirror degraded
++
+The aggregate plex data cannot be mirrored.
+
+ ** Mirror resynchronizing
++
+The aggregate plex data is being mirrored.
+
+ ** Failed
++
+The aggregate plex data mirroring failed.
+
+ ** Invalid configuration
++
+The initial state before an aggregate is created.
+
+ ** Uninitialized
++
+The aggregate is being created.
+
+ ** Unmirrored
++
+The aggregate is not mirrored.
+
+ ** CP count check in progress
++
+The aggregate has been assimilated and Unified Manager is validating that the CP counts for the plexes is similar.
+
+ ** Limbo
++
+There is an issue with the aggregate labels. The ONTAP system identifies the aggregate but cannot accurately assimilate the aggregate.
+
+ ** Needs CP count check
++
+The aggregate is assimilated but the CP counts on both plexes are not yet validated to be similar.
+
++
+When an aggregate is in the mirror_resynchronizing state, then the resynchronization percentage is also shown.
+
+* *In Transition*
++
+Whether the aggregate has completed transition or not.
+
+* *Type*
++
+The aggregate type:
+
+ ** HDD
+ ** Hybrid
++
+Combines HDDs and SSDs, but Flash Pool has not been enabled.
+
+ ** Hybrid (Flash Pool)
++
+Combines HDDs and SSDs, and Flash Pool has been enabled.
+
+ ** SSD
+ ** SSD (FabricPool)
++
+Combines SSDs and a cloud tier
+
+ ** VMDisk (SDS)
++
+Virtual disks within a virtual machine
+
+ ** VMDisk (FabricPool)
++
+Combines virtual disks and a cloud tier
+
+ ** LUN (FlexArray)
+For standard disks and SSD disks, this column is blank when the monitored storage system is running a version of ONTAP earlier than 8.3.
+
+* *SnapLock Type*
++
+The aggregate SnapLock Type. The possible values are Compliance, Enterprise, Non-SnapLock.
+
+* *Used Data Capacity*
++
+The amount of space used for data in the aggregate.
+
+* *Used Data %*
++
+The percentage of space used for data in the aggregate.
+
+* *Available Data Capacity*
++
+The amount of space available for data in the aggregate.
+
+* *Available Data %*
++
+The percentage of space available for data in the aggregate.
+
+* *Total Data Capacity*
++
+The total data size of the aggregate.
+
+* *Committed Capacity*
++
+The total space committed for all of the volumes in the aggregate.
++
+When Autogrow is enabled on volumes that reside on the aggregate, the committed capacity is based on the maximum volume size set by autogrow, not based on the original volume size. For FabricPool aggregates, this value is relevant only to the local, or performance tier, capacity. The amount of space available in the cloud tier is not reflected in this value.
+
+* *Space Savings*
++
+The storage efficiency ratio based on the total logical space that is being used to store the data and the total physical space that would be required to store the data without using ONTAP storage efficiency technologies.
++
+This field is populated only when the monitored storage system is running ONTAP version 9.0 or greater, and only for non-root aggregates.
+
+* *RAID Type*
++
+The RAID configuration type:
+
+ ** RAID 0: All the RAID groups are of type RAID 0.
+ ** RAID 4: All the RAID groups are of type RAID 4.
+ ** RAID-DP: All the RAID groups are of type RAID-DP.
+ ** RAID-TEC: All the RAID groups are of type RAID-TEC.
+ ** Mixed RAID: The aggregate contains RAID groups of different RAID types (RAID 0, RAID 4, RAID-DP, and RAID-TEC).
+
+* *Cloud Tier Space Used*
++
+The amount of space being used in the cloud tier; if the aggregate is a FabricPool aggregate.
+
+== Filters pane
+
+Enables you to set filters to customize the way information is displayed in the aggregates list. You can select filters related to the Status column.
+
+[NOTE]
+====
+The filters specified in the Filters pane override the filters specified for the columns in the aggregates list.
+====

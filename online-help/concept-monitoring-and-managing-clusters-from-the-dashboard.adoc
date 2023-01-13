@@ -1,0 +1,18 @@
+---
+permalink: online-help/concept-monitoring-and-managing-clusters-from-the-dashboard.html
+sidebar: sidebar
+keywords: 
+summary: 'The dashboards provide cumulative at-a-glance information about the health your system. The dashboards enable you to assess the overall availability, capacity, performance, and protection health of the managed clusters, and quickly note, locate, diagnose, or assign for resolution, any specific issues that might occur.'
+---
+= Monitoring cluster health and performance from the dashboards
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The dashboards provide cumulative at-a-glance information about the health your system. The dashboards enable you to assess the overall availability, capacity, performance, and protection health of the managed clusters, and quickly note, locate, diagnose, or assign for resolution, any specific issues that might occur.
+
+Three dashboards provide unique views into the health and performance of your clusters:
+
+* The Dashboards/Overview page provides information about the health and performance of your storage objects.
+* The Dashboards/Performance page provides high-level performance status of all the clusters that are being monitored.
+* The Dashboards/Cluster View page provides information about individual clusters.

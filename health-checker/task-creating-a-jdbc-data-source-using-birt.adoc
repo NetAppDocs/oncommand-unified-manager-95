@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task-creating-a-jdbc-data-source-using-birt.html
+sidebar: sidebar
+keywords: Unified Manager
+summary: 'After you have created the new report using BIRT, you must create a data source to connect the report to Unified Manager.'
+---
+= Creating a JDBC data source using BIRT
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have created the new report using BIRT, you must create a data source to connect the report to Unified Manager.
+
+== Before you begin
+
+You must have created a report using BIRT.
+
+You must have downloaded and installed MySQL Connector/J.
+
+You must have created a database user with the Report Schema role.
+
+== Steps
+
+. In Eclipse, select *Data Explorer* > *Data Sources* > *New Data Source*.
+. Select *Create from a data source type in the following list*.
+. Select *JDBC Data Source*, and then click *Next*.
+. In the *New JDBC Data Source Profile* dialog box, select *com.mysql.jdbc.Driver(v5.1)*.
+ .. If the MySQL driver does not appear, click *Manage Drivers*.
+ .. In the *Manage JDBC Drivers* dialog box, click *Add*.
+ .. Browse to the location where the MySQL Connector/J `.jar` file was installed, and then select the file.
+ .. Click *OK*.
++
+You should be able to view and select the MySQL driver.
+. Enter the fully qualified host name or the IP address of the Unified Manager instance using appropriate format:
++
+[options="header"]
+|===
+| Address Type| Format
+a|
+IPv4
+a|
+`jdbc:mysql://xx.xx.xx.xx:3306/ocum_report`
+a|
+IPv6
+a|
+`jdbc:mysql://address=(protocol=tcp)(host=xx:xx:xx:xx:xx:xx:xx:xx)(port=3306)/ocum_report`
+|===
+
+. Enter the user name for the database user, enter the password, and then click *Finish*.

@@ -1,0 +1,15 @@
+---
+permalink: release-notes.html
+sidebar: sidebar
+keywords: release notes, oncommand unified manager
+summary: "Provides a summary of new features, limitations, and known issues for OnCommand Unified Manager 9.5."
+---
+= Release notes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+Provides a summary of new features, limitations, and known issues for OnCommand Unified Manager 9.5.
+
+For more information, see the https://library.netapp.com/ecm/ecm_download_file/ECMLP2847421[OnCommand Unified Manager Release Notes^].

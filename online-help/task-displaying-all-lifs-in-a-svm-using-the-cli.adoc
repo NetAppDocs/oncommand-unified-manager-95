@@ -1,0 +1,51 @@
+---
+permalink: online-help/task-displaying-all-lifs-in-a-svm-using-the-cli.html
+sidebar: sidebar
+keywords: 
+summary: 'You can display information about all LIFs in a SVM. You might want to display all LIFs before you determine which LIFs might be busy and should be moved.'
+---
+= Displaying all LIFs in a SVM using the CLI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can display information about all LIFs in a SVM. You might want to display all LIFs before you determine which LIFs might be busy and should be moved.
+
+== About this task
+
+The operational status of a LIF is determined by whether it has been configured on a particular port and is capable of serving data. When a SVM is stopped, the associated Data LIFs and SVM Management LIFs can no longer serve data. The operational status of these LIFs changes to `down`.
+
+== Steps
+
+. To display information about all LIFs in a SVM, enter the following command: `network interface show -vserver vserver_name`
++
+The command displays the following information:
++
+ ** Node or SVM associated with the LIF
+ ** LIF name
+ ** Administrative and operational status
+ ** IP address
+ ** Netmask
+ ** Node and port on which the LIF is configured
++
+A home server can be either a node or a SVM.
++
+If data for a field is not available (for instance, the operational duplex and speed for an inactive port), the field is listed as undef.
++
+[NOTE]
+====
+You can get all available information by specifying the `-instance` parameter.
+====
++
+The following example displays general information about all LIFs in a SVM:
++
+----
+vs1::> network interface show -vserver vs1
+            Logical    Status     Network            Current       Current Is
+Vserver     Interface  Admin/Oper Address/Mask       Node          Port    Home
+----------- ---------- ---------- ------------------ ------------- ------- ----
+vs1
+            lif1         up/up    192.0.2.253/24     node-01       e0b     false
+            d2           up/up    192.0.2.252/21     node-01       e0d     true
+            data3        up/up    192.0.2.251/20     node-02       e0c     true
+----

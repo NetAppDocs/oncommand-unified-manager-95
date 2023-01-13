@@ -1,0 +1,48 @@
+---
+permalink: health-checker/reference-volume-favorite-card.html
+sidebar: sidebar
+keywords: 
+summary: 'The Volume favorite card enables you to view the capacity, protection, and performance details of the volumes that you marked as favorites.'
+---
+= Volume favorite card
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Volume favorite card enables you to view the capacity, protection, and performance details of the volumes that you marked as favorites.
+
+== Volume attributes
+
+The Volume favorite card displays the following volume attributes:
+
+* *Volume health status*
++
+An icon that indicates the health status of the volume. The possible values are Normal, Warning, Error, and Critical.
+
+* *Volume name*
++
+Name of the volume.
+
+* *Capacity*
++
+Percentage of free space available on the volume, and the estimated number of days until the volume would become full.
+
+* *Protection*
++
+Protection role that is set for the volume. The possible values are Unprotected, Not Applicable, Protected, and Destination.
+
+* *Performance*
++
+Performance statistics for the volume.
+
+ ** *IOPS*
++
+Average number of I/O operations per second over the last 72 hours.
+
+ ** *Throughput*
++
+Average throughput over the last 72 hours, in MBps.
+
+ ** *Latency*
++
+Average response time required for an operation, in milliseconds.

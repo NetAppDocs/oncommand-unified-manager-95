@@ -1,0 +1,48 @@
+---
+permalink: online-help/reference-protection-storage-virtual-machine-associations-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Protection/Storage Virtual Machine Associations page enables you to view existing SVM associations between source and destination SVMs and to create new SVM associations for use by partner applications to create SnapMirror and SnapVault relationships.'
+---
+= Protection/Storage Virtual Machine Associations page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Protection/Storage Virtual Machine Associations page enables you to view existing SVM associations between source and destination SVMs and to create new SVM associations for use by partner applications to create SnapMirror and SnapVault relationships.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Create*
++
+Opens the Create Storage Virtual Machine Associations wizard.
+
+* *Delete*
++
+Enables you to delete the selected SVM associations.
+
+== storage virtual machine (SVM) Associations list
+
+The Storage Virtual Machine Associations list displays in a table the source and destination SVM associations that have been created and the type of protection relationship allowed for each association.
+
+* *Source Storage Virtual Machine*
++
+Displays the name of the source SVM.
+
+* *Source Cluster*
++
+Displays the name of the source cluster.
+
+* *Destination Storage Virtual Machine*
++
+Displays the name of the destination SVM.
+
+* *Destination Cluster*
++
+Displays the name of the destination cluster.
+
+* *Type*
++
+Displays the type of protection relationship. Relationship types are either SnapMirror or SnapVault.

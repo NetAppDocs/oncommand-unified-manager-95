@@ -1,0 +1,37 @@
+---
+permalink: online-help/task-sending-an-on-demand-autosupport-message.html
+sidebar: sidebar
+keywords: 
+summary: 'You can send Unified Manager system information to technical support for assistance with troubleshooting issues. The AutoSupport message contains diagnostic system information and detailed data about the Unified Manager server.'
+---
+= Sending on-demand AutoSupport messages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can send Unified Manager system information to technical support for assistance with troubleshooting issues. The AutoSupport message contains diagnostic system information and detailed data about the Unified Manager server.
+
+== Before you begin
+
+You must be logged in as the maintenance user.
+
+== Steps
+
+. In the toolbar, click *image:../media/clusterpage-settings-icon.gif[]*, and then click *AutoSupport* from the *Setup* menu.
+. Perform one or both of the following actions:
++
+[options="header"]
+|===
+| If you want to send the AutoSupport message to...| Do this...
+a|
+Technical support
+a|
+Select the *Send to Technical Support* check box.
+a|
+A specific email recipient
+a|
+Select the *Send to Email Recipient* check box, and enter the email address of the recipient.
+|===
+
+. If required, define the name, port, and authentication information for the HTTP proxy server, and click *Save*.
+. Click *Generate and send AutoSupport*.

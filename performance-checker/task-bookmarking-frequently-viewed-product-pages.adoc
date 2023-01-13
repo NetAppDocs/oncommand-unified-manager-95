@@ -1,0 +1,22 @@
+---
+permalink: performance-checker/task-bookmarking-frequently-viewed-product-pages.html
+sidebar: sidebar
+keywords: 
+summary: 'You can bookmark frequently accessed product pages from the Unified Manager UI. This enables you to quickly return to these pages. When you view the page later, it displays the latest data.'
+---
+= Bookmarking frequently viewed product pages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can bookmark frequently accessed product pages from the Unified Manager UI. This enables you to quickly return to these pages. When you view the page later, it displays the latest data.
+
+== About this task
+
+You can also copy the link (URL) to the current product page so that you can paste it into an email, or another application, to share it with other people.
+
+== Steps
+
+. Create a bookmark using whatever step is required to bookmark a page in your browser.
++
+The link for the page is saved with details about the page, but you might want to customize the bookmark text to identify the page: for example, "`Unified Manager | Node: node-01`" or "`Unified Manager | User-defined Threshold Event: IOPS volume1`".

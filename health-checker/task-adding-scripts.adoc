@@ -1,0 +1,38 @@
+---
+permalink: health-checker/task-adding-scripts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add scripts in Unified Manager, and associate the scripts with alerts. These scripts are executed automatically when an alert is generated, and enable you to obtain information about storage objects for which the event is generated.'
+---
+= Adding scripts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add scripts in Unified Manager, and associate the scripts with alerts. These scripts are executed automatically when an alert is generated, and enable you to obtain information about storage objects for which the event is generated.
+
+== Before you begin
+
+* You must have created and saved the scripts that you want to add to the Unified Manager server.
+* The supported file formats for scripts are Perl, Shell, PowerShell, and `.bat` files.
+ ** For Perl scripts, Perl must be installed on the Unified Manager server. If Perl was installed after Unified Manager, you must restart the Unified Manager server.
+ ** For PowerShell scripts, the appropriate PowerShell execution policy must be set on the server so that the scripts can be executed.
+
++
+[NOTE]
+====
+If your script creates log files to track the alert script progress, you must make sure that the log files are not created anywhere within the Unified Manager installation folder.
+====
+* You must have the OnCommand Administrator or Storage Administrator role.
+
+== About this task
+
+You can upload custom scripts and gather event details about the alert.
+
+== Steps
+
+. In the toolbar, click *image:../media/clusterpage-settings-icon.gif[]*, and then click *Scripts* in the left Management menu.
+. In the *Management/Scripts* page , click *Add*.
+. In the *Add Script* dialog box, click *Browse* to select your script file.
+. Enter a description for the script that you select.
+. Click *Add*.

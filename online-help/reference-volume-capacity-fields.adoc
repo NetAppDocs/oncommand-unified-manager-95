@@ -1,0 +1,198 @@
+---
+permalink: online-help/reference-volume-capacity-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'The Volume Capacity and Utilization report enables you to view information about the capacity and utilization of volumes in a cluster. This information enables you to understand possible capacity risks and to view the configured, used, and unused capacity of aggregates. Also, the report helps you to make decisions about enabling space-saving features such as deduplication and thin provisioning.'
+---
+= Volume Capacity and Utilization report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Volume Capacity and Utilization report enables you to view information about the capacity and utilization of volumes in a cluster. This information enables you to understand possible capacity risks and to view the configured, used, and unused capacity of aggregates. Also, the report helps you to make decisions about enabling space-saving features such as deduplication and thin provisioning.
+
+== Volume Capacity and Utilization report tabular view
+
+* *Cluster*
++
+Displays the cluster name.
+
+* *Storage Virtual Machine*
++
+Displays the name of the storage virtual machine (SVM) that contains the volume.
+
+* *Volume*
++
+Displays the volume name.
+
+* *Total Data Capacity*
++
+Displays the total data capacity (used plus available) in a volume.
+
+* *Used Data Capacity*
++
+Displays the used data capacity in a volume.
+
+* *Used Data %*
++
+Displays the used data in a volume as a percentage.
+
+* *Available Data Capacity*
++
+Displays the available data capacity in a volume.
+
+* *Available Data %*
++
+Displays the available data capacity in a volume as a percentage.
+
+* *Daily Growth Rate %*
++
+Displays the growth rate that occurs every 24 hours in the volume.
+
+* *Days To Full*
++
+Displays the estimated number of days remaining before the volume reaches full capacity.
+
+* *Space Full Threshold %*
++
+Specifies the limit to the volume that is considered full.
+
+* *Space Nearly Full Threshold %*
++
+Specifies the limit to the volume that is considered nearly full.
+
+* *Growth Rate Threshold %*
++
+Specifies the aggregate's growth rate is considered to be normal before the system generates an Aggregate Growth Rate Abnormal event.
+
+* *Growth Rate Sensitivity Threshold*
++
+Specifies the factor that is applied to the standard deviation of a volume's growth rate. If the growth rate exceeds the factored standard deviation, a Volume Growth Rate Abnormal event is generated.
+
+* *Days Until Full Threshold*
++
+Specifies the number of days remaining before reaching full capacity.
+
+* *Snapshot Overflow %*
++
+Displays the percentage of the data space that is consumed by the Snapshot copies.
+
+* *Snapshot Reserve Used Capacity*
++
+Displays the amount of space used by Snapshot copies in the volume.
+
+* *Snapshot Reserve Used %*
++
+Displays the amount of space used by Snapshot copies in the volume as a percentage.
+
+* *Snapshot Reserve Available Capacity*
++
+Displays the amount of space available for Snapshot copies in the volume.
+
+* *Snapshot Reserve Available %*
++
+Displays the amount of space available for Snapshot copies in the volume as a percentage.
+
+* *Snapshot Reserve Total Capacity*
++
+Displays the total Snapshot copy capacity in the volume.
+
+* *Snapshot Copies Reserve Full Threshold %*
++
+Specifies the percentage at which the space reserved for Snapshot copies is considered full.
+
+* *Snapshot Copies Count Threshold*
++
+Specifies the number of Snapshot copies on a volume that are considered to be too many.
+
+* *Snapshot Copies Days Until Full Threshold*
++
+Specifies the number of days remaining before the space reserved for Snapshot copies reaches full capacity.
+
+* *Number Of Inodes*
++
+Displays the number of inodes in the volume.
+
+* *Inode Utilization %*
++
+Specifies the percentage of inode space used in the volume.
+
+* *Inodes Full Threshold*
++
+Specifies the percentage at which a volume is considered to have consumed all of its inodes.
+
+* *Inodes Nearly Full Threshold*
++
+Specifies the percentage at which a volume is considered to have consumed most of its inodes.
+
+* *Quota Committed Capacity*
++
+Displays the space reserved in the volumes.
+
+* *Quota Overcommitted Capacity*
++
+Displays the amount of space that can be used before the system generates the Volume Quota Overcommitted event.
+
+* *Quota Overcommitted Threshold %*
++
+Specifies the percentage at which the volume is nearly overcommitted.
+
+* *Quota Nearly Overcommitted Threshold %*
++
+Specifies the percentage at which the volume space is nearly overcommitted.
+
+* *Snapshot Autodelete*
++
+Displays whether automatic deletion of Snapshot copies is enabled or disabled.
+
+* *Deduplication*
++
+Displays whether deduplication is enabled or disabled for the volume.
+
+* *Deduplication Space Savings*
++
+Displays the amount of space saved in a volume by using deduplication.
+
+* *Compression*
++
+Displays whether compression is enabled or disabled for the volume.
+
+* *Compression Space Savings*
++
+Displays the amount of space saved in a volume by using compression.
+
+* *Caching Policy*
++
+Displays the caching policy that is associated with the selected volume. The policy provides information about how Flash Pool caching occurs for the volume. See the Health/Volumes inventory page for more information on caching policies.
+
+* *Cache Retention Priority*
++
+Displays the priority used for retaining cached pools.
+
+* *Thin Provisioned*
++
+Displays whether space guarantee is set for the selected volume. Valid values are Yes and No.
+
+* *Autogrow*
++
+Displays whether the FlexVol volume automatically grows in size when it is out of space.
+
+* *Space Guarantee*
++
+Displays the FlexVol volume setting control when a volume removes free blocks from an aggregate.
+
+* *State*
++
+Displays the state of the volume that is being exported.
+
+* *SnapLock Type*
++
+Indicates whether the volume is a SnapLock or non-SnapLock volume.
+
+* *Expiry Date*
++
+The SnapLock expiration date.
+
+* *Tiering Policy*
++
+If this volume is deployed on a FabricPool-enabled aggregate, then the tiering policy set for the volume is displayed.

@@ -1,0 +1,90 @@
+---
+permalink: online-help/task-identifying-lifs-with-the-most-connections-using-the-cli.html
+sidebar: sidebar
+keywords: 
+summary: 'You might want to migrate a data LIF if it exhibits a heavy load or throughput. To decide whether to migrate a LIF, you can display the load on LIFs, number of connections on the port, throughput, and CPU cycles on the node.'
+---
+= Identifying LIFs with the most connections using the CLI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might want to migrate a data LIF if it exhibits a heavy load or throughput. To decide whether to migrate a LIF, you can display the load on LIFs, number of connections on the port, throughput, and CPU cycles on the node.
+
+== Steps
+
+. Access the CLI as a cluster administrator.
+. Set the privilege level to advanced by entering the following command: `set -privilege advanced`
++
+For details about using the CLI in advanced mode, see the _System Administration Reference_.
+
+. To find the weight of each LIF, enter the following command: `network interface lif-weights show`
++
+A busy LIF is one that has the lowest weight.
+
+. To find the active connections on a node, enter the following command: `network connections active show-clients`
++
+Note the highest client count by node.
++
+----
+cluster1::> network connections active show-clients
+Node    Client IP Address     Count
+------  -----------------     ------
+node1   192.0.2.253               12
+        192.0.2.252                9
+        192.0.2.251               12
+
+node2   192.0.2.250               12
+        192.0.2.252                9
+        192.0.2.253                9
+
+node3   customer.example.com       2
+        customer.example.net       2
+        customer.example.org       2
+----
+
+. To find the active connections by LIF on a node and SVM, enter the following command: `network connections active show-lifs`
++
+Note the highest client count per LIF.
++
+----
+cluster1::> network connections active show-lifs
+Node      Vserver Name  Interface Name  Count
+--------  ------------  --------------- ------
+node1
+          vs1           clus1              30
+
+node2
+          vs2           clus1              30
+
+node3
+          vs3           lif1                2
+          vs4           clus1              30
+----
+
+. Check the LIFs that are sharing the same home port and home node to identify the LIFs with the most connections.
+. To choose the best data port, enter the following: `statistics show -object port`
++
+The statistics command provides throughput and bandwidth information for Ethernet ports. Each row provides a separate counter of unique information. Value is the value for the type of object since the counter was last cleared (since ONTAP was last started).
++
+----
+cluster1::> statistics show -object port
+Object: port
+Instance: e0a
+Start-time: 10/11/2013 13:51:41
+End-time: 10/11/2013 13:51:41
+Node: node1
+
+    Counter                                           Value
+    -------------------------------------------------------
+    recv-data                                            0B
+    recv-packets                                         0
+    recv-mcasts                                          0
+    recv-errors                                          0
+    recv-dropped                                         0
+    sent-data                                            0B
+    sent-packets                                         0
+    sent-mcasts                                          0
+    sent-errors                                          0
+    collisions                                           0
+----

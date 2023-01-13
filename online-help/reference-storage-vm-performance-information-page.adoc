@@ -1,0 +1,71 @@
+---
+permalink: online-help/reference-storage-vm-performance-information-page.html
+sidebar: sidebar
+keywords: 
+summary: 'Use the Performance/SVM Information page to view a list of the configured attributes of the SVM. This information might help in answering performance-related questions.'
+---
+= Performance/SVM Information page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Performance/SVM Information page to view a list of the configured attributes of the SVM. This information might help in answering performance-related questions.
+
+== SVM attributes
+
+* *IP Address*
++
+If defined, this is the IPv4 or IPv6 address of the SVM management LIF.
+
+* *IPspace*
++
+The IPspace in which this SVM resides.
+
+* *Domain Name*
++
+The fully qualified domain name (FQDN) of the SVM management LIF.
+
+* *Service Type*
++
+The type of SVM.
++
+Possible values include: "`Admin`" for the cluster-wide management SVM, "`System`" for cluster-level communications in an IPspace, "`Data`" for data serving SVM, and "`Node`" for node management SVM.
+
+* *Capacity (free/total)*
++
+The total storage available to the SVM, in gigabytes, and the amount of storage currently available.
+
+* *Cluster*
++
+The name of the cluster to which the SVM belongs. You can click the name to display cluster details in the Performance/Cluster Explorer page.
+
+* *Volumes*
++
+The number of volumes in the SVM. You can click the number to display the volumes in the Performance/Volume Inventory page.
+
+* *LIFs*
++
+The number of LIFs available to the SVM. You can click the number to display the LIFs in the Performance/LIFs Inventory page.
+
+* *Data LIFs*
++
+The number and type of Data LIFs available to the SVM.
+
+* *Allowed Volume Type*
++
+The type of volume that can be created on the SVM.
++
+SVMs can contain one or more FlexVol volumes or FlexGroup volumes. The FlexGroup type is allowed when using ONTAP 9.1 or later.
++
+[NOTE]
+====
+The performance pages of Unified Manager do not support Infinite Volumes.
+====
+
+* *Allowed Protocols*
++
+The list of all protocols that can be serviced by this SVM. The available protocols are FC/FCoE, iSCSI, HTTP, NDMP, NVMe, NFS, and CIFS.
+
+* *Port Set*
++
+If defined for FCP or iSCSI protocols, the port set that is assigned to this SVM.

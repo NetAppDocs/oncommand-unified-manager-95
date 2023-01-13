@@ -1,0 +1,21 @@
+---
+permalink: online-help/task-editing-a-customized-report.html
+sidebar: sidebar
+keywords: 
+summary: 'You can make additional changes to an already customized report and save the report. You cannot change the name of the report after you have saved it.'
+---
+= Editing a customized report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can make additional changes to an already customized report and save the report. You cannot change the name of the report after you have saved it.
+
+== Steps
+
+. In the left navigation pane, click *Reports*, and then click *Run Report* for the report that you want to edit.
++
+The Report details page is displayed.
+
+. Modify the report as necessary, and then click *Actions* > *Save Custom Report*.
+. In the *Save Custom Report* dialog box, enter a brief description about the changes made on the custom report and click *Save*.

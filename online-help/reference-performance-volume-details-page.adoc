@@ -1,0 +1,36 @@
+---
+permalink: online-help/reference-performance-volume-details-page.html
+sidebar: sidebar
+keywords: 
+summary: 'This page provides detailed performance statistics for all I/O activity and operations for the selected FlexVol volume, FlexGroup volume, or FlexGroup constituent workload. You can select a specific time frame over which to view the statistics and events for the volume. The events identify performance events and changes that might be impacting I/O performance.'
+---
+= Performance/Volume Details page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This page provides detailed performance statistics for all I/O activity and operations for the selected FlexVol volume, FlexGroup volume, or FlexGroup constituent workload. You can select a specific time frame over which to view the statistics and events for the volume. The events identify performance events and changes that might be impacting I/O performance.
+
+== Historic data chart
+
+Plots the historical performance analysis data for the selected volume. You can click and drag the sliders to specify a time frame. The sliders increase and decrease the time frame window. The data outside the time frame window is grayed out. You can use the slider at the bottom of the chart to move the time frame window across the historical data. The entire page, including the displayed charts and events, reflects the data available within the time frame window. Unified Manager retains a maximum of 30 days of historical data on this page.
+
+[NOTE]
+====
+On the historic data chart, if you select a time frame of more than 1 day, depending on your screen resolution, the charts display the maximum values for response time and IOPS across the number of days.
+====
+
+== Options
+
+* *Time selector*
++
+Specifies the time range over which to view the volume performance statistics for the entire page. You can click 1 day (*1d*) through 30 days (*30d*), or click *Custom* to select a custom range. For a custom range, you can select a beginning and end date, and then click *Update* to update the entire page.
++
+[NOTE]
+====
+If you access the Performance/Volume Details page by clicking the name link of a volume on the Event details page, a time range, such as 1 day or 5 days prior to the current day, is automatically selected by default. When you move the slider in the historic data chart, the time range changes to a custom range, but the *Custom* time selector is not selected. The default time selector remains selected.
+====
+
+* ***Break down data by***
++
+Provides a list of charts you can add to the Performance/Volume Details page to display more detailed performance statistics for the selected volume.

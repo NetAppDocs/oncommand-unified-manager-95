@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference-description-of-report-windows-and-dialog-boxes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the options to schedule, share, manage, save, and import the reports.'
+---
+= Description of report windows and dialog boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the options to schedule, share, manage, save, and import the reports.

@@ -1,0 +1,37 @@
+---
+permalink: online-help/concept-what-reports-do.html
+sidebar: sidebar
+keywords: 
+summary: 'Reports display detailed information about storage objects, which enable you to review and identify potential issues.'
+---
+= What reports do
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Reports display detailed information about storage objects, which enable you to review and identify potential issues.
+
+You can save, delete, share, schedule, and import reports. You can also search for specific reports. You can customize reports to address specific use cases, and save the customized report for future use. You can perform additional operations such as filtering, sorting, grouping, and formatting.
+
+By default, each report group is displayed by report type and description. You can run reports to view a specific report group.
+
+After you run a report, you can further customize it and save the customized report. You can view the custom reports that are saved in the Reports page, grouped under the specific report category.
+
+You can schedule reports to be sent, or share reports in one of the supported formats: PDF, XHTML, CSV, XLS, or text.
+
+You can export reports in different formats and save them on your desktop. You can export individual column data from the generated reports.
+
+You can import report design files (`.rptdesign` files), and save the imported reports in the Reports page. You can delete custom and imported reports.
+
+You can import the following reports:
+
+* Reports with multiple headers that have a column span set to one
+* Reports with charts only
+* Reports with lists and grid only
+
+Reports in text, CSV, and Excel formats are supported in the following scenarios:
+
+* Table element only in the `.rptdesign` file
+* A table with just one header as a row
+
+You cannot import reports that have a column span of more than one. If a report in text, CSV, or Excel format has more than a one-header row, only the first header row is considered, and the remaining rows are ignored.

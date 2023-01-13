@@ -1,0 +1,377 @@
+---
+permalink: online-help/reference-storage-vm-events.html
+sidebar: sidebar
+keywords: 
+summary: 'SVM events provide you with information about the status of your SVMs so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.'
+---
+= SVM events
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SVM events provide you with information about the status of your SVMs so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+== Impact area: availability
+
+An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
+
+[options="header"]
+|===
+| Event name(Trap name) | Impact level| Source type| Severity
+a|
+SVM CIFS Service Down(ocumEvtVserverCifsServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM CIFS Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+Attempts to Connect Nonexistent CIFS Share *
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+CIFS NetBIOS Name Conflict *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+CIFS Shadow Copy Operation Failed *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Many CIFS Connections *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Max CIFS Connection Exceeded *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Max Number of CIFS Connection Per User Exceeded *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+SVM FC/FCoE Service Down(ocumEvtVserverFcServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM iSCSI Service Down(ocumEvtVserverIscsiServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM NFS Service Down(ocumEvtVserverNfsServiceStatusDown)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM FC/FCoE Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM iSCSI Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM NFS Service Not Configured(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM Stopped(ocumEvtVserverDown)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+AV Server too Busy to Accept New Scan Request *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+No AV Server Connection for Virus Scan *
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+No AV Server Registered *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+No Responsive AV Server Connection *
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+Unauthorized User Attempt to AV Server *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+Virus Found By AV Server *
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+SVM with Infinite Volume Storage Not Available(ocumEvtVserverStorageNotAvailable)
+
+a|
+Incident
+a|
+SVMs with Infinite Volume
+
+a|
+Critical
+a|
+SVM with Infinite Volume Storage Partially Available(ocumEvtVserverStoragePartiallyAvailable)
+
+a|
+Risk
+a|
+SVMs with Infinite Volume
+
+a|
+Error
+a|
+SVM with Infinite Volume Namespace Mirror Constituents Having Availability Issues(ocumEvtVserverNsMirrorAvailabilityHavingIssues)
+
+a|
+Risk
+a|
+SVMs with Infinite Volume
+
+a|
+Warning
+|===
+
+== Impact area: capacity
+
+The following capacity events apply only to SVMs with Infinite Volume.
+
+[options="header"]
+|===
+| Event name(Trap name) | Impact level| Source type| Severity
+a|
+SVM with Infinite Volume Space Full(ocumEvtVserverFull)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+SVM with Infinite Volume Space Nearly Full(ocumEvtVserverNearlyFull)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+SVM with Infinite Volume Snapshot Usage Limit Exceeded(ocumEvtVserverSnapshotUsageExceeded)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+SVM with Infinite Volume Namespace Space Full(ocumEvtVserverNamespaceFull)
+
+a|
+Risk
+a|
+SVM
+a|
+Error
+a|
+SVM with Infinite Volume Namespace Space Nearly Full(ocumEvtVserverNamespaceNearlyFull)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+|===
+
+== Impact area: configuration
+
+[options="header"]
+|===
+| Event name(Trap name) | Impact level| Source type| Severity
+a|
+SVM Discovered(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+a|
+SVM Deleted(Not applicable)
+
+a|
+Event
+a|
+Cluster
+a|
+Information
+a|
+SVM Renamed(Not applicable)
+
+a|
+Event
+a|
+SVM
+a|
+Information
+|===
+
+== Impact area: performance
+
+[options="header"]
+|===
+| Event name(Trap name) | Impact level| Source type| Severity
+a|
+SVM IOPS Critical Threshold Breached(ocumSvmIopsIncident)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM IOPS Warning Threshold Breached(ocumSvmIopsWarning)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+SVM MBps Critical Threshold Breached(ocumSvmMbpsIncident)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM MBps Warning Threshold Breached(ocumSvmMbpsWarning)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+a|
+SVM Latency Critical Threshold Breached(ocumSvmLatencyIncident)
+
+a|
+Incident
+a|
+SVM
+a|
+Critical
+a|
+SVM Latency Warning Threshold Breached(ocumSvmLatencyWarning)
+
+a|
+Risk
+a|
+SVM
+a|
+Warning
+|===

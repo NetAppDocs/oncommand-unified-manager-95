@@ -1,0 +1,109 @@
+---
+permalink: online-help/reference-health-all-clusters-view.html
+sidebar: sidebar
+keywords: 
+summary: 'The Health/Clusters inventory page enables you to add clusters and to view detailed information about the clusters that you are monitoring.'
+---
+= Health/Clusters inventory page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Health/Clusters inventory page enables you to add clusters and to view detailed information about the clusters that you are monitoring.
+
+You must have the OnCommand Administrator or Storage Administrator role.
+
+== Command buttons
+
+* *View Monitoring Status*
++
+Enables you to view the monitoring statuses of the selected clusters by navigating to the Configuration/Cluster Data Sources page.
+
+* *Annotate*
++
+Enables you to annotate the selected cluster.
+
+* *Refresh List*
++
+Refreshes the clusters list and the properties associated with the cluster.
+
+* *Export*
++
+Enables you to export the details of all the monitored clusters to a comma-separated values (`.csv`) file.
+
+== Clusters table
+
+The Clusters table displays the properties of all the discovered clusters. You can use the column filters to customize the data that is displayed:
+
+* *Status*
++
+An icon that identifies the current status of the cluster. The status can be Critical (image:../media/sev-critical-um60.png[]), Error (image:../media/sev-error-um60.png[]), Warning (image:../media/sev-warning-um60.png[]), or Normal (image:../media/sev-normal-um60.png[]).
++
+You can position your cursor over the icon to view more information about the event or events generated for the cluster.
++
+If the status of the cluster is based on a single event, you can view information such as the event name, time and date when the event was generated, the name of the administrator to whom the event is assigned, and the cause of the event. You can click the *View Details* button to view more information about the event.
++
+If the status of the cluster is based on multiple events of the same severity, the top three events are displayed, along with information such as the event name, time and date when the events are generated, and the name of the administrator to whom the event is assigned. You can view more details about each of these events by clicking the event name. You can also click the**View All Events** link to view the list of generated events.
+
+* *Cluster*
++
+The name of the cluster.
+
+* *Communication Status*
++
+Whether the cluster is reachable or not.
++
+The status is displayed as Good if the cluster is reachable. If the cluster is not reachable or if the login credentials are invalid, the status is displayed as Not Reachable.
+
+* *System Health*
++
+High-level information about the status of the cluster, which is calculated based on the status of various cluster subsystems.
++
+Possible values are OK, OK with suppressed, Degraded, and Components not reachable. These values are determined by the health monitors in ONTAP software.
+
+* *Host Name or IP Address*
++
+The FQDN, short name, or the IP address of the cluster-management LIF that is used to connect to the cluster.
+
+* *FQDN*
++
+The fully qualified domain name (FQDN) of the cluster.
+
+* *OS Version*
++
+The ONTAP version that the cluster is running.
++
+If the nodes in the cluster are running different versions of ONTAP, then the earliest ONTAP version is displayed.
+
+* *Node Count*
++
+The number of nodes that belong to the cluster.
+
+* *Last Refreshed Time*
++
+The timestamp of when the monitoring samples of the cluster were last collected.
+
+* *Serial Number*
++
+The serial number of the cluster.
+
+* *Contact*
++
+The contact information of the cluster.
+
+* *Location*
++
+The location of the cluster.
+
+* *FIPS Enabled*
++
+Whether FIPS mode is enabled on the cluster.
+
+== Filters pane
+
+The Filters pane enables you to set filters to customize the display of information in the clusters list. You can select filters in the Status, Communication Status, System Health, and Annotation columns.
+
+[NOTE]
+====
+The filters specified in the Filters pane override the filters specified for the columns in the clusters list.
+====

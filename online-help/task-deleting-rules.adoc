@@ -1,0 +1,38 @@
+---
+permalink: online-help/task-deleting-rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can delete a rule from a data policy when it is no longer required. For example, you might want to delete a rule on a particular directory that is no longer valid.'
+---
+= Deleting rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a rule from a data policy when it is no longer required. For example, you might want to delete a rule on a particular directory that is no longer valid.
+
+== Before you begin
+
+You must have the OnCommand Administrator or Storage Administrator role.
+
+== About this task
+
+The Data Policy tab is visible only for an SVM with Infinite Volume.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select a appropriate SVM.
+. Click *Data Policy*.
++
+The list of rules in the data policy for the selected SVM with Infinite Volume is displayed.
+
+. Select the rule that you want to delete, and then click *Delete*.
++
+[NOTE]
+====
+You cannot delete the default rule.
+====
+
+. Preview any other changes made to the data policy.
+. Click *Activate* to activate the changes in the rule properties in the SVM.

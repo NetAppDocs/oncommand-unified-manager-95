@@ -1,0 +1,30 @@
+---
+permalink: online-help/task-editing-clusters.html
+sidebar: sidebar
+keywords: 
+summary: 'You can modify the settings of an existing cluster, such as the host name or IP address, user name, password, protocol, and port, by using the Edit Cluster dialog box.'
+---
+= Editing clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can modify the settings of an existing cluster, such as the host name or IP address, user name, password, protocol, and port, by using the Edit Cluster dialog box.
+
+== Before you begin
+
+You must have the OnCommand Administrator role or the Storage Administrator role.
+
+== About this task
+
+[NOTE]
+====
+If you change the IP address of a cluster to an IP address of an existing monitored cluster, all data for the existing cluster is lost when the former cluster is discovered. An error message is not displayed to warn you.
+====
+
+== Steps
+
+. In the left navigation pane, click *Configuration* > *Cluster Data Sources*.
+. On the *Configuration/Cluster Data Sources* page, select the cluster you want to edit, and then click *Edit*.
+. In the *Edit Cluster* dialog box, modify the values as required.
+. Click *Submit*.

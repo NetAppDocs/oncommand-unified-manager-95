@@ -1,0 +1,16 @@
+---
+permalink: online-help/concept-what-a-rule-template-is.html
+sidebar: sidebar
+keywords: 
+summary: 'A rule template is a predefined template that can be used to create rules in a data policy. A rule template enables you to create a rule based on three categories: owner, file type, and directory path.'
+---
+= What a rule template is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A rule template is a predefined template that can be used to create rules in a data policy. A rule template enables you to create a rule based on three categories: owner, file type, and directory path.
+
+== Example of a rule template for file types
+
+The rule template "`Place all files with the specified extensions in a suitable storage class`" places all the .mp3 files that are written to the Infinite Volume in a storage class that you specify.

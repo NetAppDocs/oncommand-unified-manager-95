@@ -1,0 +1,42 @@
+---
+permalink: online-help/task-customizing-the-qtree-capacity-and-utilization-report-to-display-qtrees-that-have-breached-the-disk-soft-limit.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize the Qtree Capacity and Utilization report to display qtrees that have breached the disk soft limit. You can filter and sort by disk used, disk hard limit, and disk soft limit.'
+---
+= Customizing the Qtree Capacity and Utilization report to display qtrees that have breached the disk soft limit
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize the Qtree Capacity and Utilization report to display qtrees that have breached the disk soft limit. You can filter and sort by disk used, disk hard limit, and disk soft limit.
+
+== About this task
+
+You can also perform this task by going to the Reports page and clicking *Run Report* for the appropriate report.
+
+== Steps
+
+. To remove the grouping by SVM, cluster or volume, perform the following steps:
+ .. Click in the columns that need to be ungrouped.
+ .. Click the image:../media/click-to-see-menu.gif[] icon.
+ .. Select *Group* > *Delete Inner Group*.
+. To filter qtrees that do not have an unlimited disk hard limit, click in the *Disk Hard Limit* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+ .. From the *Condition* drop-down list, select *Not Equal To*.
+ .. Click *Select Values* and select *Unlimited*.
+ .. Click *Ok*.
+. To filter qtrees that do not have an unlimited disk soft limit, click in the *Disk Soft Limit* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+ .. From the *Condition* drop-down list, select *Not Equal To*.
+ .. Click *Select Values* and select *Unlimited*.
+ .. Click *Ok*.
+. To add a column for qtrees that have breached the disk soft limit, perform the following steps:
+ .. Click in the *Disk Soft Limit* column, click the image:../media/click-to-see-menu.gif[] icon, and select *Column* > *New Computed Column*
+ .. In the *New Computed Column* dialog box, type `Breached Disk Soft Limit Capacity` in the *Column Label* field.
+ .. From the Select Category list, select *Text*.
+ .. From the *Select Function* drop-down list, select *Advanced*.
+ .. In the *Enter Expression* field, type `IF(([qtreeDiskUsedPercent] *[diskLimit]/100 > [softDiskLimit]), "Yes", "No")`.
+ .. Click *OK*.
+. To filter qtrees that have breached the soft disk limit, click in the *Breached Disk Soft Limit Capacity* column and open the *Filter* dialog box by clicking the image:../media/click-to-filter.gif[] icon.
+ .. From the *Condition* drop-down list, select *Equal To*.
+ .. Click *Select Values* and select *Yes*.
+ .. Click *Ok*.

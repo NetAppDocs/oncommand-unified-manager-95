@@ -1,0 +1,61 @@
+---
+permalink: online-help/reference-backup-settings-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Database Backup Settings dialog box to specify a backup path and retention count and to enable a backup schedule for a selected backup instance.'
+---
+= Database Backup Settings dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Database Backup Settings dialog box to specify a backup path and retention count and to enable a backup schedule for a selected backup instance.
+
+You can change the following database backup settings:
+
+* *Path*
++
+Specifies the path to the location where you store the backup files. The following table specifies the backup path format, and default locations, for different operating systems:
++
+[options="header"]
+|===
+| Host operating system| Backup path format
+a|
+Virtual appliance
+a|
+`/opt/netapp/data/ocum-backup`
+a|
+Red Hat Enterprise Linux or CentOS
+a|
+`/data/ocum-backup`
+a|
+Microsoft Windows
+a|
+`C:\ProgramData\NetApp\OnCommandAppData\ocum\backup\`
+|===
+
+* *Retention Count*
++
+Specifies the maximum number of backups to be retained by Unified Manager. The default value is ten.
+
+* *Schedule Frequency Enable*
++
+This option enables you to specify when to schedule a backup; you can choose daily or weekly.
+
+* *Daily*
++
+Specifies the daily backup schedule with the time.
+
+* *Weekly*
++
+Specifies the weekly backup schedule with the day and time.
+
+== Command buttons
+
+* *Save and Close*
++
+Saves the backup file and closes the dialog box. Unified Manager saves the backup file in the following format: `um_um_version_backup_os_timestamp.7z`.
+
+* *Cancel*
++
+Closes the Database Backup Settings dialog box without saving your changes.

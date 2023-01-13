@@ -1,0 +1,36 @@
+---
+permalink: online-help/reference-save-customized-report-as-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Save Customized Report As dialog box to save a report after customizing it.'
+---
+= Save Customized Report As dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Save Customized Report As dialog box to save a report after customizing it.
+
+== Properties
+
+You can customize and save a report by specifying properties such as the name and description.
+
+* *Report Name*
++
+Displays the name of the report. The original report name is displayed by default. You can modify the report name as per the customization. Report name cannot exceed 255 characters.
+
+* *Description*
++
+Specifies the description of the customization made on the report. Description cannot exceed 150 characters.
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Save*
++
+Saves the customized report .
+
+* *Cancel*
++
+Cancels the recent changes and closes the Save Customized Report As dialog box.

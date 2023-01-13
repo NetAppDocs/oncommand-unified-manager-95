@@ -1,0 +1,22 @@
+---
+permalink: online-help/concept-managing-reports.html
+sidebar: sidebar
+keywords: 
+summary: 'OnCommand Unified Manager enables you to create and manage reports so that you can view customized information about the capacity, utilization, and performance of storage objects and events related to storage objects.'
+---
+= Managing reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Unified Manager enables you to create and manage reports so that you can view customized information about the capacity, utilization, and performance of storage objects and events related to storage objects.
+
+[NOTE]
+====
+The implementation of scheduling and generating reports from the Reports option in the left Navigation pane will be deprecated in a future release. You can extract health and performance data from Unified Manager using these additional methods:
+
+* Extracting data directly from the grid pages in the GUI
+* Using Open Database for access to all the available objects
+* Executing Unified Manager REST APIs to return the information you are interested in reviewing
+
+====

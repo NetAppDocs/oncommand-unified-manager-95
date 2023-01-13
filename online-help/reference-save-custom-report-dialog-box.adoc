@@ -1,0 +1,36 @@
+---
+permalink: online-help/reference-save-custom-report-dialog-box.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Save Custom Report dialog box to save a custom report after making additional changes to the custom report.'
+---
+= Save Custom Report dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Save Custom Report dialog box to save a custom report after making additional changes to the custom report.
+
+== Properties
+
+You can save a custom report by specifying properties such as the description.
+
+* *Report Name*
++
+Displays the name of the custom report. This field cannot be edited.
+
+* *Description*
++
+Specifies the description of the customization made on the custom report. Description cannot exceed 150 characters .
+
+== Command buttons
+
+The command buttons enable you to perform the following tasks:
+
+* *Save*
++
+Saves the custom report .
+
+* *Cancel*
++
+Cancels the recent changes and closes the Save Custom Report dialog box.

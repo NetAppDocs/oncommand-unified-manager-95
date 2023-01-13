@@ -1,0 +1,12 @@
+---
+permalink: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
+sidebar: sidebar
+keywords: 
+summary: 'The OnCommand System Manager Performance Dashboard displays the high-level performance status of all clusters being monitored by this instance of Unified Manager. It enables you to assess the overall performance of the managed clusters, and to quickly note, locate, or assign for resolution any specific events identified.'
+---
+= Monitoring cluster performance from the Performance Dashboard
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The OnCommand System Manager Performance Dashboard displays the high-level performance status of all clusters being monitored by this instance of Unified Manager. It enables you to assess the overall performance of the managed clusters, and to quickly note, locate, or assign for resolution any specific events identified.

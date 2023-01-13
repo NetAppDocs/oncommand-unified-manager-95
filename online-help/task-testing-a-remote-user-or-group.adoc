@@ -1,0 +1,22 @@
+---
+permalink: online-help/task-testing-a-remote-user-or-group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can validate that a remote user or remote group can access the Unified Manager server by using the authentication settings that are specified for your authentication servers.'
+---
+= Testing a remote user or remote group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can validate that a remote user or remote group can access the Unified Manager server by using the authentication settings that are specified for your authentication servers.
+
+== Before you begin
+
+* You must have enabled remote authentication, and configured your authentication settings so that the Unified Manager server can validate the remote user or remote group.
+* You must have the OnCommand Administrator role.
+
+== Steps
+
+. In the toolbar, click *image:../media/clusterpage-settings-icon.gif[]*, and then click *Users* in the left Management menu.
+. In the *Management/Users* page, select a remote user or remote group that you want to validate, and then click *Test*.

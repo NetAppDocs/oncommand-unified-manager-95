@@ -1,0 +1,12 @@
+---
+permalink: online-help/reference-aggregate-capacity-and-utilization-report-customizations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize reports to display a variety of information about aggregates.'
+---
+= Aggregate Capacity and Utilization Report customizations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize reports to display a variety of information about aggregates.

@@ -1,0 +1,40 @@
+---
+permalink: online-help/task-creating-custom-rules.html
+sidebar: sidebar
+keywords: 
+summary: 'Based on your data center requirements, you can create custom rules and add them to a data policy to determine the placement of data that is written to the SVM with Infinite Volume. You can create custom rules from the Create Rule dialog box without using any existing template.'
+---
+= Creating custom rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Based on your data center requirements, you can create custom rules and add them to a data policy to determine the placement of data that is written to the SVM with Infinite Volume. You can create custom rules from the Create Rule dialog box without using any existing template.
+
+== Before you begin
+
+* You must have the OnCommand Administrator or Storage Administrator role.
+* The cluster containing the SVM with Infinite Volume with storage classes must be added to the Unified Manager database.
+
+== About this task
+
+The Data Policy tab is visible only for an SVM with Infinite Volume.
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. In the *Health/Storage Virtual Machines* inventory page, select the appropriate SVM.
+. Click *Data Policy*.
+. Click *Create*.
+. In the *Create Rule* dialog box, select *Custom rule* from the *Template* list.
+. In the *Matching Criteria* area, add conditions as required.
++
+Conditions enable you to create a rule based on file types, directory paths, or owners. A combination of these conditions are the condition sets. For example, you can have a rule: "`Place all .mp3 owned by John in bronze storage class.`"
+
+. Select an appropriate storage class from the *Place the matching content in Storage Class* drop-down list.
+. Click *Create*.
++
+The newly created rule is displayed in the Data Policy tab.
+
+. Preview any other changes made to the data policy.
+. Click *Activate* to activate the changes in the rule properties in the SVM.

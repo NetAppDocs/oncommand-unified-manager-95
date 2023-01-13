@@ -1,0 +1,31 @@
+---
+permalink: online-help/task-viewing-details-about-cifs-shares.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Health/Storage Virtual Machine details page to view detailed information about the CIFS share hosted by the selected storage virtual machine \(SVM\). You can view details such as the share name, junction path, containing objects, security settings, and export policies defined for the share.'
+---
+= Viewing the CIFS shares
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Health/Storage Virtual Machine details page to view detailed information about the CIFS share hosted by the selected storage virtual machine (SVM). You can view details such as the share name, junction path, containing objects, security settings, and export policies defined for the share.
+
+== Before you begin
+
+* CIFS license must be enabled on the cluster.
+* LIFs serving the CIFS shares must be configured.
+* You must have the Operator, OnCommand Administrator, or Storage Administrator role.
+
+== About this task
+
+[NOTE]
+====
+Shares in folders are not displayed in the CIFS Shares tab.
+====
+
+== Steps
+
+. In the left navigation pane, click *Health* > *SVMs*.
+. Select the SVM for which you want to view the CIFS share details.
+. In the *Health/Storage Virtual Machine* details page, click the *CIFS Shares* tab.

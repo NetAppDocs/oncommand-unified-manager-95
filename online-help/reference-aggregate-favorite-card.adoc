@@ -1,0 +1,48 @@
+---
+permalink: online-help/reference-aggregate-favorite-card.html
+sidebar: sidebar
+keywords: 
+summary: 'The Aggregate favorite card enables you to view the capacity and performance details of the aggregates that you marked as favorites.'
+---
+= Aggregate favorite card
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Aggregate favorite card enables you to view the capacity and performance details of the aggregates that you marked as favorites.
+
+== Aggregate attributes
+
+The Aggregate favorite card displays the following aggregate attributes:
+
+* *Aggregate health status*
++
+An icon that indicates the health of the aggregate. The possible values are Normal, Warning, Error, and Critical.
+
+* *Aggregate name*
++
+Name of the aggregate.
++
+Position your cursor over the aggregate name to view the name of the cluster to which the aggregate belongs.
+
+* *Capacity*
++
+Percentage of free space available on the aggregate, and the estimated number of days until the aggregate becomes full.
++
+Note that for FabricPool aggregates that this information reflects only the capacity on the local performance tier. Click the Capacity tile to view detailed information on the Health/Aggregate details page.
+
+* *Performance*
++
+Performance details of the aggregate.
+
+ ** *IOPS*
++
+Average number of I/O operations per second over the last 72 hours.
+
+ ** *Throughput*
++
+Average throughput over the last 72 hours, in MBps .
+
+ ** *Latency*
++
+Average response time required for an operation, in milliseconds.

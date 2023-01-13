@@ -1,0 +1,78 @@
+---
+permalink: online-help/reference-cluster-health-fields.html
+sidebar: sidebar
+keywords: 
+summary: 'Cluster Inventory report provides information about available resources for cluster components for the purpose of understanding possible risks caused by insufficient resources.'
+---
+= Cluster Inventory report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Cluster Inventory report provides information about available resources for cluster components for the purpose of understanding possible risks caused by insufficient resources.
+
+== Cluster Inventory report tabular view
+
+* *Cluster*
++
+Displays the name of the cluster.
+
+* *HA pair*
++
+Displays the HA pair value obtained by forming two nodes.
+
+* *Node*
++
+Displays the name of the nodes.
+
+* *Model*
++
+Displays the name of the model.
+
+* *OS version*
++
+Displays the version of ONTAP used.
+
+* *All Flash Optimized*
++
+Displays whether node is configured to support only solid-state drives (SSDs).
+
+* *Serial Number*
++
+Displays the serial number of the node.
+
+* *Firmware Version*
++
+Displays the firmware version of the node.
+
+* *SVM Count*
++
+Displays the number of SVM contained by the cluster.
+
+* *FC Port Count*
++
+Displays the number of FC ports contained by the node.
+
+* *FCoE Port Count*
++
+Displays the number of FCoE ports contained by the node.
+
+* *Ethernet Port Count*
++
+Displays the number of ethernet ports contained by the node.
+
+* *Flash Card Count*
++
+Displays the number of flash cards installed on nodes in your data center so that you can monitor for potential problems.
+
+* *Flash Card Size (GB)*
++
+Displays the size of the flash cards installed on nodes.
+
+* *Disk Shelves Count*
++
+Displays the number of disk shelves contained by the node.
+
+* *Disk Count*
++
+Displays the number of disks in a node.

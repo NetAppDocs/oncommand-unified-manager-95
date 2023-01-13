@@ -1,0 +1,28 @@
+---
+permalink: online-help/concept-network-interface-performance-explorer-page.html
+sidebar: sidebar
+keywords: 
+summary: 'The Performance/LIF Explorer page provides a detailed performance overview for all of the LIFs within a cluster.'
+---
+= Performance/LIF Explorer page
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Performance/LIF Explorer page provides a detailed performance overview for all of the LIFs within a cluster.
+
+The Performance/LIF Explorer page enables you to track and compare LIF performance during a specific time period, which helps you to troubleshoot and fine-tune your LIF performance.
+
+Using the View and Compare functionality you can compare the performance of this LIF with:
+
+* other LIFs that are on the same port
+* other LIFs that are on the same SVM
+* the port on which the LIF resides
+* the SVM on which the LIF resides
+
+The Performance/LIF Explorer page enables you to:
+
+* View threshold-related issues and their details
+* Track and compare LIF performance data
+* Investigate and troubleshoot threshold-related issues
+* Investigate and troubleshoot performance issues

@@ -1,0 +1,35 @@
+---
+permalink: online-help/task-customizing-a-report.html
+sidebar: sidebar
+keywords: 
+summary: 'You can customize reports in the Report details page and then save the customized report with a different name.'
+---
+= Customizing a report
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can customize reports in the Report details page and then save the customized report with a different name.
+
+== About this task
+
+After you save a customized report you cannot modify any of the filters you applied to create the report because the report is considered "`new`". So make sure you are satisfied with all changes before you save the report. You can, however, apply new filters to the report.
+
+== Steps
+
+. In the left navigation pane, click *Reports*, and then click *Run Report* for the report that you want to customize.
++
+The Report details page is displayed.
+
+. Customize the report as necessary, and then click *Actions* > *Save Customized Report As*.
+. In the *Save Customized Report As* dialog box, enter a name for the customized report and a brief description about the customization so that others will understand what the report displays.
++
+By default, the current report name is displayed.
+
+. Click *Save*.
++
+If you receive the error message "`Failed to save the custom report. The required file was not created`", wait a few moments, and then click *Save* again. This issue has been seen when there is a slow connection between the web browser and the Unified Manager server.
+
+== Results
+
+The customized report is saved and displayed in its respective report category in the Report details page.
